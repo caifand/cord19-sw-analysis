@@ -44,6 +44,15 @@ annos %>%
   arrange(desc(mention_count)) %>% View
 # may need normalize the strings and manually sort the top mentions
 
+# get a sample of mentions
+annos_sample <- annos %>% 
+  select(`software-name.normalizedForm`, 
+         version.normalizedForm, 
+         publisher.normalizedForm,
+         url.normalizedForm,
+         context) %>% 
+  sample_n(size=200, replace=FALSE)
+
 rm(annotations)
 
 
@@ -92,6 +101,9 @@ docs %>%
   arrange(desc(metadata.type, venue_freq)) %>% View
 # We might want to just analyze journal publications
 # simply because other types of publication are scarce
+docs %>% 
+  group_by(metadata.type) %>% 
+  summarise(venue_freq=n())
 
 docs_simple <- docs %>% 
   slice_head(n=1000) %>%
@@ -146,7 +158,7 @@ annos_in_docs <- annos %>%
 references <- fromJSON("references.json")
 # 33,720 records, 6 columns
 refs <- references %>% slice_head(n=1000) %>% flatten() 
-# 6 variables
+  # 6 variables
 
 colnames(refs)[1:3] <- c("ref.key", "ref.id", "ref.rev")
 colnames(refs)
