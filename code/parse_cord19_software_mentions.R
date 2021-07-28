@@ -4,8 +4,8 @@
 library(tidyverse)
 library(jsonlite)
 
-# Prerequisite: Get the CORD-19 software extraction dataset v0.2 first
-# https://zenodo.org/record/4961241
+# Prerequisite: Get the CORD-19 software extraction dataset v0.2.1 first
+# https://zenodo.org/record/5140437
 
 annotations <- fromJSON("annotations.json") 
 # 318,138 records, 15 columns
@@ -52,6 +52,7 @@ annos_sample <- annos %>%
          url.normalizedForm,
          context) %>% 
   sample_n(size=200, replace=FALSE)
+write_csv(annos_sample, "annos_sample.csv")
 
 rm(annotations)
 
@@ -94,7 +95,7 @@ docs %>%
   group_by(`metadata.container-title`) %>% 
   summarise(venue_freq = n()) %>% 
   arrange(desc(venue_freq)) %>% View
-# roughly 589 publication venues
+# roughly 7031 publication venues
 docs %>% 
   group_by(metadata.type, `metadata.container-title`) %>% 
   summarise(venue_freq=n()) %>% 
