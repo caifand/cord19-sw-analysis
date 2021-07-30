@@ -7,7 +7,7 @@ library(jsonlite)
 # Prerequisite: Get the CORD-19 software extraction dataset v0.2.1 first
 # https://zenodo.org/record/5140437
 
-annotations <- fromJSON("annotations.json") 
+annotations <- read_json("/home/rstudio/cord-19-sw/data/annotations.json") 
 # 318,138 records, 15 columns
 annos <- annotations %>% 
   # slice_head(n=1000) %>% 
