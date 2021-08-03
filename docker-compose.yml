@@ -1,0 +1,17 @@
+version: '3'
+services:
+  cord-19-sw:
+    build: .
+    ports:
+      - "8789:8787"
+    volumes:
+      - .:/home/rstudio
+    environment:
+      - PASSWORD=rbox
+  citeas-local:
+    build: ./citeas-api
+    ports:
+      - "8000:8000"
+    depends_on:
+      - mariadb
+
