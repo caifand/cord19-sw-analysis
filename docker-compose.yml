@@ -9,7 +9,7 @@ services:
     environment:
       - PASSWORD=rbox
   citeas-local:
-    build: ./citeas-api
+    build: ../citeas-api
     ports:
       - "8000:8000"
     depends_on:
