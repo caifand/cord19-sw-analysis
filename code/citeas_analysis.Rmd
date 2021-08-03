@@ -1,0 +1,39 @@
+---
+title: "CiteAs analysis"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+library(jsonlite)
+library(here)
+```
+
+
+```{r}
+annos_sample <- read_csv(here::here("data", "annos_sample.csv"))
+```
+
+The intention is to have citeas-api running locally on port 8000.  As described here:
+
+https://github.com/ourresearch/citeas-api
+
+We could set this up via docker compose but trying this way first.  Ok, that didn't work, networking issue.
+
+Ah, using docker compose and the internal docker networking, replace IP with the service name from docker-compose.yml
+
+```{r}
+response <- httr::GET(url = "http://citeas-local:8000/product/scipy")
+json_received <- response %>% httr::content(as = "parsed")
+json_received %>% write_json(here::here("data", "example.json"))
+```
+
+```{r}
+library(tidyjson)
+
+flat_json_received %>% gather_object %>% json_types %>% count(name, type)
+
+
+  
+```
+
