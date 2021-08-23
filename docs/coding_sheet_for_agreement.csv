@@ -1,221 +1,221 @@
 ﻿hint,coding_id,sample_id,coding_scheme,coding_result
-Check `context`,A1,' 0-21-0 ',The extracted mention is a mention of software.,
-,A2,' 0-21-0 ',"The mention is an ""instrument-like"" mention.",
-Check `software_name`,A3,' 0-21-0 ',The name of the mentioned software is given in context.,
-,A4,' 0-21-0 ',The extracted `software_name` is the name of the mentioned software.,
-Check `version`,A5,' 0-21-0 ',The version/release date of the mentioned software is given in context.,
-,A6,' 0-21-0 ',The extracted `version` is an existing version of the mentioned software.,
-Check `publisher`,A7,' 0-21-0 ',The publisher/developer of the mentioned software is given in context.,
-,A8,' 0-21-0 ',The extracted `publisher` is the publisher/creator of the mentioned software.,
-Check `URL`,A9,' 0-21-0 ',The URL of the mentioned software is given in context.,
-,A10,' 0-21-0 ',The extracted `URL` is the URL of the mentioned software. The URL can be a resolvable identifier.,
-Check `context`,A11,' 0-21-0 ',"Additional configuration details of the software is given (e.g., operating environment)",
-Indicating whether the software is used should be one of the citation functions.,A12,' 0-21-0 ',The mentioned software is used according to the context.,
-,A13,' 0-21-0 ',The mentioned software is not used according to the context.,
-Check `tei`,B1,' 0-21-0 ',The mention has an extracted reference entry from bibliography.,
-,B2,' 0-21-0 ',The extracted reference entry is the reference of this work.,
-,B3,' 0-21-0 ',The reference is a software publication.,
-,B4,' 0-21-0 ',"The reference points to the software itself in any form (e.g., source code; container; executable) or its metadata.",
-,B5,' 0-21-0 ',The reference is a domain science publication.,
-,B6,' 0-21-0 ',The reference is a software manual/user guide.,
-,B7,' 0-21-0 ',The reference points to a project but the not the software product.,
+Check `context`,A1,' 0-21-0 ',The extracted mention is a mention of software.,1
+,A2,' 0-21-0 ',"The mention is an ""instrument-like"" mention.",0
+Check `software_name`,A3,' 0-21-0 ',The name of the mentioned software is given in context.,1
+,A4,' 0-21-0 ',The extracted `software_name` is the name of the mentioned software.,1
+Check `version`,A5,' 0-21-0 ',The version/release date of the mentioned software is given in context.,0
+,A6,' 0-21-0 ',The extracted `version` is an existing version of the mentioned software.,0
+Check `publisher`,A7,' 0-21-0 ',The publisher/developer of the mentioned software is given in context.,0
+,A8,' 0-21-0 ',The extracted `publisher` is the publisher/creator of the mentioned software.,0
+Check `URL`,A9,' 0-21-0 ',The URL of the mentioned software is given in context.,0
+,A10,' 0-21-0 ',The extracted `URL` is the URL of the mentioned software. The URL can be a resolvable identifier.,0
+Check `context`,A11,' 0-21-0 ',"Additional configuration details of the software is given (e.g., operating environment)",0
+Indicating whether the software is used should be one of the citation functions.,A12,' 0-21-0 ',The mentioned software is used according to the context.,1
+,A13,' 0-21-0 ',The mentioned software is not used according to the context.,0
+Check `tei`,B1,' 0-21-0 ',The mention has an extracted reference entry from bibliography.,1
+,B2,' 0-21-0 ',The extracted reference entry is the reference of this work.,1
+,B3,' 0-21-0 ',The reference is a software publication.,1
+,B4,' 0-21-0 ',"The reference points to the software itself in any form (e.g., source code; container; executable) or its metadata.",0
+,B5,' 0-21-0 ',The reference is a domain science publication.,0
+,B6,' 0-21-0 ',The reference is a software manual/user guide.,0
+,B7,' 0-21-0 ',The reference points to a project but the not the software product.,0
 "If the extracted reference entry is not the right one, then check the actual reference entry in the publication.",B8,' 0-21-0 ',Paste the reference string from the publication if the extracted one is not correct:,
-,B9,' 0-21-0 ',The reference string contains the name of the software.,
-,B10,' 0-21-0 ',The reference string contains version/release date of the software.,
-,B11,' 0-21-0 ',The reference string contains an URL of the software/project. The URL can be a resolvable identifier.,
-,B12,' 0-21-0 ',The reference string contains the publisher/creator of the mentioned software.,
-Citation functions,C1,' 0-21-0 ',The software is an identifiable entity with the extracted information.,
-,C2,' 0-21-0 ',"According to both in-text mention and references, at least one online presence (e.g., source code or online manual) of the software is findable.",
-,C3,' 0-21-0 ',"According to both in-text mention and references, the specific version of the software mentioned in the article is findable online (if there is one).",
+,B9,' 0-21-0 ',The reference string contains the name of the software.,1
+,B10,' 0-21-0 ',The reference string contains version/release date of the software.,0
+,B11,' 0-21-0 ',The reference string contains an URL of the software/project. The URL can be a resolvable identifier.,0
+,B12,' 0-21-0 ',The reference string contains the publisher/creator of the mentioned software.,1
+Citation functions,C1,' 0-21-0 ',The software is an identifiable entity with the extracted information.,1
+,C2,' 0-21-0 ',"According to both in-text mention and references, at least one online presence (e.g., source code or online manual) of the software is findable.",1
+,C3,' 0-21-0 ',"According to both in-text mention and references, the specific version of the software mentioned in the article is findable online (if there is one).",NA
 ,C4,' 0-21-0 ',"Either or both in-text mention and references contains a unique, persistent identifier (e.g., DOI, ARK, Handle, PURL, NBN) that can resolve to the software itself and/or its metadata. (i.e., the software itself is registered with a persistent URI)",
-,C5,' 0-21-0 ',Either or both in-text mention and references contains a commit hash that points to a snapshot of the software,
-Access to software,C6,' 0-21-0 ',There is no access to the software.,
-,C7,' 0-21-0 ',There is only purchase access to the software.,
-,C8,' 0-21-0 ',There is free access to the software.,
-,C9,' 0-21-0 ',The source code of the software is accessible.,
-,C10,' 0-21-0 ',"The software has a permission to modify. (i.e., free software or an open source license is available; no permission if it requires personal contact)",
-,C11,' 0-21-0 ',The software has an open souce license.,
-Citation request,D1,' 0-21-0 ',The software citation matches its citation request.,
-,D2,' 0-21-0 ',The software has a publically accessible citation request in plain text style.,
-,D3,' 0-21-0 ',The software has a publically accessible citation request in BibTex format.,
-,D4,' 0-21-0 ',"The citation request is in a working repository README. (e.g., GitHub)",
-,D5,' 0-21-0 ',The citation request is on project/software website.,
-,D6,' 0-21-0 ',The software has a publically accessible CITATION file.,
-,D7,' 0-21-0 ',The software has a publically accessible CITATION.cff.,
-,D8,' 0-21-0 ',The software has a publically accessible CodeMeta file.,
-,D9,' 0-21-0 ',"The software has a publically accessible, domain-specific citation request, such as R CITATION/R DESCRIPTION file.",
-,D10,' 0-21-0 ',The citation request points to the software itself.,
-,D11,' 0-21-0 ',The citation request points to a software publication.,
-,D12,' 0-21-0 ',The citation request points to a domain science publication.,
-,D13,' 0-21-0 ',The citation request points to a project.,
-,D14,' 0-21-0 ',The citation request points to a non-software product other than the ones specified above.,
+,C5,' 0-21-0 ',Either or both in-text mention and references contains a commit hash that points to a snapshot of the software,0
+Access to software,C6,' 0-21-0 ',There is no access to the software.,0
+,C7,' 0-21-0 ',There is only purchase access to the software.,0
+,C8,' 0-21-0 ',There is free access to the software.,1
+,C9,' 0-21-0 ',The source code of the software is accessible.,1
+,C10,' 0-21-0 ',"The software has a permission to modify. (i.e., free software or an open source license is available; no permission if it requires personal contact)",1
+,C11,' 0-21-0 ',The software has an open souce license.,1
+Citation request,D1,' 0-21-0 ',The software citation matches its citation request.,1
+,D2,' 0-21-0 ',The software has a publically accessible citation request in plain text style.,1
+,D3,' 0-21-0 ',The software has a publically accessible citation request in BibTex format.,0
+,D4,' 0-21-0 ',"The citation request is in a working repository README. (e.g., GitHub)",0
+,D5,' 0-21-0 ',The citation request is on project/software website.,1
+,D6,' 0-21-0 ',The software has a publically accessible CITATION file.,0
+,D7,' 0-21-0 ',The software has a publically accessible CITATION.cff.,0
+,D8,' 0-21-0 ',The software has a publically accessible CodeMeta file.,0
+,D9,' 0-21-0 ',"The software has a publically accessible, domain-specific citation request, such as R CITATION/R DESCRIPTION file.",0
+,D10,' 0-21-0 ',The citation request points to the software itself.,0
+,D11,' 0-21-0 ',The citation request points to a software publication.,1
+,D12,' 0-21-0 ',The citation request points to a domain science publication.,0
+,D13,' 0-21-0 ',The citation request points to a project.,0
+,D14,' 0-21-0 ',The citation request points to a non-software product other than the ones specified above.,0
 ,D15,' 0-21-0 ',OPTIONAL please specify the type of the requested citation object:,
 ,D16,' 0-21-0 ',OPTIONAL please copy and paste the link to the citation request:,
-,D17,' 0-21-0 ',"The software has at least one version published to an archival repository (e.g., institutional repository, Zenodo, figshare)",
-,D18,' 0-21-0 ',"The software has at least one version that has a unique, persistent identifier such as a DOI, ARK, Handle, PURL, or NBN.",
-,D19,' 0-21-0 ',"The metadata of the software itself is publically accessible, including a unique and persistent identifier, name of the software, authors/contributors, version/release date, access information (e.g., not available/online location/working repository)",
-Check `context`,A1,' 0-24-0 ',The extracted mention is a mention of software.,
-,A2,' 0-24-0 ',"The mention is an ""instrument-like"" mention.",
-Check `software_name`,A3,' 0-24-0 ',The name of the mentioned software is given in context.,
-,A4,' 0-24-0 ',The extracted `software_name` is the name of the mentioned software.,
-Check `version`,A5,' 0-24-0 ',The version/release date of the mentioned software is given in context.,
-,A6,' 0-24-0 ',The extracted `version` is an existing version of the mentioned software.,
-Check `publisher`,A7,' 0-24-0 ',The publisher/developer of the mentioned software is given in context.,
-,A8,' 0-24-0 ',The extracted `publisher` is the publisher/creator of the mentioned software.,
-Check `URL`,A9,' 0-24-0 ',The URL of the mentioned software is given in context.,
-,A10,' 0-24-0 ',The extracted `URL` is the URL of the mentioned software. The URL can be a resolvable identifier.,
-Check `context`,A11,' 0-24-0 ',"Additional configuration details of the software is given (e.g., operating environment)",
-Indicating whether the software is used should be one of the citation functions.,A12,' 0-24-0 ',The mentioned software is used according to the context.,
-,A13,' 0-24-0 ',The mentioned software is not used according to the context.,
-Check `tei`,B1,' 0-24-0 ',The mention has an extracted reference entry from bibliography.,
-,B2,' 0-24-0 ',The extracted reference entry is the reference of this work.,
-,B3,' 0-24-0 ',The reference is a software publication.,
-,B4,' 0-24-0 ',"The reference points to the software itself in any form (e.g., source code; container; executable) or its metadata.",
-,B5,' 0-24-0 ',The reference is a domain science publication.,
-,B6,' 0-24-0 ',The reference is a software manual/user guide.,
-,B7,' 0-24-0 ',The reference points to a project but the not the software product.,
-"If the extracted reference entry is not the right one, then check the actual reference entry in the publication.",B8,' 0-24-0 ',Paste the reference string from the publication if the extracted one is not correct:,
-,B9,' 0-24-0 ',The reference string contains the name of the software.,
-,B10,' 0-24-0 ',The reference string contains version/release date of the software.,
-,B11,' 0-24-0 ',The reference string contains an URL of the software/project. The URL can be a resolvable identifier.,
-,B12,' 0-24-0 ',The reference string contains the publisher/creator of the mentioned software.,
-Citation functions,C1,' 0-24-0 ',The software is an identifiable entity with the extracted information.,
-,C2,' 0-24-0 ',"According to both in-text mention and references, at least one online presence (e.g., source code or online manual) of the software is findable.",
-,C3,' 0-24-0 ',"According to both in-text mention and references, the specific version of the software mentioned in the article is findable online (if there is one).",
-,C4,' 0-24-0 ',"Either or both in-text mention and references contains a unique, persistent identifier (e.g., DOI, ARK, Handle, PURL, NBN) that can resolve to the software itself and/or its metadata. (i.e., the software itself is registered with a persistent URI)",
-,C5,' 0-24-0 ',Either or both in-text mention and references contains a commit hash that points to a snapshot of the software,
-Access to software,C6,' 0-24-0 ',There is no access to the software.,
-,C7,' 0-24-0 ',There is only purchase access to the software.,
-,C8,' 0-24-0 ',There is free access to the software.,
-,C9,' 0-24-0 ',The source code of the software is accessible.,
-,C10,' 0-24-0 ',"The software has a permission to modify. (i.e., free software or an open source license is available; no permission if it requires personal contact)",
-,C11,' 0-24-0 ',The software has an open souce license.,
-Citation request,D1,' 0-24-0 ',The software citation matches its citation request.,
-,D2,' 0-24-0 ',The software has a publically accessible citation request in plain text style.,
-,D3,' 0-24-0 ',The software has a publically accessible citation request in BibTex format.,
-,D4,' 0-24-0 ',"The citation request is in a working repository README. (e.g., GitHub)",
-,D5,' 0-24-0 ',The citation request is on project/software website.,
-,D6,' 0-24-0 ',The software has a publically accessible CITATION file.,
-,D7,' 0-24-0 ',The software has a publically accessible CITATION.cff.,
-,D8,' 0-24-0 ',The software has a publically accessible CodeMeta file.,
-,D9,' 0-24-0 ',"The software has a publically accessible, domain-specific citation request, such as R CITATION/R DESCRIPTION file.",
-,D10,' 0-24-0 ',The citation request points to the software itself.,
-,D11,' 0-24-0 ',The citation request points to a software publication.,
-,D12,' 0-24-0 ',The citation request points to a domain science publication.,
-,D13,' 0-24-0 ',The citation request points to a project.,
-,D14,' 0-24-0 ',The citation request points to a non-software product other than the ones specified above.,
-,D15,' 0-24-0 ',OPTIONAL please specify the type of the requested citation object:,
-,D16,' 0-24-0 ',OPTIONAL please copy and paste the link to the citation request:,
-,D17,' 0-24-0 ',"The software has at least one version published to an archival repository (e.g., institutional repository, Zenodo, figshare)",
-,D18,' 0-24-0 ',"The software has at least one version that has a unique, persistent identifier such as a DOI, ARK, Handle, PURL, or NBN.",
-,D19,' 0-24-0 ',"The metadata of the software itself is publically accessible, including a unique and persistent identifier, name of the software, authors/contributors, version/release date, access information (e.g., not available/online location/working repository)",
-Check `context`,A1,' 1-22-4 ',The extracted mention is a mention of software.,
-,A2,' 1-22-4 ',"The mention is an ""instrument-like"" mention.",
-Check `software_name`,A3,' 1-22-4 ',The name of the mentioned software is given in context.,
-,A4,' 1-22-4 ',The extracted `software_name` is the name of the mentioned software.,
-Check `version`,A5,' 1-22-4 ',The version/release date of the mentioned software is given in context.,
-,A6,' 1-22-4 ',The extracted `version` is an existing version of the mentioned software.,
-Check `publisher`,A7,' 1-22-4 ',The publisher/developer of the mentioned software is given in context.,
-,A8,' 1-22-4 ',The extracted `publisher` is the publisher/creator of the mentioned software.,
-Check `URL`,A9,' 1-22-4 ',The URL of the mentioned software is given in context.,
-,A10,' 1-22-4 ',The extracted `URL` is the URL of the mentioned software. The URL can be a resolvable identifier.,
-Check `context`,A11,' 1-22-4 ',"Additional configuration details of the software is given (e.g., operating environment)",
-Indicating whether the software is used should be one of the citation functions.,A12,' 1-22-4 ',The mentioned software is used according to the context.,
-,A13,' 1-22-4 ',The mentioned software is not used according to the context.,
-Check `tei`,B1,' 1-22-4 ',The mention has an extracted reference entry from bibliography.,
-,B2,' 1-22-4 ',The extracted reference entry is the reference of this work.,
-,B3,' 1-22-4 ',The reference is a software publication.,
-,B4,' 1-22-4 ',"The reference points to the software itself in any form (e.g., source code; container; executable) or its metadata.",
-,B5,' 1-22-4 ',The reference is a domain science publication.,
-,B6,' 1-22-4 ',The reference is a software manual/user guide.,
-,B7,' 1-22-4 ',The reference points to a project but the not the software product.,
-"If the extracted reference entry is not the right one, then check the actual reference entry in the publication.",B8,' 1-22-4 ',Paste the reference string from the publication if the extracted one is not correct:,
-,B9,' 1-22-4 ',The reference string contains the name of the software.,
-,B10,' 1-22-4 ',The reference string contains version/release date of the software.,
-,B11,' 1-22-4 ',The reference string contains an URL of the software/project. The URL can be a resolvable identifier.,
-,B12,' 1-22-4 ',The reference string contains the publisher/creator of the mentioned software.,
-Citation functions,C1,' 1-22-4 ',The software is an identifiable entity with the extracted information.,
-,C2,' 1-22-4 ',"According to both in-text mention and references, at least one online presence (e.g., source code or online manual) of the software is findable.",
-,C3,' 1-22-4 ',"According to both in-text mention and references, the specific version of the software mentioned in the article is findable online (if there is one).",
-,C4,' 1-22-4 ',"Either or both in-text mention and references contains a unique, persistent identifier (e.g., DOI, ARK, Handle, PURL, NBN) that can resolve to the software itself and/or its metadata. (i.e., the software itself is registered with a persistent URI)",
-,C5,' 1-22-4 ',Either or both in-text mention and references contains a commit hash that points to a snapshot of the software,
-Access to software,C6,' 1-22-4 ',There is no access to the software.,
-,C7,' 1-22-4 ',There is only purchase access to the software.,
-,C8,' 1-22-4 ',There is free access to the software.,
-,C9,' 1-22-4 ',The source code of the software is accessible.,
-,C10,' 1-22-4 ',"The software has a permission to modify. (i.e., free software or an open source license is available; no permission if it requires personal contact)",
-,C11,' 1-22-4 ',The software has an open souce license.,
-Citation request,D1,' 1-22-4 ',The software citation matches its citation request.,
-,D2,' 1-22-4 ',The software has a publically accessible citation request in plain text style.,
-,D3,' 1-22-4 ',The software has a publically accessible citation request in BibTex format.,
-,D4,' 1-22-4 ',"The citation request is in a working repository README. (e.g., GitHub)",
-,D5,' 1-22-4 ',The citation request is on project/software website.,
-,D6,' 1-22-4 ',The software has a publically accessible CITATION file.,
-,D7,' 1-22-4 ',The software has a publically accessible CITATION.cff.,
-,D8,' 1-22-4 ',The software has a publically accessible CodeMeta file.,
-,D9,' 1-22-4 ',"The software has a publically accessible, domain-specific citation request, such as R CITATION/R DESCRIPTION file.",
-,D10,' 1-22-4 ',The citation request points to the software itself.,
-,D11,' 1-22-4 ',The citation request points to a software publication.,
-,D12,' 1-22-4 ',The citation request points to a domain science publication.,
-,D13,' 1-22-4 ',The citation request points to a project.,
-,D14,' 1-22-4 ',The citation request points to a non-software product other than the ones specified above.,
-,D15,' 1-22-4 ',OPTIONAL please specify the type of the requested citation object:,
-,D16,' 1-22-4 ',OPTIONAL please copy and paste the link to the citation request:,
+,D17,' 0-21-0 ',"The software has at least one version published to an archival repository (e.g., institutional repository, Zenodo, figshare)",0
+,D18,' 0-21-0 ',"The software has at least one version that has a unique, persistent identifier such as a DOI, ARK, Handle, PURL, or NBN.",0
+,D19,' 0-21-0 ',"The metadata of the software itself is publically accessible, including a unique and persistent identifier, name of the software, authors/contributors, version/release date, access information (e.g., not available/online location/working repository)",1
+Check `context`,A1,' 0-24-0 ',The extracted mention is a mention of software.,1
+,A2,' 0-24-0 ',"The mention is an ""instrument-like"" mention.",1
+Check `software_name`,A3,' 0-24-0 ',The name of the mentioned software is given in context.,1
+,A4,' 0-24-0 ',The extracted `software_name` is the name of the mentioned software.,1
+Check `version`,A5,' 0-24-0 ',The version/release date of the mentioned software is given in context.,1
+,A6,' 0-24-0 ',The extracted `version` is an existing version of the mentioned software.,1
+Check `publisher`,A7,' 0-24-0 ',The publisher/developer of the mentioned software is given in context.,1
+,A8,' 0-24-0 ',The extracted `publisher` is the publisher/creator of the mentioned software.,1
+Check `URL`,A9,' 0-24-0 ',The URL of the mentioned software is given in context.,0
+,A10,' 0-24-0 ',The extracted `URL` is the URL of the mentioned software. The URL can be a resolvable identifier.,0
+Check `context`,A11,' 0-24-0 ',"Additional configuration details of the software is given (e.g., operating environment)",0
+Indicating whether the software is used should be one of the citation functions.,A12,' 0-24-0 ',The mentioned software is used according to the context.,1
+,A13,' 0-24-0 ',The mentioned software is not used according to the context.,0
+Check `tei`,B1,' 0-24-0 ',The mention has an extracted reference entry from bibliography.,0
+,B2,' 0-24-0 ',The extracted reference entry is the reference of this work.,NA
+,B3,' 0-24-0 ',The reference is a software publication.,NA
+,B4,' 0-24-0 ',"The reference points to the software itself in any form (e.g., source code; container; executable) or its metadata.",NA
+,B5,' 0-24-0 ',The reference is a domain science publication.,NA
+,B6,' 0-24-0 ',The reference is a software manual/user guide.,NA
+,B7,' 0-24-0 ',The reference points to a project but the not the software product.,NA
+"If the extracted reference entry is not the right one, then check the actual reference entry in the publication.",B8,' 0-24-0 ',Paste the reference string from the publication if the extracted one is not correct:,NA
+,B9,' 0-24-0 ',The reference string contains the name of the software.,NA
+,B10,' 0-24-0 ',The reference string contains version/release date of the software.,NA
+,B11,' 0-24-0 ',The reference string contains an URL of the software/project. The URL can be a resolvable identifier.,NA
+,B12,' 0-24-0 ',The reference string contains the publisher/creator of the mentioned software.,NA
+Citation functions,C1,' 0-24-0 ',The software is an identifiable entity with the extracted information.,NA
+,C2,' 0-24-0 ',"According to both in-text mention and references, at least one online presence (e.g., source code or online manual) of the software is findable.",1
+,C3,' 0-24-0 ',"According to both in-text mention and references, the specific version of the software mentioned in the article is findable online (if there is one).",1
+,C4,' 0-24-0 ',"Either or both in-text mention and references contains a unique, persistent identifier (e.g., DOI, ARK, Handle, PURL, NBN) that can resolve to the software itself and/or its metadata. (i.e., the software itself is registered with a persistent URI)",0
+,C5,' 0-24-0 ',Either or both in-text mention and references contains a commit hash that points to a snapshot of the software,0
+Access to software,C6,' 0-24-0 ',There is no access to the software.,0
+,C7,' 0-24-0 ',There is only purchase access to the software.,1
+,C8,' 0-24-0 ',There is free access to the software.,0
+,C9,' 0-24-0 ',The source code of the software is accessible.,0
+,C10,' 0-24-0 ',"The software has a permission to modify. (i.e., free software or an open source license is available; no permission if it requires personal contact)",0
+,C11,' 0-24-0 ',The software has an open souce license.,0
+Citation request,D1,' 0-24-0 ',The software citation matches its citation request.,NA
+,D2,' 0-24-0 ',The software has a publically accessible citation request in plain text style.,1
+,D3,' 0-24-0 ',The software has a publically accessible citation request in BibTex format.,0
+,D4,' 0-24-0 ',"The citation request is in a working repository README. (e.g., GitHub)",0
+,D5,' 0-24-0 ',The citation request is on project/software website.,1
+,D6,' 0-24-0 ',The software has a publically accessible CITATION file.,0
+,D7,' 0-24-0 ',The software has a publically accessible CITATION.cff.,0
+,D8,' 0-24-0 ',The software has a publically accessible CodeMeta file.,0
+,D9,' 0-24-0 ',"The software has a publically accessible, domain-specific citation request, such as R CITATION/R DESCRIPTION file.",0
+,D10,' 0-24-0 ',The citation request points to the software itself.,1
+,D11,' 0-24-0 ',The citation request points to a software publication.,0
+,D12,' 0-24-0 ',The citation request points to a domain science publication.,0
+,D13,' 0-24-0 ',The citation request points to a project.,0
+,D14,' 0-24-0 ',The citation request points to a non-software product other than the ones specified above.,0
+,D15,' 0-24-0 ',OPTIONAL please specify the type of the requested citation object:,NA
+,D16,' 0-24-0 ',OPTIONAL please copy and paste the link to the citation request:,NA
+,D17,' 0-24-0 ',"The software has at least one version published to an archival repository (e.g., institutional repository, Zenodo, figshare)",0
+,D18,' 0-24-0 ',"The software has at least one version that has a unique, persistent identifier such as a DOI, ARK, Handle, PURL, or NBN.",0
+,D19,' 0-24-0 ',"The metadata of the software itself is publically accessible, including a unique and persistent identifier, name of the software, authors/contributors, version/release date, access information (e.g., not available/online location/working repository)",1
+Check `context`,A1,' 1-22-4 ',The extracted mention is a mention of software.,1
+,A2,' 1-22-4 ',"The mention is an ""instrument-like"" mention.",0
+Check `software_name`,A3,' 1-22-4 ',The name of the mentioned software is given in context.,1
+,A4,' 1-22-4 ',The extracted `software_name` is the name of the mentioned software.,1
+Check `version`,A5,' 1-22-4 ',The version/release date of the mentioned software is given in context.,0
+,A6,' 1-22-4 ',The extracted `version` is an existing version of the mentioned software.,0
+Check `publisher`,A7,' 1-22-4 ',The publisher/developer of the mentioned software is given in context.,0
+,A8,' 1-22-4 ',The extracted `publisher` is the publisher/creator of the mentioned software.,NA
+Check `URL`,A9,' 1-22-4 ',The URL of the mentioned software is given in context.,0
+,A10,' 1-22-4 ',The extracted `URL` is the URL of the mentioned software. The URL can be a resolvable identifier.,NA
+Check `context`,A11,' 1-22-4 ',"Additional configuration details of the software is given (e.g., operating environment)",0
+Indicating whether the software is used should be one of the citation functions.,A12,' 1-22-4 ',The mentioned software is used according to the context.,1
+,A13,' 1-22-4 ',The mentioned software is not used according to the context.,0
+Check `tei`,B1,' 1-22-4 ',The mention has an extracted reference entry from bibliography.,0
+,B2,' 1-22-4 ',The extracted reference entry is the reference of this work.,NA
+,B3,' 1-22-4 ',The reference is a software publication.,NA
+,B4,' 1-22-4 ',"The reference points to the software itself in any form (e.g., source code; container; executable) or its metadata.",NA
+,B5,' 1-22-4 ',The reference is a domain science publication.,NA
+,B6,' 1-22-4 ',The reference is a software manual/user guide.,NA
+,B7,' 1-22-4 ',The reference points to a project but the not the software product.,NA
+"If the extracted reference entry is not the right one, then check the actual reference entry in the publication.",B8,' 1-22-4 ',Paste the reference string from the publication if the extracted one is not correct:,NA
+,B9,' 1-22-4 ',The reference string contains the name of the software.,NA
+,B10,' 1-22-4 ',The reference string contains version/release date of the software.,NA
+,B11,' 1-22-4 ',The reference string contains an URL of the software/project. The URL can be a resolvable identifier.,NA
+,B12,' 1-22-4 ',The reference string contains the publisher/creator of the mentioned software.,NA
+Citation functions,C1,' 1-22-4 ',The software is an identifiable entity with the extracted information.,1
+,C2,' 1-22-4 ',"According to both in-text mention and references, at least one online presence (e.g., source code or online manual) of the software is findable.",1
+,C3,' 1-22-4 ',"According to both in-text mention and references, the specific version of the software mentioned in the article is findable online (if there is one).",NA
+,C4,' 1-22-4 ',"Either or both in-text mention and references contains a unique, persistent identifier (e.g., DOI, ARK, Handle, PURL, NBN) that can resolve to the software itself and/or its metadata. (i.e., the software itself is registered with a persistent URI)",0
+,C5,' 1-22-4 ',Either or both in-text mention and references contains a commit hash that points to a snapshot of the software,0
+Access to software,C6,' 1-22-4 ',There is no access to the software.,0
+,C7,' 1-22-4 ',There is only purchase access to the software.,0
+,C8,' 1-22-4 ',There is free access to the software.,1
+,C9,' 1-22-4 ',The source code of the software is accessible.,1
+,C10,' 1-22-4 ',"The software has a permission to modify. (i.e., free software or an open source license is available; no permission if it requires personal contact)",1
+,C11,' 1-22-4 ',The software has an open souce license.,1
+Citation request,D1,' 1-22-4 ',The software citation matches its citation request.,NA
+,D2,' 1-22-4 ',The software has a publically accessible citation request in plain text style.,1
+,D3,' 1-22-4 ',The software has a publically accessible citation request in BibTex format.,0
+,D4,' 1-22-4 ',"The citation request is in a working repository README. (e.g., GitHub)",0
+,D5,' 1-22-4 ',The citation request is on project/software website.,1
+,D6,' 1-22-4 ',The software has a publically accessible CITATION file.,0
+,D7,' 1-22-4 ',The software has a publically accessible CITATION.cff.,0
+,D8,' 1-22-4 ',The software has a publically accessible CodeMeta file.,0
+,D9,' 1-22-4 ',"The software has a publically accessible, domain-specific citation request, such as R CITATION/R DESCRIPTION file.",0
+,D10,' 1-22-4 ',The citation request points to the software itself.,0
+,D11,' 1-22-4 ',The citation request points to a software publication.,1
+,D12,' 1-22-4 ',The citation request points to a domain science publication.,0
+,D13,' 1-22-4 ',The citation request points to a project.,0
+,D14,' 1-22-4 ',The citation request points to a non-software product other than the ones specified above.,0
+,D15,' 1-22-4 ',OPTIONAL please specify the type of the requested citation object:,NA
+,D16,' 1-22-4 ',OPTIONAL please copy and paste the link to the citation request:,NA
 ,D17,' 1-22-4 ',"The software has at least one version published to an archival repository (e.g., institutional repository, Zenodo, figshare)",
 ,D18,' 1-22-4 ',"The software has at least one version that has a unique, persistent identifier such as a DOI, ARK, Handle, PURL, or NBN.",
 ,D19,' 1-22-4 ',"The metadata of the software itself is publically accessible, including a unique and persistent identifier, name of the software, authors/contributors, version/release date, access information (e.g., not available/online location/working repository)",
-Check `context`,A1,' 1-26-1 ',The extracted mention is a mention of software.,
-,A2,' 1-26-1 ',"The mention is an ""instrument-like"" mention.",
-Check `software_name`,A3,' 1-26-1 ',The name of the mentioned software is given in context.,
-,A4,' 1-26-1 ',The extracted `software_name` is the name of the mentioned software.,
-Check `version`,A5,' 1-26-1 ',The version/release date of the mentioned software is given in context.,
-,A6,' 1-26-1 ',The extracted `version` is an existing version of the mentioned software.,
-Check `publisher`,A7,' 1-26-1 ',The publisher/developer of the mentioned software is given in context.,
-,A8,' 1-26-1 ',The extracted `publisher` is the publisher/creator of the mentioned software.,
-Check `URL`,A9,' 1-26-1 ',The URL of the mentioned software is given in context.,
-,A10,' 1-26-1 ',The extracted `URL` is the URL of the mentioned software. The URL can be a resolvable identifier.,
-Check `context`,A11,' 1-26-1 ',"Additional configuration details of the software is given (e.g., operating environment)",
-Indicating whether the software is used should be one of the citation functions.,A12,' 1-26-1 ',The mentioned software is used according to the context.,
-,A13,' 1-26-1 ',The mentioned software is not used according to the context.,
-Check `tei`,B1,' 1-26-1 ',The mention has an extracted reference entry from bibliography.,
-,B2,' 1-26-1 ',The extracted reference entry is the reference of this work.,
-,B3,' 1-26-1 ',The reference is a software publication.,
-,B4,' 1-26-1 ',"The reference points to the software itself in any form (e.g., source code; container; executable) or its metadata.",
-,B5,' 1-26-1 ',The reference is a domain science publication.,
-,B6,' 1-26-1 ',The reference is a software manual/user guide.,
-,B7,' 1-26-1 ',The reference points to a project but the not the software product.,
-"If the extracted reference entry is not the right one, then check the actual reference entry in the publication.",B8,' 1-26-1 ',Paste the reference string from the publication if the extracted one is not correct:,
-,B9,' 1-26-1 ',The reference string contains the name of the software.,
-,B10,' 1-26-1 ',The reference string contains version/release date of the software.,
-,B11,' 1-26-1 ',The reference string contains an URL of the software/project. The URL can be a resolvable identifier.,
-,B12,' 1-26-1 ',The reference string contains the publisher/creator of the mentioned software.,
-Citation functions,C1,' 1-26-1 ',The software is an identifiable entity with the extracted information.,
-,C2,' 1-26-1 ',"According to both in-text mention and references, at least one online presence (e.g., source code or online manual) of the software is findable.",
-,C3,' 1-26-1 ',"According to both in-text mention and references, the specific version of the software mentioned in the article is findable online (if there is one).",
-,C4,' 1-26-1 ',"Either or both in-text mention and references contains a unique, persistent identifier (e.g., DOI, ARK, Handle, PURL, NBN) that can resolve to the software itself and/or its metadata. (i.e., the software itself is registered with a persistent URI)",
-,C5,' 1-26-1 ',Either or both in-text mention and references contains a commit hash that points to a snapshot of the software,
-Access to software,C6,' 1-26-1 ',There is no access to the software.,
-,C7,' 1-26-1 ',There is only purchase access to the software.,
-,C8,' 1-26-1 ',There is free access to the software.,
-,C9,' 1-26-1 ',The source code of the software is accessible.,
-,C10,' 1-26-1 ',"The software has a permission to modify. (i.e., free software or an open source license is available; no permission if it requires personal contact)",
-,C11,' 1-26-1 ',The software has an open souce license.,
-Citation request,D1,' 1-26-1 ',The software citation matches its citation request.,
-,D2,' 1-26-1 ',The software has a publically accessible citation request in plain text style.,
-,D3,' 1-26-1 ',The software has a publically accessible citation request in BibTex format.,
-,D4,' 1-26-1 ',"The citation request is in a working repository README. (e.g., GitHub)",
-,D5,' 1-26-1 ',The citation request is on project/software website.,
-,D6,' 1-26-1 ',The software has a publically accessible CITATION file.,
-,D7,' 1-26-1 ',The software has a publically accessible CITATION.cff.,
-,D8,' 1-26-1 ',The software has a publically accessible CodeMeta file.,
-,D9,' 1-26-1 ',"The software has a publically accessible, domain-specific citation request, such as R CITATION/R DESCRIPTION file.",
-,D10,' 1-26-1 ',The citation request points to the software itself.,
-,D11,' 1-26-1 ',The citation request points to a software publication.,
-,D12,' 1-26-1 ',The citation request points to a domain science publication.,
-,D13,' 1-26-1 ',The citation request points to a project.,
-,D14,' 1-26-1 ',The citation request points to a non-software product other than the ones specified above.,
-,D15,' 1-26-1 ',OPTIONAL please specify the type of the requested citation object:,
-,D16,' 1-26-1 ',OPTIONAL please copy and paste the link to the citation request:,
+Check `context`,A1,' 1-26-1 ',The extracted mention is a mention of software.,1
+,A2,' 1-26-1 ',"The mention is an ""instrument-like"" mention.",0
+Check `software_name`,A3,' 1-26-1 ',The name of the mentioned software is given in context.,1
+,A4,' 1-26-1 ',The extracted `software_name` is the name of the mentioned software.,1
+Check `version`,A5,' 1-26-1 ',The version/release date of the mentioned software is given in context.,0
+,A6,' 1-26-1 ',The extracted `version` is an existing version of the mentioned software.,0
+Check `publisher`,A7,' 1-26-1 ',The publisher/developer of the mentioned software is given in context.,0
+,A8,' 1-26-1 ',The extracted `publisher` is the publisher/creator of the mentioned software.,0
+Check `URL`,A9,' 1-26-1 ',The URL of the mentioned software is given in context.,0
+,A10,' 1-26-1 ',The extracted `URL` is the URL of the mentioned software. The URL can be a resolvable identifier.,0
+Check `context`,A11,' 1-26-1 ',"Additional configuration details of the software is given (e.g., operating environment)",0
+Indicating whether the software is used should be one of the citation functions.,A12,' 1-26-1 ',The mentioned software is used according to the context.,0
+,A13,' 1-26-1 ',The mentioned software is not used according to the context.,1
+Check `tei`,B1,' 1-26-1 ',The mention has an extracted reference entry from bibliography.,0
+,B2,' 1-26-1 ',The extracted reference entry is the reference of this work.,NA
+,B3,' 1-26-1 ',The reference is a software publication.,NA
+,B4,' 1-26-1 ',"The reference points to the software itself in any form (e.g., source code; container; executable) or its metadata.",NA
+,B5,' 1-26-1 ',The reference is a domain science publication.,NA
+,B6,' 1-26-1 ',The reference is a software manual/user guide.,NA
+,B7,' 1-26-1 ',The reference points to a project but the not the software product.,NA
+"If the extracted reference entry is not the right one, then check the actual reference entry in the publication.",B8,' 1-26-1 ',Paste the reference string from the publication if the extracted one is not correct:,NA
+,B9,' 1-26-1 ',The reference string contains the name of the software.,NA
+,B10,' 1-26-1 ',The reference string contains version/release date of the software.,NA
+,B11,' 1-26-1 ',The reference string contains an URL of the software/project. The URL can be a resolvable identifier.,NA
+,B12,' 1-26-1 ',The reference string contains the publisher/creator of the mentioned software.,NA
+Citation functions,C1,' 1-26-1 ',The software is an identifiable entity with the extracted information.,1
+,C2,' 1-26-1 ',"According to both in-text mention and references, at least one online presence (e.g., source code or online manual) of the software is findable.",1
+,C3,' 1-26-1 ',"According to both in-text mention and references, the specific version of the software mentioned in the article is findable online (if there is one).",1
+,C4,' 1-26-1 ',"Either or both in-text mention and references contains a unique, persistent identifier (e.g., DOI, ARK, Handle, PURL, NBN) that can resolve to the software itself and/or its metadata. (i.e., the software itself is registered with a persistent URI)",NA
+,C5,' 1-26-1 ',Either or both in-text mention and references contains a commit hash that points to a snapshot of the software,0
+Access to software,C6,' 1-26-1 ',There is no access to the software.,0
+,C7,' 1-26-1 ',There is only purchase access to the software.,0
+,C8,' 1-26-1 ',There is free access to the software.,1
+,C9,' 1-26-1 ',The source code of the software is accessible.,0
+,C10,' 1-26-1 ',"The software has a permission to modify. (i.e., free software or an open source license is available; no permission if it requires personal contact)",0
+,C11,' 1-26-1 ',The software has an open souce license.,0
+Citation request,D1,' 1-26-1 ',The software citation matches its citation request.,NA
+,D2,' 1-26-1 ',The software has a publically accessible citation request in plain text style.,0
+,D3,' 1-26-1 ',The software has a publically accessible citation request in BibTex format.,0
+,D4,' 1-26-1 ',"The citation request is in a working repository README. (e.g., GitHub)",0
+,D5,' 1-26-1 ',The citation request is on project/software website.,NA
+,D6,' 1-26-1 ',The software has a publically accessible CITATION file.,0
+,D7,' 1-26-1 ',The software has a publically accessible CITATION.cff.,0
+,D8,' 1-26-1 ',The software has a publically accessible CodeMeta file.,0
+,D9,' 1-26-1 ',"The software has a publically accessible, domain-specific citation request, such as R CITATION/R DESCRIPTION file.",0
+,D10,' 1-26-1 ',The citation request points to the software itself.,NA
+,D11,' 1-26-1 ',The citation request points to a software publication.,NA
+,D12,' 1-26-1 ',The citation request points to a domain science publication.,NA
+,D13,' 1-26-1 ',The citation request points to a project.,NA
+,D14,' 1-26-1 ',The citation request points to a non-software product other than the ones specified above.,NA
+,D15,' 1-26-1 ',OPTIONAL please specify the type of the requested citation object:,NA
+,D16,' 1-26-1 ',OPTIONAL please copy and paste the link to the citation request:,NA
 ,D17,' 1-26-1 ',"The software has at least one version published to an archival repository (e.g., institutional repository, Zenodo, figshare)",
 ,D18,' 1-26-1 ',"The software has at least one version that has a unique, persistent identifier such as a DOI, ARK, Handle, PURL, or NBN.",
 ,D19,' 1-26-1 ',"The metadata of the software itself is publically accessible, including a unique and persistent identifier, name of the software, authors/contributors, version/release date, access information (e.g., not available/online location/working repository)",
