@@ -36,7 +36,7 @@ sample_id,hint,coding_id,coding_scheme,explanation,coding_result,memo
 ' 3-53-0 ',,C10,"The software has a permission to modify. (i.e., free software or an open source license is available; no permission if it requires personal contact)",,,
 ' 3-53-0 ',,C11,The software has an open souce license.,,,
 ' 3-53-0 ',Citation request,D1,The extracted software mention (including reference) is refered in a way that matches the citation request of the software.,"This code requires finding the citation request online if available. 
-Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software)",,
+Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software). If a citation request is not available, this code is FALSE (i.e., ""0"").",,
 ' 3-53-0 ',,D2,The software has a publically accessible citation request in plain text style.,,,
 ' 3-53-0 ',,D3,The software has a publically accessible citation request in BibTex format.,,,
 ' 3-53-0 ',,D4,"The citation request is in a working repository README. (e.g., GitHub; GitLab)",,,
@@ -97,7 +97,7 @@ If a unique and persistent identifier of the software itself has been identified
 ' 0-28-0 ',,C10,"The software has a permission to modify. (i.e., free software or an open source license is available; no permission if it requires personal contact)",,,
 ' 0-28-0 ',,C11,The software has an open souce license.,,,
 ' 0-28-0 ',Citation request,D1,The extracted software mention (including reference) is refered in a way that matches the citation request of the software.,"This code requires finding the citation request online if available. 
-Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software)",,
+Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software). If a citation request is not available, this code is FALSE (i.e., ""0"").",,
 ' 0-28-0 ',,D2,The software has a publically accessible citation request in plain text style.,,,
 ' 0-28-0 ',,D3,The software has a publically accessible citation request in BibTex format.,,,
 ' 0-28-0 ',,D4,"The citation request is in a working repository README. (e.g., GitHub; GitLab)",,,
@@ -158,7 +158,7 @@ If a unique and persistent identifier of the software itself has been identified
 ' 0-17-0 ',,C10,"The software has a permission to modify. (i.e., free software or an open source license is available; no permission if it requires personal contact)",,,
 ' 0-17-0 ',,C11,The software has an open souce license.,,,
 ' 0-17-0 ',Citation request,D1,The extracted software mention (including reference) is refered in a way that matches the citation request of the software.,"This code requires finding the citation request online if available. 
-Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software)",,
+Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software). If a citation request is not available, this code is FALSE (i.e., ""0"").",,
 ' 0-17-0 ',,D2,The software has a publically accessible citation request in plain text style.,,,
 ' 0-17-0 ',,D3,The software has a publically accessible citation request in BibTex format.,,,
 ' 0-17-0 ',,D4,"The citation request is in a working repository README. (e.g., GitHub; GitLab)",,,
@@ -219,7 +219,7 @@ If a unique and persistent identifier of the software itself has been identified
 ' 1-7-2 ',,C10,"The software has a permission to modify. (i.e., free software or an open source license is available; no permission if it requires personal contact)",,,
 ' 1-7-2 ',,C11,The software has an open souce license.,,,
 ' 1-7-2 ',Citation request,D1,The extracted software mention (including reference) is refered in a way that matches the citation request of the software.,"This code requires finding the citation request online if available. 
-Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software)",,
+Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software). If a citation request is not available, this code is FALSE (i.e., ""0"").",,
 ' 1-7-2 ',,D2,The software has a publically accessible citation request in plain text style.,,,
 ' 1-7-2 ',,D3,The software has a publically accessible citation request in BibTex format.,,,
 ' 1-7-2 ',,D4,"The citation request is in a working repository README. (e.g., GitHub; GitLab)",,,
@@ -280,7 +280,7 @@ If a unique and persistent identifier of the software itself has been identified
 ' 1-23-2 ',,C10,"The software has a permission to modify. (i.e., free software or an open source license is available; no permission if it requires personal contact)",,,
 ' 1-23-2 ',,C11,The software has an open souce license.,,,
 ' 1-23-2 ',Citation request,D1,The extracted software mention (including reference) is refered in a way that matches the citation request of the software.,"This code requires finding the citation request online if available. 
-Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software)",,
+Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software). If a citation request is not available, this code is FALSE (i.e., ""0"").",,
 ' 1-23-2 ',,D2,The software has a publically accessible citation request in plain text style.,,,
 ' 1-23-2 ',,D3,The software has a publically accessible citation request in BibTex format.,,,
 ' 1-23-2 ',,D4,"The citation request is in a working repository README. (e.g., GitHub; GitLab)",,,
@@ -341,7 +341,7 @@ If a unique and persistent identifier of the software itself has been identified
 ' 3-63-0 ',,C10,"The software has a permission to modify. (i.e., free software or an open source license is available; no permission if it requires personal contact)",,,
 ' 3-63-0 ',,C11,The software has an open souce license.,,,
 ' 3-63-0 ',Citation request,D1,The extracted software mention (including reference) is refered in a way that matches the citation request of the software.,"This code requires finding the citation request online if available. 
-Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software)",,
+Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software). If a citation request is not available, this code is FALSE (i.e., ""0"").",,
 ' 3-63-0 ',,D2,The software has a publically accessible citation request in plain text style.,,,
 ' 3-63-0 ',,D3,The software has a publically accessible citation request in BibTex format.,,,
 ' 3-63-0 ',,D4,"The citation request is in a working repository README. (e.g., GitHub; GitLab)",,,
@@ -402,7 +402,7 @@ If a unique and persistent identifier of the software itself has been identified
 ' 3-210-0 ',,C10,"The software has a permission to modify. (i.e., free software or an open source license is available; no permission if it requires personal contact)",,,
 ' 3-210-0 ',,C11,The software has an open souce license.,,,
 ' 3-210-0 ',Citation request,D1,The extracted software mention (including reference) is refered in a way that matches the citation request of the software.,"This code requires finding the citation request online if available. 
-Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software)",,
+Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software). If a citation request is not available, this code is FALSE (i.e., ""0"").",,
 ' 3-210-0 ',,D2,The software has a publically accessible citation request in plain text style.,,,
 ' 3-210-0 ',,D3,The software has a publically accessible citation request in BibTex format.,,,
 ' 3-210-0 ',,D4,"The citation request is in a working repository README. (e.g., GitHub; GitLab)",,,
@@ -463,7 +463,7 @@ If a unique and persistent identifier of the software itself has been identified
 ' 4-85-0 ',,C10,"The software has a permission to modify. (i.e., free software or an open source license is available; no permission if it requires personal contact)",,,
 ' 4-85-0 ',,C11,The software has an open souce license.,,,
 ' 4-85-0 ',Citation request,D1,The extracted software mention (including reference) is refered in a way that matches the citation request of the software.,"This code requires finding the citation request online if available. 
-Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software)",,
+Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software). If a citation request is not available, this code is FALSE (i.e., ""0"").",,
 ' 4-85-0 ',,D2,The software has a publically accessible citation request in plain text style.,,,
 ' 4-85-0 ',,D3,The software has a publically accessible citation request in BibTex format.,,,
 ' 4-85-0 ',,D4,"The citation request is in a working repository README. (e.g., GitHub; GitLab)",,,
@@ -524,7 +524,7 @@ If a unique and persistent identifier of the software itself has been identified
 ' 4-161-1 ',,C10,"The software has a permission to modify. (i.e., free software or an open source license is available; no permission if it requires personal contact)",,,
 ' 4-161-1 ',,C11,The software has an open souce license.,,,
 ' 4-161-1 ',Citation request,D1,The extracted software mention (including reference) is refered in a way that matches the citation request of the software.,"This code requires finding the citation request online if available. 
-Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software)",,
+Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software). If a citation request is not available, this code is FALSE (i.e., ""0"").",,
 ' 4-161-1 ',,D2,The software has a publically accessible citation request in plain text style.,,,
 ' 4-161-1 ',,D3,The software has a publically accessible citation request in BibTex format.,,,
 ' 4-161-1 ',,D4,"The citation request is in a working repository README. (e.g., GitHub; GitLab)",,,
@@ -585,7 +585,7 @@ If a unique and persistent identifier of the software itself has been identified
 ' 5-128-3 ',,C10,"The software has a permission to modify. (i.e., free software or an open source license is available; no permission if it requires personal contact)",,,
 ' 5-128-3 ',,C11,The software has an open souce license.,,,
 ' 5-128-3 ',Citation request,D1,The extracted software mention (including reference) is refered in a way that matches the citation request of the software.,"This code requires finding the citation request online if available. 
-Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software)",,
+Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software). If a citation request is not available, this code is FALSE (i.e., ""0"").",,
 ' 5-128-3 ',,D2,The software has a publically accessible citation request in plain text style.,,,
 ' 5-128-3 ',,D3,The software has a publically accessible citation request in BibTex format.,,,
 ' 5-128-3 ',,D4,"The citation request is in a working repository README. (e.g., GitHub; GitLab)",,,
@@ -646,7 +646,7 @@ If a unique and persistent identifier of the software itself has been identified
 ' 5-73-35 ',,C10,"The software has a permission to modify. (i.e., free software or an open source license is available; no permission if it requires personal contact)",,,
 ' 5-73-35 ',,C11,The software has an open souce license.,,,
 ' 5-73-35 ',Citation request,D1,The extracted software mention (including reference) is refered in a way that matches the citation request of the software.,"This code requires finding the citation request online if available. 
-Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software)",,
+Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software). If a citation request is not available, this code is FALSE (i.e., ""0"").",,
 ' 5-73-35 ',,D2,The software has a publically accessible citation request in plain text style.,,,
 ' 5-73-35 ',,D3,The software has a publically accessible citation request in BibTex format.,,,
 ' 5-73-35 ',,D4,"The citation request is in a working repository README. (e.g., GitHub; GitLab)",,,
@@ -707,7 +707,7 @@ If a unique and persistent identifier of the software itself has been identified
 ' 6-693-0 ',,C10,"The software has a permission to modify. (i.e., free software or an open source license is available; no permission if it requires personal contact)",,,
 ' 6-693-0 ',,C11,The software has an open souce license.,,,
 ' 6-693-0 ',Citation request,D1,The extracted software mention (including reference) is refered in a way that matches the citation request of the software.,"This code requires finding the citation request online if available. 
-Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software)",,
+Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software). If a citation request is not available, this code is FALSE (i.e., ""0"").",,
 ' 6-693-0 ',,D2,The software has a publically accessible citation request in plain text style.,,,
 ' 6-693-0 ',,D3,The software has a publically accessible citation request in BibTex format.,,,
 ' 6-693-0 ',,D4,"The citation request is in a working repository README. (e.g., GitHub; GitLab)",,,
@@ -768,7 +768,7 @@ If a unique and persistent identifier of the software itself has been identified
 ' 6-2365-0 ',,C10,"The software has a permission to modify. (i.e., free software or an open source license is available; no permission if it requires personal contact)",,,
 ' 6-2365-0 ',,C11,The software has an open souce license.,,,
 ' 6-2365-0 ',Citation request,D1,The extracted software mention (including reference) is refered in a way that matches the citation request of the software.,"This code requires finding the citation request online if available. 
-Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software)",,
+Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software). If a citation request is not available, this code is FALSE (i.e., ""0"").",,
 ' 6-2365-0 ',,D2,The software has a publically accessible citation request in plain text style.,,,
 ' 6-2365-0 ',,D3,The software has a publically accessible citation request in BibTex format.,,,
 ' 6-2365-0 ',,D4,"The citation request is in a working repository README. (e.g., GitHub; GitLab)",,,
@@ -829,7 +829,7 @@ If a unique and persistent identifier of the software itself has been identified
 ' 7-2632-2 ',,C10,"The software has a permission to modify. (i.e., free software or an open source license is available; no permission if it requires personal contact)",,,
 ' 7-2632-2 ',,C11,The software has an open souce license.,,,
 ' 7-2632-2 ',Citation request,D1,The extracted software mention (including reference) is refered in a way that matches the citation request of the software.,"This code requires finding the citation request online if available. 
-Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software)",,
+Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software). If a citation request is not available, this code is FALSE (i.e., ""0"").",,
 ' 7-2632-2 ',,D2,The software has a publically accessible citation request in plain text style.,,,
 ' 7-2632-2 ',,D3,The software has a publically accessible citation request in BibTex format.,,,
 ' 7-2632-2 ',,D4,"The citation request is in a working repository README. (e.g., GitHub; GitLab)",,,
@@ -890,7 +890,7 @@ If a unique and persistent identifier of the software itself has been identified
 ' 7-3051-2 ',,C10,"The software has a permission to modify. (i.e., free software or an open source license is available; no permission if it requires personal contact)",,,
 ' 7-3051-2 ',,C11,The software has an open souce license.,,,
 ' 7-3051-2 ',Citation request,D1,The extracted software mention (including reference) is refered in a way that matches the citation request of the software.,"This code requires finding the citation request online if available. 
-Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software)",,
+Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software). If a citation request is not available, this code is FALSE (i.e., ""0"").",,
 ' 7-3051-2 ',,D2,The software has a publically accessible citation request in plain text style.,,,
 ' 7-3051-2 ',,D3,The software has a publically accessible citation request in BibTex format.,,,
 ' 7-3051-2 ',,D4,"The citation request is in a working repository README. (e.g., GitHub; GitLab)",,,
@@ -951,7 +951,7 @@ If a unique and persistent identifier of the software itself has been identified
 ' 8-306-1 ',,C10,"The software has a permission to modify. (i.e., free software or an open source license is available; no permission if it requires personal contact)",,,
 ' 8-306-1 ',,C11,The software has an open souce license.,,,
 ' 8-306-1 ',Citation request,D1,The extracted software mention (including reference) is refered in a way that matches the citation request of the software.,"This code requires finding the citation request online if available. 
-Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software)",,
+Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software). If a citation request is not available, this code is FALSE (i.e., ""0"").",,
 ' 8-306-1 ',,D2,The software has a publically accessible citation request in plain text style.,,,
 ' 8-306-1 ',,D3,The software has a publically accessible citation request in BibTex format.,,,
 ' 8-306-1 ',,D4,"The citation request is in a working repository README. (e.g., GitHub; GitLab)",,,
@@ -1012,7 +1012,7 @@ If a unique and persistent identifier of the software itself has been identified
 ' 8-253-4 ',,C10,"The software has a permission to modify. (i.e., free software or an open source license is available; no permission if it requires personal contact)",,,
 ' 8-253-4 ',,C11,The software has an open souce license.,,,
 ' 8-253-4 ',Citation request,D1,The extracted software mention (including reference) is refered in a way that matches the citation request of the software.,"This code requires finding the citation request online if available. 
-Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software)",,
+Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software). If a citation request is not available, this code is FALSE (i.e., ""0"").",,
 ' 8-253-4 ',,D2,The software has a publically accessible citation request in plain text style.,,,
 ' 8-253-4 ',,D3,The software has a publically accessible citation request in BibTex format.,,,
 ' 8-253-4 ',,D4,"The citation request is in a working repository README. (e.g., GitHub; GitLab)",,,
@@ -1073,7 +1073,7 @@ If a unique and persistent identifier of the software itself has been identified
 ' 11-389-23 ',,C10,"The software has a permission to modify. (i.e., free software or an open source license is available; no permission if it requires personal contact)",,,
 ' 11-389-23 ',,C11,The software has an open souce license.,,,
 ' 11-389-23 ',Citation request,D1,The extracted software mention (including reference) is refered in a way that matches the citation request of the software.,"This code requires finding the citation request online if available. 
-Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software)",,
+Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software). If a citation request is not available, this code is FALSE (i.e., ""0"").",,
 ' 11-389-23 ',,D2,The software has a publically accessible citation request in plain text style.,,,
 ' 11-389-23 ',,D3,The software has a publically accessible citation request in BibTex format.,,,
 ' 11-389-23 ',,D4,"The citation request is in a working repository README. (e.g., GitHub; GitLab)",,,
@@ -1134,7 +1134,7 @@ If a unique and persistent identifier of the software itself has been identified
 ' 11-2801-1 ',,C10,"The software has a permission to modify. (i.e., free software or an open source license is available; no permission if it requires personal contact)",,,
 ' 11-2801-1 ',,C11,The software has an open souce license.,,,
 ' 11-2801-1 ',Citation request,D1,The extracted software mention (including reference) is refered in a way that matches the citation request of the software.,"This code requires finding the citation request online if available. 
-Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software)",,
+Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software). If a citation request is not available, this code is FALSE (i.e., ""0"").",,
 ' 11-2801-1 ',,D2,The software has a publically accessible citation request in plain text style.,,,
 ' 11-2801-1 ',,D3,The software has a publically accessible citation request in BibTex format.,,,
 ' 11-2801-1 ',,D4,"The citation request is in a working repository README. (e.g., GitHub; GitLab)",,,
@@ -1195,7 +1195,7 @@ If a unique and persistent identifier of the software itself has been identified
 ' 12-6272-0 ',,C10,"The software has a permission to modify. (i.e., free software or an open source license is available; no permission if it requires personal contact)",,,
 ' 12-6272-0 ',,C11,The software has an open souce license.,,,
 ' 12-6272-0 ',Citation request,D1,The extracted software mention (including reference) is refered in a way that matches the citation request of the software.,"This code requires finding the citation request online if available. 
-Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software)",,
+Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software). If a citation request is not available, this code is FALSE (i.e., ""0"").",,
 ' 12-6272-0 ',,D2,The software has a publically accessible citation request in plain text style.,,,
 ' 12-6272-0 ',,D3,The software has a publically accessible citation request in BibTex format.,,,
 ' 12-6272-0 ',,D4,"The citation request is in a working repository README. (e.g., GitHub; GitLab)",,,
@@ -1256,7 +1256,7 @@ If a unique and persistent identifier of the software itself has been identified
 ' 12-358-0 ',,C10,"The software has a permission to modify. (i.e., free software or an open source license is available; no permission if it requires personal contact)",,,
 ' 12-358-0 ',,C11,The software has an open souce license.,,,
 ' 12-358-0 ',Citation request,D1,The extracted software mention (including reference) is refered in a way that matches the citation request of the software.,"This code requires finding the citation request online if available. 
-Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software)",,
+Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software). If a citation request is not available, this code is FALSE (i.e., ""0"").",,
 ' 12-358-0 ',,D2,The software has a publically accessible citation request in plain text style.,,,
 ' 12-358-0 ',,D3,The software has a publically accessible citation request in BibTex format.,,,
 ' 12-358-0 ',,D4,"The citation request is in a working repository README. (e.g., GitHub; GitLab)",,,
@@ -1317,7 +1317,7 @@ If a unique and persistent identifier of the software itself has been identified
 ' 13-2079-1 ',,C10,"The software has a permission to modify. (i.e., free software or an open source license is available; no permission if it requires personal contact)",,,
 ' 13-2079-1 ',,C11,The software has an open souce license.,,,
 ' 13-2079-1 ',Citation request,D1,The extracted software mention (including reference) is refered in a way that matches the citation request of the software.,"This code requires finding the citation request online if available. 
-Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software)",,
+Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software). If a citation request is not available, this code is FALSE (i.e., ""0"").",,
 ' 13-2079-1 ',,D2,The software has a publically accessible citation request in plain text style.,,,
 ' 13-2079-1 ',,D3,The software has a publically accessible citation request in BibTex format.,,,
 ' 13-2079-1 ',,D4,"The citation request is in a working repository README. (e.g., GitHub; GitLab)",,,
@@ -1378,7 +1378,7 @@ If a unique and persistent identifier of the software itself has been identified
 ' 13-6457-4 ',,C10,"The software has a permission to modify. (i.e., free software or an open source license is available; no permission if it requires personal contact)",,,
 ' 13-6457-4 ',,C11,The software has an open souce license.,,,
 ' 13-6457-4 ',Citation request,D1,The extracted software mention (including reference) is refered in a way that matches the citation request of the software.,"This code requires finding the citation request online if available. 
-Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software)",,
+Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software). If a citation request is not available, this code is FALSE (i.e., ""0"").",,
 ' 13-6457-4 ',,D2,The software has a publically accessible citation request in plain text style.,,,
 ' 13-6457-4 ',,D3,The software has a publically accessible citation request in BibTex format.,,,
 ' 13-6457-4 ',,D4,"The citation request is in a working repository README. (e.g., GitHub; GitLab)",,,
@@ -1439,7 +1439,7 @@ If a unique and persistent identifier of the software itself has been identified
 ' 14-2253-5 ',,C10,"The software has a permission to modify. (i.e., free software or an open source license is available; no permission if it requires personal contact)",,,
 ' 14-2253-5 ',,C11,The software has an open souce license.,,,
 ' 14-2253-5 ',Citation request,D1,The extracted software mention (including reference) is refered in a way that matches the citation request of the software.,"This code requires finding the citation request online if available. 
-Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software)",,
+Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software). If a citation request is not available, this code is FALSE (i.e., ""0"").",,
 ' 14-2253-5 ',,D2,The software has a publically accessible citation request in plain text style.,,,
 ' 14-2253-5 ',,D3,The software has a publically accessible citation request in BibTex format.,,,
 ' 14-2253-5 ',,D4,"The citation request is in a working repository README. (e.g., GitHub; GitLab)",,,
@@ -1500,7 +1500,7 @@ If a unique and persistent identifier of the software itself has been identified
 ' 14-811-1 ',,C10,"The software has a permission to modify. (i.e., free software or an open source license is available; no permission if it requires personal contact)",,,
 ' 14-811-1 ',,C11,The software has an open souce license.,,,
 ' 14-811-1 ',Citation request,D1,The extracted software mention (including reference) is refered in a way that matches the citation request of the software.,"This code requires finding the citation request online if available. 
-Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software)",,
+Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software). If a citation request is not available, this code is FALSE (i.e., ""0"").",,
 ' 14-811-1 ',,D2,The software has a publically accessible citation request in plain text style.,,,
 ' 14-811-1 ',,D3,The software has a publically accessible citation request in BibTex format.,,,
 ' 14-811-1 ',,D4,"The citation request is in a working repository README. (e.g., GitHub; GitLab)",,,
