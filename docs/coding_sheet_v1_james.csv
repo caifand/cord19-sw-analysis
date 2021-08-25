@@ -52,7 +52,7 @@ Any public information that address how to cite the software from the official s
 ' 3-53-0 ',,D14,The citation request asks to a cite a non-software product other than the ones specified above.,,,
 ' 3-53-0 ',,D15,OPTIONAL please specify the type of the requested citation object:,,,
 ' 3-53-0 ',,D16,OPTIONAL please copy and paste the link to the citation request:,,,
-' 3-53-0 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
+' 3-53-0 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""Zenodo"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
  If a general Web search of the mentioned software has an archival copy in an institutional repository in the search engine results page, then this code is also TRUE.
 If you identify any archival copy of the mentioned software during the search process, then this code is TRUE.",,
 ' 3-53-0 ',,D18,"The software has at least one version that has a unique and persistent identifier such as a DOI, ARK, Handle, PURL, or NBN.","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""ARK"" OR ""<software name>""+""Handle"" OR ""<software name>""+""PURL"" OR ""<software name>""+""NBN"" to locate if an archival copy of the software (no matter which version) exists.
@@ -113,7 +113,7 @@ Any public information that address how to cite the software from the official s
 ' 0-28-0 ',,D14,The citation request asks to a cite a non-software product other than the ones specified above.,,,
 ' 0-28-0 ',,D15,OPTIONAL please specify the type of the requested citation object:,,,
 ' 0-28-0 ',,D16,OPTIONAL please copy and paste the link to the citation request:,,,
-' 0-28-0 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
+' 0-28-0 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""Zenodo"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
  If a general Web search of the mentioned software has an archival copy in an institutional repository in the search engine results page, then this code is also TRUE.
 If you identify any archival copy of the mentioned software during the search process, then this code is TRUE.",,
 ' 0-28-0 ',,D18,"The software has at least one version that has a unique and persistent identifier such as a DOI, ARK, Handle, PURL, or NBN.","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""ARK"" OR ""<software name>""+""Handle"" OR ""<software name>""+""PURL"" OR ""<software name>""+""NBN"" to locate if an archival copy of the software (no matter which version) exists.
@@ -174,7 +174,7 @@ Any public information that address how to cite the software from the official s
 ' 0-17-0 ',,D14,The citation request asks to a cite a non-software product other than the ones specified above.,,,
 ' 0-17-0 ',,D15,OPTIONAL please specify the type of the requested citation object:,,,
 ' 0-17-0 ',,D16,OPTIONAL please copy and paste the link to the citation request:,,,
-' 0-17-0 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
+' 0-17-0 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""Zenodo"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
  If a general Web search of the mentioned software has an archival copy in an institutional repository in the search engine results page, then this code is also TRUE.
 If you identify any archival copy of the mentioned software during the search process, then this code is TRUE.",,
 ' 0-17-0 ',,D18,"The software has at least one version that has a unique and persistent identifier such as a DOI, ARK, Handle, PURL, or NBN.","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""ARK"" OR ""<software name>""+""Handle"" OR ""<software name>""+""PURL"" OR ""<software name>""+""NBN"" to locate if an archival copy of the software (no matter which version) exists.
@@ -235,7 +235,7 @@ Any public information that address how to cite the software from the official s
 ' 1-7-2 ',,D14,The citation request asks to a cite a non-software product other than the ones specified above.,,,
 ' 1-7-2 ',,D15,OPTIONAL please specify the type of the requested citation object:,,,
 ' 1-7-2 ',,D16,OPTIONAL please copy and paste the link to the citation request:,,,
-' 1-7-2 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
+' 1-7-2 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""Zenodo"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
  If a general Web search of the mentioned software has an archival copy in an institutional repository in the search engine results page, then this code is also TRUE.
 If you identify any archival copy of the mentioned software during the search process, then this code is TRUE.",,
 ' 1-7-2 ',,D18,"The software has at least one version that has a unique and persistent identifier such as a DOI, ARK, Handle, PURL, or NBN.","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""ARK"" OR ""<software name>""+""Handle"" OR ""<software name>""+""PURL"" OR ""<software name>""+""NBN"" to locate if an archival copy of the software (no matter which version) exists.
@@ -296,7 +296,7 @@ Any public information that address how to cite the software from the official s
 ' 1-23-2 ',,D14,The citation request asks to a cite a non-software product other than the ones specified above.,,,
 ' 1-23-2 ',,D15,OPTIONAL please specify the type of the requested citation object:,,,
 ' 1-23-2 ',,D16,OPTIONAL please copy and paste the link to the citation request:,,,
-' 1-23-2 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
+' 1-23-2 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""Zenodo"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
  If a general Web search of the mentioned software has an archival copy in an institutional repository in the search engine results page, then this code is also TRUE.
 If you identify any archival copy of the mentioned software during the search process, then this code is TRUE.",,
 ' 1-23-2 ',,D18,"The software has at least one version that has a unique and persistent identifier such as a DOI, ARK, Handle, PURL, or NBN.","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""ARK"" OR ""<software name>""+""Handle"" OR ""<software name>""+""PURL"" OR ""<software name>""+""NBN"" to locate if an archival copy of the software (no matter which version) exists.
@@ -357,7 +357,7 @@ Any public information that address how to cite the software from the official s
 ' 3-63-0 ',,D14,The citation request asks to a cite a non-software product other than the ones specified above.,,,
 ' 3-63-0 ',,D15,OPTIONAL please specify the type of the requested citation object:,,,
 ' 3-63-0 ',,D16,OPTIONAL please copy and paste the link to the citation request:,,,
-' 3-63-0 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
+' 3-63-0 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""Zenodo"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
  If a general Web search of the mentioned software has an archival copy in an institutional repository in the search engine results page, then this code is also TRUE.
 If you identify any archival copy of the mentioned software during the search process, then this code is TRUE.",,
 ' 3-63-0 ',,D18,"The software has at least one version that has a unique and persistent identifier such as a DOI, ARK, Handle, PURL, or NBN.","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""ARK"" OR ""<software name>""+""Handle"" OR ""<software name>""+""PURL"" OR ""<software name>""+""NBN"" to locate if an archival copy of the software (no matter which version) exists.
@@ -418,7 +418,7 @@ Any public information that address how to cite the software from the official s
 ' 3-210-0 ',,D14,The citation request asks to a cite a non-software product other than the ones specified above.,,,
 ' 3-210-0 ',,D15,OPTIONAL please specify the type of the requested citation object:,,,
 ' 3-210-0 ',,D16,OPTIONAL please copy and paste the link to the citation request:,,,
-' 3-210-0 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
+' 3-210-0 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""Zenodo"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
  If a general Web search of the mentioned software has an archival copy in an institutional repository in the search engine results page, then this code is also TRUE.
 If you identify any archival copy of the mentioned software during the search process, then this code is TRUE.",,
 ' 3-210-0 ',,D18,"The software has at least one version that has a unique and persistent identifier such as a DOI, ARK, Handle, PURL, or NBN.","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""ARK"" OR ""<software name>""+""Handle"" OR ""<software name>""+""PURL"" OR ""<software name>""+""NBN"" to locate if an archival copy of the software (no matter which version) exists.
@@ -479,7 +479,7 @@ Any public information that address how to cite the software from the official s
 ' 4-85-0 ',,D14,The citation request asks to a cite a non-software product other than the ones specified above.,,,
 ' 4-85-0 ',,D15,OPTIONAL please specify the type of the requested citation object:,,,
 ' 4-85-0 ',,D16,OPTIONAL please copy and paste the link to the citation request:,,,
-' 4-85-0 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
+' 4-85-0 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""Zenodo"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
  If a general Web search of the mentioned software has an archival copy in an institutional repository in the search engine results page, then this code is also TRUE.
 If you identify any archival copy of the mentioned software during the search process, then this code is TRUE.",,
 ' 4-85-0 ',,D18,"The software has at least one version that has a unique and persistent identifier such as a DOI, ARK, Handle, PURL, or NBN.","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""ARK"" OR ""<software name>""+""Handle"" OR ""<software name>""+""PURL"" OR ""<software name>""+""NBN"" to locate if an archival copy of the software (no matter which version) exists.
@@ -540,7 +540,7 @@ Any public information that address how to cite the software from the official s
 ' 4-161-1 ',,D14,The citation request asks to a cite a non-software product other than the ones specified above.,,,
 ' 4-161-1 ',,D15,OPTIONAL please specify the type of the requested citation object:,,,
 ' 4-161-1 ',,D16,OPTIONAL please copy and paste the link to the citation request:,,,
-' 4-161-1 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
+' 4-161-1 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""Zenodo"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
  If a general Web search of the mentioned software has an archival copy in an institutional repository in the search engine results page, then this code is also TRUE.
 If you identify any archival copy of the mentioned software during the search process, then this code is TRUE.",,
 ' 4-161-1 ',,D18,"The software has at least one version that has a unique and persistent identifier such as a DOI, ARK, Handle, PURL, or NBN.","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""ARK"" OR ""<software name>""+""Handle"" OR ""<software name>""+""PURL"" OR ""<software name>""+""NBN"" to locate if an archival copy of the software (no matter which version) exists.
@@ -601,7 +601,7 @@ Any public information that address how to cite the software from the official s
 ' 5-128-3 ',,D14,The citation request asks to a cite a non-software product other than the ones specified above.,,,
 ' 5-128-3 ',,D15,OPTIONAL please specify the type of the requested citation object:,,,
 ' 5-128-3 ',,D16,OPTIONAL please copy and paste the link to the citation request:,,,
-' 5-128-3 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
+' 5-128-3 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""Zenodo"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
  If a general Web search of the mentioned software has an archival copy in an institutional repository in the search engine results page, then this code is also TRUE.
 If you identify any archival copy of the mentioned software during the search process, then this code is TRUE.",,
 ' 5-128-3 ',,D18,"The software has at least one version that has a unique and persistent identifier such as a DOI, ARK, Handle, PURL, or NBN.","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""ARK"" OR ""<software name>""+""Handle"" OR ""<software name>""+""PURL"" OR ""<software name>""+""NBN"" to locate if an archival copy of the software (no matter which version) exists.
@@ -662,7 +662,7 @@ Any public information that address how to cite the software from the official s
 ' 5-73-35 ',,D14,The citation request asks to a cite a non-software product other than the ones specified above.,,,
 ' 5-73-35 ',,D15,OPTIONAL please specify the type of the requested citation object:,,,
 ' 5-73-35 ',,D16,OPTIONAL please copy and paste the link to the citation request:,,,
-' 5-73-35 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
+' 5-73-35 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""Zenodo"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
  If a general Web search of the mentioned software has an archival copy in an institutional repository in the search engine results page, then this code is also TRUE.
 If you identify any archival copy of the mentioned software during the search process, then this code is TRUE.",,
 ' 5-73-35 ',,D18,"The software has at least one version that has a unique and persistent identifier such as a DOI, ARK, Handle, PURL, or NBN.","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""ARK"" OR ""<software name>""+""Handle"" OR ""<software name>""+""PURL"" OR ""<software name>""+""NBN"" to locate if an archival copy of the software (no matter which version) exists.
@@ -723,7 +723,7 @@ Any public information that address how to cite the software from the official s
 ' 6-693-0 ',,D14,The citation request asks to a cite a non-software product other than the ones specified above.,,,
 ' 6-693-0 ',,D15,OPTIONAL please specify the type of the requested citation object:,,,
 ' 6-693-0 ',,D16,OPTIONAL please copy and paste the link to the citation request:,,,
-' 6-693-0 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
+' 6-693-0 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""Zenodo"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
  If a general Web search of the mentioned software has an archival copy in an institutional repository in the search engine results page, then this code is also TRUE.
 If you identify any archival copy of the mentioned software during the search process, then this code is TRUE.",,
 ' 6-693-0 ',,D18,"The software has at least one version that has a unique and persistent identifier such as a DOI, ARK, Handle, PURL, or NBN.","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""ARK"" OR ""<software name>""+""Handle"" OR ""<software name>""+""PURL"" OR ""<software name>""+""NBN"" to locate if an archival copy of the software (no matter which version) exists.
@@ -784,7 +784,7 @@ Any public information that address how to cite the software from the official s
 ' 6-2365-0 ',,D14,The citation request asks to a cite a non-software product other than the ones specified above.,,,
 ' 6-2365-0 ',,D15,OPTIONAL please specify the type of the requested citation object:,,,
 ' 6-2365-0 ',,D16,OPTIONAL please copy and paste the link to the citation request:,,,
-' 6-2365-0 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
+' 6-2365-0 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""Zenodo"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
  If a general Web search of the mentioned software has an archival copy in an institutional repository in the search engine results page, then this code is also TRUE.
 If you identify any archival copy of the mentioned software during the search process, then this code is TRUE.",,
 ' 6-2365-0 ',,D18,"The software has at least one version that has a unique and persistent identifier such as a DOI, ARK, Handle, PURL, or NBN.","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""ARK"" OR ""<software name>""+""Handle"" OR ""<software name>""+""PURL"" OR ""<software name>""+""NBN"" to locate if an archival copy of the software (no matter which version) exists.
@@ -845,7 +845,7 @@ Any public information that address how to cite the software from the official s
 ' 7-2632-2 ',,D14,The citation request asks to a cite a non-software product other than the ones specified above.,,,
 ' 7-2632-2 ',,D15,OPTIONAL please specify the type of the requested citation object:,,,
 ' 7-2632-2 ',,D16,OPTIONAL please copy and paste the link to the citation request:,,,
-' 7-2632-2 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
+' 7-2632-2 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""Zenodo"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
  If a general Web search of the mentioned software has an archival copy in an institutional repository in the search engine results page, then this code is also TRUE.
 If you identify any archival copy of the mentioned software during the search process, then this code is TRUE.",,
 ' 7-2632-2 ',,D18,"The software has at least one version that has a unique and persistent identifier such as a DOI, ARK, Handle, PURL, or NBN.","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""ARK"" OR ""<software name>""+""Handle"" OR ""<software name>""+""PURL"" OR ""<software name>""+""NBN"" to locate if an archival copy of the software (no matter which version) exists.
@@ -906,7 +906,7 @@ Any public information that address how to cite the software from the official s
 ' 7-3051-2 ',,D14,The citation request asks to a cite a non-software product other than the ones specified above.,,,
 ' 7-3051-2 ',,D15,OPTIONAL please specify the type of the requested citation object:,,,
 ' 7-3051-2 ',,D16,OPTIONAL please copy and paste the link to the citation request:,,,
-' 7-3051-2 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
+' 7-3051-2 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""Zenodo"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
  If a general Web search of the mentioned software has an archival copy in an institutional repository in the search engine results page, then this code is also TRUE.
 If you identify any archival copy of the mentioned software during the search process, then this code is TRUE.",,
 ' 7-3051-2 ',,D18,"The software has at least one version that has a unique and persistent identifier such as a DOI, ARK, Handle, PURL, or NBN.","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""ARK"" OR ""<software name>""+""Handle"" OR ""<software name>""+""PURL"" OR ""<software name>""+""NBN"" to locate if an archival copy of the software (no matter which version) exists.
@@ -967,7 +967,7 @@ Any public information that address how to cite the software from the official s
 ' 8-306-1 ',,D14,The citation request asks to a cite a non-software product other than the ones specified above.,,,
 ' 8-306-1 ',,D15,OPTIONAL please specify the type of the requested citation object:,,,
 ' 8-306-1 ',,D16,OPTIONAL please copy and paste the link to the citation request:,,,
-' 8-306-1 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
+' 8-306-1 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""Zenodo"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
  If a general Web search of the mentioned software has an archival copy in an institutional repository in the search engine results page, then this code is also TRUE.
 If you identify any archival copy of the mentioned software during the search process, then this code is TRUE.",,
 ' 8-306-1 ',,D18,"The software has at least one version that has a unique and persistent identifier such as a DOI, ARK, Handle, PURL, or NBN.","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""ARK"" OR ""<software name>""+""Handle"" OR ""<software name>""+""PURL"" OR ""<software name>""+""NBN"" to locate if an archival copy of the software (no matter which version) exists.
@@ -1028,7 +1028,7 @@ Any public information that address how to cite the software from the official s
 ' 8-253-4 ',,D14,The citation request asks to a cite a non-software product other than the ones specified above.,,,
 ' 8-253-4 ',,D15,OPTIONAL please specify the type of the requested citation object:,,,
 ' 8-253-4 ',,D16,OPTIONAL please copy and paste the link to the citation request:,,,
-' 8-253-4 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
+' 8-253-4 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""Zenodo"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
  If a general Web search of the mentioned software has an archival copy in an institutional repository in the search engine results page, then this code is also TRUE.
 If you identify any archival copy of the mentioned software during the search process, then this code is TRUE.",,
 ' 8-253-4 ',,D18,"The software has at least one version that has a unique and persistent identifier such as a DOI, ARK, Handle, PURL, or NBN.","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""ARK"" OR ""<software name>""+""Handle"" OR ""<software name>""+""PURL"" OR ""<software name>""+""NBN"" to locate if an archival copy of the software (no matter which version) exists.
@@ -1089,7 +1089,7 @@ Any public information that address how to cite the software from the official s
 ' 11-389-23 ',,D14,The citation request asks to a cite a non-software product other than the ones specified above.,,,
 ' 11-389-23 ',,D15,OPTIONAL please specify the type of the requested citation object:,,,
 ' 11-389-23 ',,D16,OPTIONAL please copy and paste the link to the citation request:,,,
-' 11-389-23 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
+' 11-389-23 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""Zenodo"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
  If a general Web search of the mentioned software has an archival copy in an institutional repository in the search engine results page, then this code is also TRUE.
 If you identify any archival copy of the mentioned software during the search process, then this code is TRUE.",,
 ' 11-389-23 ',,D18,"The software has at least one version that has a unique and persistent identifier such as a DOI, ARK, Handle, PURL, or NBN.","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""ARK"" OR ""<software name>""+""Handle"" OR ""<software name>""+""PURL"" OR ""<software name>""+""NBN"" to locate if an archival copy of the software (no matter which version) exists.
@@ -1150,7 +1150,7 @@ Any public information that address how to cite the software from the official s
 ' 11-2801-1 ',,D14,The citation request asks to a cite a non-software product other than the ones specified above.,,,
 ' 11-2801-1 ',,D15,OPTIONAL please specify the type of the requested citation object:,,,
 ' 11-2801-1 ',,D16,OPTIONAL please copy and paste the link to the citation request:,,,
-' 11-2801-1 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
+' 11-2801-1 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""Zenodo"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
  If a general Web search of the mentioned software has an archival copy in an institutional repository in the search engine results page, then this code is also TRUE.
 If you identify any archival copy of the mentioned software during the search process, then this code is TRUE.",,
 ' 11-2801-1 ',,D18,"The software has at least one version that has a unique and persistent identifier such as a DOI, ARK, Handle, PURL, or NBN.","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""ARK"" OR ""<software name>""+""Handle"" OR ""<software name>""+""PURL"" OR ""<software name>""+""NBN"" to locate if an archival copy of the software (no matter which version) exists.
@@ -1211,7 +1211,7 @@ Any public information that address how to cite the software from the official s
 ' 12-6272-0 ',,D14,The citation request asks to a cite a non-software product other than the ones specified above.,,,
 ' 12-6272-0 ',,D15,OPTIONAL please specify the type of the requested citation object:,,,
 ' 12-6272-0 ',,D16,OPTIONAL please copy and paste the link to the citation request:,,,
-' 12-6272-0 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
+' 12-6272-0 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""Zenodo"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
  If a general Web search of the mentioned software has an archival copy in an institutional repository in the search engine results page, then this code is also TRUE.
 If you identify any archival copy of the mentioned software during the search process, then this code is TRUE.",,
 ' 12-6272-0 ',,D18,"The software has at least one version that has a unique and persistent identifier such as a DOI, ARK, Handle, PURL, or NBN.","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""ARK"" OR ""<software name>""+""Handle"" OR ""<software name>""+""PURL"" OR ""<software name>""+""NBN"" to locate if an archival copy of the software (no matter which version) exists.
@@ -1272,7 +1272,7 @@ Any public information that address how to cite the software from the official s
 ' 12-358-0 ',,D14,The citation request asks to a cite a non-software product other than the ones specified above.,,,
 ' 12-358-0 ',,D15,OPTIONAL please specify the type of the requested citation object:,,,
 ' 12-358-0 ',,D16,OPTIONAL please copy and paste the link to the citation request:,,,
-' 12-358-0 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
+' 12-358-0 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""Zenodo"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
  If a general Web search of the mentioned software has an archival copy in an institutional repository in the search engine results page, then this code is also TRUE.
 If you identify any archival copy of the mentioned software during the search process, then this code is TRUE.",,
 ' 12-358-0 ',,D18,"The software has at least one version that has a unique and persistent identifier such as a DOI, ARK, Handle, PURL, or NBN.","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""ARK"" OR ""<software name>""+""Handle"" OR ""<software name>""+""PURL"" OR ""<software name>""+""NBN"" to locate if an archival copy of the software (no matter which version) exists.
@@ -1333,7 +1333,7 @@ Any public information that address how to cite the software from the official s
 ' 13-2079-1 ',,D14,The citation request asks to a cite a non-software product other than the ones specified above.,,,
 ' 13-2079-1 ',,D15,OPTIONAL please specify the type of the requested citation object:,,,
 ' 13-2079-1 ',,D16,OPTIONAL please copy and paste the link to the citation request:,,,
-' 13-2079-1 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
+' 13-2079-1 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""Zenodo"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
  If a general Web search of the mentioned software has an archival copy in an institutional repository in the search engine results page, then this code is also TRUE.
 If you identify any archival copy of the mentioned software during the search process, then this code is TRUE.",,
 ' 13-2079-1 ',,D18,"The software has at least one version that has a unique and persistent identifier such as a DOI, ARK, Handle, PURL, or NBN.","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""ARK"" OR ""<software name>""+""Handle"" OR ""<software name>""+""PURL"" OR ""<software name>""+""NBN"" to locate if an archival copy of the software (no matter which version) exists.
@@ -1394,7 +1394,7 @@ Any public information that address how to cite the software from the official s
 ' 13-6457-4 ',,D14,The citation request asks to a cite a non-software product other than the ones specified above.,,,
 ' 13-6457-4 ',,D15,OPTIONAL please specify the type of the requested citation object:,,,
 ' 13-6457-4 ',,D16,OPTIONAL please copy and paste the link to the citation request:,,,
-' 13-6457-4 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
+' 13-6457-4 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""Zenodo"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
  If a general Web search of the mentioned software has an archival copy in an institutional repository in the search engine results page, then this code is also TRUE.
 If you identify any archival copy of the mentioned software during the search process, then this code is TRUE.",,
 ' 13-6457-4 ',,D18,"The software has at least one version that has a unique and persistent identifier such as a DOI, ARK, Handle, PURL, or NBN.","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""ARK"" OR ""<software name>""+""Handle"" OR ""<software name>""+""PURL"" OR ""<software name>""+""NBN"" to locate if an archival copy of the software (no matter which version) exists.
@@ -1455,7 +1455,7 @@ Any public information that address how to cite the software from the official s
 ' 14-2253-5 ',,D14,The citation request asks to a cite a non-software product other than the ones specified above.,,,
 ' 14-2253-5 ',,D15,OPTIONAL please specify the type of the requested citation object:,,,
 ' 14-2253-5 ',,D16,OPTIONAL please copy and paste the link to the citation request:,,,
-' 14-2253-5 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
+' 14-2253-5 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""Zenodo"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
  If a general Web search of the mentioned software has an archival copy in an institutional repository in the search engine results page, then this code is also TRUE.
 If you identify any archival copy of the mentioned software during the search process, then this code is TRUE.",,
 ' 14-2253-5 ',,D18,"The software has at least one version that has a unique and persistent identifier such as a DOI, ARK, Handle, PURL, or NBN.","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""ARK"" OR ""<software name>""+""Handle"" OR ""<software name>""+""PURL"" OR ""<software name>""+""NBN"" to locate if an archival copy of the software (no matter which version) exists.
@@ -1516,7 +1516,7 @@ Any public information that address how to cite the software from the official s
 ' 14-811-1 ',,D14,The citation request asks to a cite a non-software product other than the ones specified above.,,,
 ' 14-811-1 ',,D15,OPTIONAL please specify the type of the requested citation object:,,,
 ' 14-811-1 ',,D16,OPTIONAL please copy and paste the link to the citation request:,,,
-' 14-811-1 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
+' 14-811-1 ',,D17,"The software has at least one version published to an archival repository (e.g., Zenodo, figshare, Software Heritage)","Web search using ""<software name>""+""Zenodo"" OR ""<software name>""+""figshare"" OR ""<software name>""+""software heritage"" to locate if an archival copy of the software (no matter which version) exists.
  If a general Web search of the mentioned software has an archival copy in an institutional repository in the search engine results page, then this code is also TRUE.
 If you identify any archival copy of the mentioned software during the search process, then this code is TRUE.",,
 ' 14-811-1 ',,D18,"The software has at least one version that has a unique and persistent identifier such as a DOI, ARK, Handle, PURL, or NBN.","Web search using ""<software name>""+""DOI"" OR ""<software name>""+""ARK"" OR ""<software name>""+""Handle"" OR ""<software name>""+""PURL"" OR ""<software name>""+""NBN"" to locate if an archival copy of the software (no matter which version) exists.
