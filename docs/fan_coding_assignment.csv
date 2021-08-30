@@ -1,0 +1,573 @@
+﻿anno_key,doc_key,sample_id,context,software_name,version,publisher,url,DOI,cord_sha,doc_title,doc_subtitle,journal_title,journal_short_title,document_type,journal_subject,journal_issue,issue_dates,journal_publisher,doc_link,jif_rank,jif,journal_total_cites,stratum,mention_density,mention_density_group,group_num,doc_num,anno_num,references,ref_id_list,refs,ref_id,ref_key,tei,refKey,ref_doc_key
+60c20ca67723bebd86645584,60c20ca67723bebd8664557c,' 11-1920-2 ',"and the DICHROWEB server (www.cryst.bbk.ac.uk/cdweb/html/home.html) (1, 40, 62).",DICHROWEB,NA,NA,www.cryst.bbk.ac.uk/cdweb/html/home.html,10.1128/jvi.01505-08,NA,Severe Acute Respiratory Syndrome Coronavirus nsp9 Dimerization Is Essential for Efficient Viral Growth,NA,Journal of Virology,JVI,journal-article,"['Immunology', 'Insect Science', 'Microbiology', 'Virology']",7,"[[2009, 1, 19]]",American Society for Microbiology,"[{'URL': 'https://syndication.highwire.org/content/doi/10.1128/JVI.01505-08', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",1909,5.103,111935,"[1001,12895]",17,"[9,350]",11,1920,2,"[{'offsetStart': 15868, 'normalizedForm': '(1', 'refKey': 0, 'label': '(1,', 'reference_id': {'$oid': '60c20ca67723bebd8664557d'}, 'offsetEnd': 15879, 'boundingBoxes': [{'x': 181.63, 'h': 6.489000000000033, 'y': 638.569, 'p': 3, 'w': 29.913250000000005}]}, {'offsetStart': 15868, 'normalizedForm': '40', 'refKey': 41, 'label': '40,', 'reference_id': {'$oid': '60c20ca67723bebd8664557e'}, 'offsetEnd': 15879, 'boundingBoxes': [{'x': 181.63, 'h': 6.489000000000033, 'y': 638.569, 'p': 3, 'w': 29.913250000000005}]}, {'offsetStart': 15868, 'normalizedForm': '62)', 'refKey': 64, 'label': '62)', 'reference_id': {'$oid': '60c20ca67723bebd8664557f'}, 'offsetEnd': 15879, 'boundingBoxes': [{'x': 181.63, 'h': 6.489000000000033, 'y': 638.569, 'p': 3, 'w': 29.913250000000005}]}]","['60c20ca67723bebd8664557d', '60c20ca67723bebd8664557e', '60c20ca67723bebd8664557f']",ref_id_1,60c20ca67723bebd8664557d,60c20ca67723bebd8664557d,"<biblStruct xml:id=""b0"">
+	<analytic>
+		<title level=""a"" type=""main"">Evaluation of secondary structure of proteins from UV circular dichroism spectra using an unsupervised learning neural network</title>
+		<author>
+			<persName><forename type=""first"">M</forename><forename type=""middle"">A</forename><surname>Andrade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">P</forename><surname>ChacÃ³n</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">J</forename><forename type=""middle"">J</forename><surname>Merelo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">F</forename><surname>MorÃ¡n</surname></persName>
+		</author>
+		<idno type=""DOI"">10.1093/protein/6.4.383</idno>
+		<idno type=""PMID"">8332596</idno>
+		<idno type=""ark"">ark:/67375/HXZ-J20061FT-C</idno>
+		<idno type=""istexId"">CADB8CD8A1015E682BEF671FD0922415B8A1FAE7</idno>
+	</analytic>
+	<monogr>
+		<title level=""j"">&quot;Protein Engineering, Design and Selection&quot;</title>
+		<title level=""j"" type=""abbrev"">Protein Eng Des Sel</title>
+		<idno type=""ISSN"">1741-0126</idno>
+		<idno type=""ISSNe"">1741-0134</idno>
+		<imprint>
+			<biblScope unit=""volume"">6</biblScope>
+			<biblScope unit=""issue"">4</biblScope>
+			<biblScope unit=""page"" from=""383"" to=""390"" />
+			<date type=""published"" when=""1993"" />
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+",0,60c20ca67723bebd8664557c
+60c20ca67723bebd86645584,60c20ca67723bebd8664557c,' 11-1920-2 ',"and the DICHROWEB server (www.cryst.bbk.ac.uk/cdweb/html/home.html) (1, 40, 62).",DICHROWEB,NA,NA,www.cryst.bbk.ac.uk/cdweb/html/home.html,10.1128/jvi.01505-08,NA,Severe Acute Respiratory Syndrome Coronavirus nsp9 Dimerization Is Essential for Efficient Viral Growth,NA,Journal of Virology,JVI,journal-article,"['Immunology', 'Insect Science', 'Microbiology', 'Virology']",7,"[[2009, 1, 19]]",American Society for Microbiology,"[{'URL': 'https://syndication.highwire.org/content/doi/10.1128/JVI.01505-08', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",1909,5.103,111935,"[1001,12895]",17,"[9,350]",11,1920,2,"[{'offsetStart': 15868, 'normalizedForm': '(1', 'refKey': 0, 'label': '(1,', 'reference_id': {'$oid': '60c20ca67723bebd8664557d'}, 'offsetEnd': 15879, 'boundingBoxes': [{'x': 181.63, 'h': 6.489000000000033, 'y': 638.569, 'p': 3, 'w': 29.913250000000005}]}, {'offsetStart': 15868, 'normalizedForm': '40', 'refKey': 41, 'label': '40,', 'reference_id': {'$oid': '60c20ca67723bebd8664557e'}, 'offsetEnd': 15879, 'boundingBoxes': [{'x': 181.63, 'h': 6.489000000000033, 'y': 638.569, 'p': 3, 'w': 29.913250000000005}]}, {'offsetStart': 15868, 'normalizedForm': '62)', 'refKey': 64, 'label': '62)', 'reference_id': {'$oid': '60c20ca67723bebd8664557f'}, 'offsetEnd': 15879, 'boundingBoxes': [{'x': 181.63, 'h': 6.489000000000033, 'y': 638.569, 'p': 3, 'w': 29.913250000000005}]}]","['60c20ca67723bebd8664557d', '60c20ca67723bebd8664557e', '60c20ca67723bebd8664557f']",ref_id_2,60c20ca67723bebd8664557e,60c20ca67723bebd8664557e,"<biblStruct xml:id=""b41"">
+	<analytic>
+		<title level=""a"" type=""main"">DICHROWEB: an interactive website for the analysis of protein secondary structure from circular dichroism spectra</title>
+		<author>
+			<persName><forename type=""first"">A</forename><surname>Lobley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">L</forename><surname>Whitmore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">B</forename><forename type=""middle"">A</forename><surname>Wallace</surname></persName>
+		</author>
+		<idno type=""DOI"">10.1093/bioinformatics/18.1.211</idno>
+		<idno type=""PMID"">11836237</idno>
+		<idno type=""PII"">1460-2059</idno>
+		<idno type=""ark"">ark:/67375/HXZ-DWCZPWQL-J</idno>
+		<idno type=""istexId"">164BC328B9A9A898A54780935932085BC86C9C06</idno>
+		<ptr type=""open-access"" target=""https://academic.oup.com/bioinformatics/article-pdf/18/1/211/674737/180211.pdf"" />
+	</analytic>
+	<monogr>
+		<title level=""j"">Bioinformatics</title>
+		<title level=""j"" type=""abbrev"">Bioinformatics</title>
+		<idno type=""ISSN"">1367-4803</idno>
+		<idno type=""ISSNe"">1460-2059</idno>
+		<imprint>
+			<biblScope unit=""volume"">18</biblScope>
+			<biblScope unit=""issue"">1</biblScope>
+			<biblScope unit=""page"" from=""211"" to=""212"" />
+			<date type=""published"" when=""2002-01-01"" />
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+",41,60c20ca67723bebd8664557c
+60c20ca67723bebd86645584,60c20ca67723bebd8664557c,' 11-1920-2 ',"and the DICHROWEB server (www.cryst.bbk.ac.uk/cdweb/html/home.html) (1, 40, 62).",DICHROWEB,NA,NA,www.cryst.bbk.ac.uk/cdweb/html/home.html,10.1128/jvi.01505-08,NA,Severe Acute Respiratory Syndrome Coronavirus nsp9 Dimerization Is Essential for Efficient Viral Growth,NA,Journal of Virology,JVI,journal-article,"['Immunology', 'Insect Science', 'Microbiology', 'Virology']",7,"[[2009, 1, 19]]",American Society for Microbiology,"[{'URL': 'https://syndication.highwire.org/content/doi/10.1128/JVI.01505-08', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",1909,5.103,111935,"[1001,12895]",17,"[9,350]",11,1920,2,"[{'offsetStart': 15868, 'normalizedForm': '(1', 'refKey': 0, 'label': '(1,', 'reference_id': {'$oid': '60c20ca67723bebd8664557d'}, 'offsetEnd': 15879, 'boundingBoxes': [{'x': 181.63, 'h': 6.489000000000033, 'y': 638.569, 'p': 3, 'w': 29.913250000000005}]}, {'offsetStart': 15868, 'normalizedForm': '40', 'refKey': 41, 'label': '40,', 'reference_id': {'$oid': '60c20ca67723bebd8664557e'}, 'offsetEnd': 15879, 'boundingBoxes': [{'x': 181.63, 'h': 6.489000000000033, 'y': 638.569, 'p': 3, 'w': 29.913250000000005}]}, {'offsetStart': 15868, 'normalizedForm': '62)', 'refKey': 64, 'label': '62)', 'reference_id': {'$oid': '60c20ca67723bebd8664557f'}, 'offsetEnd': 15879, 'boundingBoxes': [{'x': 181.63, 'h': 6.489000000000033, 'y': 638.569, 'p': 3, 'w': 29.913250000000005}]}]","['60c20ca67723bebd8664557d', '60c20ca67723bebd8664557e', '60c20ca67723bebd8664557f']",ref_id_3,60c20ca67723bebd8664557f,60c20ca67723bebd8664557f,"<biblStruct xml:id=""b64"">
+	<analytic>
+		<title level=""a"" type=""main"">Protein secondary structure analyses from circular dichroism spectroscopy: Methods and reference databases</title>
+		<author>
+			<persName><forename type=""first"">Lee</forename><surname>Whitmore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">B</forename><forename type=""middle"">A</forename><surname>Wallace</surname></persName>
+		</author>
+		<idno type=""DOI"">10.1002/bip.20853</idno>
+		<idno type=""PMID"">17896349</idno>
+		<idno type=""ark"">ark:/67375/WNG-QFVV9FRC-Q</idno>
+		<idno type=""istexId"">DDDDAB0081AB8D2234D9F36D43E22F70AD72E3F2</idno>
+	</analytic>
+	<monogr>
+		<title level=""j"">Biopolymers</title>
+		<title level=""j"" type=""abbrev"">Biopolymers</title>
+		<idno type=""ISSN"">0006-3525</idno>
+		<idno type=""ISSNe"">1097-0282</idno>
+		<imprint>
+			<biblScope unit=""volume"">89</biblScope>
+			<biblScope unit=""issue"">5</biblScope>
+			<biblScope unit=""page"" from=""392"" to=""400"" />
+			<date type=""published"" when=""2008"" />
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+",64,60c20ca67723bebd8664557c
+60c20d0f7723bebd86645643,60c20d0f7723bebd86645642,' 14-3006-11 ',rSWeeP: A R/Bioconductor package deal with SWeeP  sequences representation,rSWeeP,NA,NA,https,10.1101/2020.09.09.290247,4b3443fe3689e65a637843c68864136834c6317f,rSWeeP: A R/Bioconductor package deal with SWeeP sequences representation,NA,NA,NA,posted-content,NA,NA,"[[2020, 9, 10]]",Cold Spring Harbor Laboratory,"[{'URL': 'https://syndication.highwire.org/content/doi/10.1101/2020.09.09.290247', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",NA,NA,NA,No Impact Factor,23,"[9,350]",14,3006,11,NA,NA,NA,NA,NA,NA,NA,NA
+60c20d937723bebd8664570a,60c20d937723bebd86645704,' 14-535-12 ',and MATLAB_R2018a packages.,MATLAB_R,a,NA,NA,10.1101/839217,NA,Visualization of the HIV-1 Env Glycan Shield Across Scales,NA,NA,NA,posted-content,NA,NA,"[[2019, 11, 12]]",Cold Spring Harbor Laboratory,"[{'URL': 'https://syndication.highwire.org/content/doi/10.1101/839217', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",NA,NA,NA,No Impact Factor,15,"[9,350]",14,535,12,NA,NA,NA,NA,NA,NA,NA,NA
+60c20e637723bebd86645860,60c20e637723bebd8664585f,' 6-1098-0 ',"Generalized linear models (R stats v3.6.2) were used to estimate the correlation of population density, percent minority, percent uninsured and median income on median travel time, by county.",R stats,3.6.2,NA,NA,10.1093/jtm/taaa076,611387b274353b4e27c3f195a43a0ba66287d4be,Geographic access to United States SARS-CoV-2 testing sites highlights healthcare disparities and may bias transmission estimates,NA,Journal of Travel Medicine,NA,journal-article,['General Medicine'],7,"[[2020, 5, 15]]",Oxford University Press (OUP),"[{'URL': 'http://academic.oup.com/jtm/advance-article-pdf/doi/10.1093/jtm/taaa076/33418499/taaa076.pdf', 'content-version': 'am', 'intended-application': 'syndication', 'content-type': 'application/pdf'}, {'URL': 'http://academic.oup.com/jtm/article-pdf/27/7/taaa076/34162026/taaa076.pdf', 'content-version': 'vor', 'intended-application': 'syndication', 'content-type': 'application/pdf'}, {'URL': 'http://academic.oup.com/jtm/article-pdf/27/7/taaa076/34162026/taaa076.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",642,8.49,5260,"[101,1000]",1,"[0,1]",6,1098,0,NA,NA,NA,NA,NA,NA,NA,NA
+60c20e717723bebd86645866,60c20e717723bebd86645865,' 7-1800-1 ',GraphPad Prism software was used for statistical analysis.,GraphPad Prism,NA,NA,NA,10.1016/j.ijbiomac.2020.08.214,c0cec17423fdd2a5f03ae6994294a3e6e3377cb1,Degradation of bacterial permeability family member A1 (BPIFA1) by house dust mite (HDM) cysteine protease Der p 1 abrogates immune modulator function,NA,International Journal of Biological Macromolecules,International Journal of Biological Macromolecules,journal-article,"['Biochemistry', 'Molecular Biology', 'Structural Biology', 'General Medicine']",NA,"[[2020, 12]]",Elsevier BV,"[{'URL': 'https://api.elsevier.com/content/article/PII:S0141813020343129?httpAccept=text/xml', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/xml'}, {'URL': 'https://api.elsevier.com/content/article/PII:S0141813020343129?httpAccept=text/plain', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/plain'}]",978,6.953,79246,"[101,1000]",2,"[2,8]",7,1800,1,NA,NA,NA,NA,NA,NA,NA,NA
+60c20e7d7723bebd8664588f,60c20e7d7723bebd8664588e,' 7-2424-1 ',Noncompartmental analysis was performed in Kinetica version 5.1 (Thermo Scientific).,Kinetica,5.1,Thermo Scientific,NA,10.1165/rcmb.2016-0428oc,NA,Rhesus Î¸-Defensin-1 Attenuates Endotoxin-induced Acute Lung Injury by Inhibiting Proinflammatory Cytokines and Neutrophil Recruitment,NA,American Journal of Respiratory Cell and Molecular Biology,Am J Respir Cell Mol Biol,journal-article,"['Clinical Biochemistry', 'Cell Biology', 'Molecular Biology', 'Pulmonary and Respiratory Medicine']",3,"[[2018, 3]]",American Thoracic Society,"[{'URL': 'http://www.atsjournals.org/doi/pdf/10.1165/rcmb.2016-0428OC', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",994,6.914,15280,"[101,1000]",3,"[2,8]",7,2424,1,NA,NA,NA,NA,NA,NA,NA,NA
+60c20eae7723bebd866458ae,60c20eae7723bebd866458ad,' 14-1739-13 ',"The Parmap article describes a specific version of the Parmap library, the one that was used for the experiments reported in the article, so in order to support reproducibility of these results, we need to be able to pinpoint precisely the state(s) of the source code used in the article.",Parmap,NA,NA,.,10.1007/978-3-030-52200-1_36,f71dfe1f344ea2b6e3778f13f34be920a5ee5dc2,Archiving and Referencing Source Code with Software Heritage,NA,"Lecture Notes in Computer Science,Mathematical Software â€“ ICMS 2020",NA,book-chapter,NA,NA,[[2020]],Springer International Publishing,"[{'URL': 'http://link.springer.com/content/pdf/10.1007/978-3-030-52200-1_36', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",NA,NA,NA,No Impact Factor,16,"[9,350]",14,1739,13,NA,NA,NA,NA,NA,NA,NA,NA
+60c20edc7723bebd866458d1,60c20edc7723bebd866458cb,' 11-1531-9 ',"Primers were designed using PerlPrimer v1.21 (Smp_089320_ qF1 ATTGGATGGTTACATAGCAACTAC, qR1 CCATGGATCATTTGATTTGGGT) and assayed for efficiency at 1:0, 1:5, 1:25, and 1:100 cDNA concentrations.",PerlPrimer,1.21,NA,NA,10.1371/journal.pntd.0008517,NA,An iterative process produces oxamniquine derivatives that kill the major species of schistosomes infecting humans,NA,PLOS Neglected Tropical Diseases,PLoS Negl Trop Dis,journal-article,"['Public Health, Environmental and Occupational Health', 'Infectious Diseases']",8,"[[2020, 8, 18]]",Public Library of Science (PLoS),"[{'URL': 'https://dx.plos.org/10.1371/journal.pntd.0008517', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",2491,4.411,35321,"[1001,12895]",12,"[9,350]",11,1531,9,NA,NA,NA,NA,NA,NA,NA,NA
+60c20ee27723bebd866458e6,60c20ee27723bebd866458dd,' 14-1778-2 ',"These include RePast 3.1/Simphony (North and Macal 2007 ) , MASON (Luke et al. 2005 ) , NetLogo (Wilensky and Rand in press ) and Swarm (Minar et al. 1996 ) .",RePast,3.1,NA,NA,10.1007/978-90-481-8927-4_11,3a86c98c18ebf5cf65c6bf56db299b263d1524b5,Networks in Agent-Based Social Simulation,NA,Agent-Based Models of Geographical Systems,NA,book-chapter,NA,NA,"[[2011, 10, 19]]",Springer Netherlands,"[{'URL': 'http://link.springer.com/content/pdf/10.1007/978-90-481-8927-4_11', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",NA,NA,NA,No Impact Factor,16,"[9,350]",14,1778,2,NA,NA,NA,NA,NA,NA,NA,NA
+60c20ef57723bebd866458fe,60c20ef57723bebd866458fb,' 14-424-14 ',"dplyr (0.8.3), tidyr  (1.0.2) and lubridate (1.7.4).",dplyr,0.8.3,NA,NA,10.1101/2021.01.11.20248765,a0e54ed3bb93469d0c7e101e63dd6b6916e13e42,"Delayed bystander CD8 T cell activation, early immune pathology and persistent dysregulation characterise severe COVID-19",NA,NA,NA,posted-content,NA,NA,"[[2021, 1, 15]]",Cold Spring Harbor Laboratory,"[{'URL': 'https://syndication.highwire.org/content/doi/10.1101/2021.01.11.20248765', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",NA,NA,NA,No Impact Factor,27,"[9,350]",14,424,14,NA,NA,NA,NA,NA,NA,NA,NA
+60c20efa7723bebd8664591c,60c20efa7723bebd8664591b,' 11-727-21 ',"ProtParam tool [39] was applied for analyzing the physical and chemical properties of MEPVC such as amino acid composition, esti- mated half-life, instability index, extinction coefficient, theoretical pl, atomic composition, molecular weight, and grand average of hydro- pathicity (GRAVY) to assist experimental studies.",ProtParam,NA,NA,NA,10.1016/j.ejps.2020.105387,ecb0294384c896e760ecda0467f6cf8cce2fa18a,Design of a Novel Multi Epitope-Based Vaccine for Pandemic Coronavirus Disease (COVID-19) by Vaccinomics and Probable Prevention Strategy against Avenging Zoonotics,NA,European Journal of Pharmaceutical Sciences,European Journal of Pharmaceutical Sciences,journal-article,['Pharmaceutical Science'],NA,"[[2020, 8]]",Elsevier BV,"[{'URL': 'https://api.elsevier.com/content/article/PII:S0928098720301767?httpAccept=text/xml', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/xml'}, {'URL': 'https://api.elsevier.com/content/article/PII:S0928098720301767?httpAccept=text/plain', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/plain'}]",2524,4.384,18169,"[1001,12895]",26,"[9,350]",11,727,21,NA,NA,NA,NA,NA,NA,NA,NA
+60c20f167723bebd86645947,60c20f167723bebd86645941,' 14-932-16 ',"Nanopolish variants candidates were filtered directly with the ARTIC artic_vcf_filter tool, while Medaka candidates were evaluated by LongShot (0.4.1) 42 before filtering.",Nanopolish,NA,NA,NA,10.1101/2020.08.04.236893,c22f16a44dd6638ac71c3ccfd53870cc0c5c168e,Analytical validity of nanopore sequencing for rapid SARS-CoV-2 genome analysis,NA,NA,NA,posted-content,NA,NA,"[[2020, 8, 4]]",Cold Spring Harbor Laboratory,"[{'URL': 'https://syndication.highwire.org/content/doi/10.1101/2020.08.04.236893', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",NA,NA,NA,No Impact Factor,23,"[9,350]",14,932,16,"[{'offsetStart': 30978, 'normalizedForm': '41', 'refKey': 40, 'label': '41', 'reference_id': {'$oid': '60c20f167723bebd86645942'}, 'offsetEnd': 30981, 'boundingBoxes': [{'x': 372.796, 'h': 7.5002, 'y': 315.328, 'p': 7, 'w': 8.853}]}]",['60c20f167723bebd86645942'],ref_id_1,60c20f167723bebd86645942,60c20f167723bebd86645942,"<biblStruct xml:id=""b40"">
+	<analytic>
+		<title level=""a"" type=""main"">Detecting DNA cytosine methylation using nanopore sequencing</title>
+		<author>
+			<persName><forename type=""first"">J</forename><forename type=""middle"">T</forename><surname>Simpson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level=""j"">Nat Methods</title>
+		<imprint>
+			<biblScope unit=""volume"">14</biblScope>
+			<biblScope unit=""page"" from=""407"" to=""410"" />
+			<date type=""published"" when=""2017"" />
+		</imprint>
+	</monogr>
+</biblStruct>
+",40,60c20f167723bebd86645941
+60c20f487723bebd86645975,60c20f487723bebd86645974,' 11-432-5 ',ORFs were identified by NCBI ORF Finder (http://www.ncbi.nlm.nih.gov/ gorf/gorf.html);,ORF Finder,NA,NCBI,http://www.ncbi.nlm.nih.gov/ gorf/gorf.html,10.1371/journal.pone.0061950,4ce340ef89eb6535f11ace1d627d98e619e2d17b,Virome Profiling of Bats from Myanmar by Metagenomic Analysis of Tissue Samples Reveals More Novel Mammalian Viruses,NA,PLoS ONE,PLoS ONE,journal-article,"['General Biochemistry, Genetics and Molecular Biology', 'General Agricultural and Biological Sciences', 'General Medicine']",4,"[[2013, 4, 22]]",Public Library of Science (PLoS),"[{'URL': 'http://dx.plos.org/10.1371/journal.pone.0061950', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",4371,3.24,857723,"[1001,12895]",9,"[9,350]",11,432,5,NA,NA,NA,NA,NA,NA,NA,NA
+60c20f587723bebd86645983,60c20f587723bebd86645982,' 14-1090-6 ',"GOEA on each of the modules identified associated gene signatures  displaying distinct functional characteristics, which distinguish the different sample groups G1-G6 (Fig.  2d+S3, Table S3).",GOEA,NA,NA,NA,10.1101/2020.07.07.20148395,81113c7229e391e05822f0e3f63ae04eeacc9f19,Disease severity-specific neutrophil signatures in blood transcriptomes stratify COVID-19 patients,NA,NA,NA,posted-content,NA,NA,"[[2020, 7, 8]]",Cold Spring Harbor Laboratory,"[{'URL': 'https://syndication.highwire.org/content/doi/10.1101/2020.07.07.20148395', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",NA,NA,NA,No Impact Factor,33,"[9,350]",14,1090,6,NA,NA,NA,NA,NA,NA,NA,NA
+60c20f627723bebd866459a7,60c20f627723bebd866459a6,' 7-3332-0 ',"Google, Google Scholar, SCOPUS, Medline and Science Direct) which collate the scientific publications in the area.",Google,NA,NA,NA,10.1016/j.tourman.2008.04.011,046d0aa77b0bd84466bf4d62ab57dcdcd12b8a5a; 91078667d2610f66e288d4ef387d8f803aa0ab42,Current issue in tourism: The evolution of travel medicine research: A new research agenda for tourism?,NA,Tourism Management,Tourism Management,journal-article,"['Tourism, Leisure and Hospitality Management', 'Strategy and Management', 'Development', 'Transportation']",2,"[[2009, 4]]",Elsevier BV,"[{'URL': 'https://api.elsevier.com/content/article/PII:S0261517708000733?httpAccept=text/xml', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/xml'}, {'URL': 'https://api.elsevier.com/content/article/PII:S0261517708000733?httpAccept=text/plain', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/plain'}]",401,10.967,37117,"[101,1000]",2,"[2,8]",7,3332,0,NA,NA,NA,NA,NA,NA,NA,NA
+60c20fa87723bebd866459d6,60c20fa87723bebd866459d4,' 7-234-1 ',"We used the STATA program and a user-contributed package 'simarwilson' (Tauchmann, 2016).",STATA,NA,NA,NA,10.1016/j.tourman.2016.10.012,123b950346b7f85cfb8512130e5890761f0848b9; b542dea8b3a2d67a3321bc197e3b8dd3d4e45b11,Efficiency analysis of major cruise lines,NA,Tourism Management,Tourism Management,journal-article,"['Tourism, Leisure and Hospitality Management', 'Strategy and Management', 'Development', 'Transportation']",NA,"[[2017, 2]]",Elsevier BV,"[{'URL': 'https://api.elsevier.com/content/article/PII:S026151771630190X?httpAccept=text/xml', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/xml'}, {'URL': 'https://api.elsevier.com/content/article/PII:S026151771630190X?httpAccept=text/plain', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/plain'}]",401,10.967,37117,"[101,1000]",2,"[2,8]",7,234,1,NA,NA,NA,NA,NA,NA,NA,NA
+60c20fe57723bebd86645a02,60c20fe57723bebd86645a00,' 7-2891-4 ',Variant annotation and interpretation were performed with Ion Reporter Soft- ware v.5.10 (Thermo Fisher Scientific).,Ion Reporter Soft- ware,5.1,Thermo Fisher Scientific,NA,10.1186/s40478-020-00973-y,NA,High level MYCN amplification and distinct methylation signature define an aggressive subtype of spinal cord ependymoma,NA,Acta Neuropathologica Communications,acta neuropathol commun,journal-article,NA,1,"[[2020, 7, 8]]",Springer Science and Business Media LLC,"[{'URL': 'http://link.springer.com/content/pdf/10.1186/s40478-020-00973-y.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://link.springer.com/article/10.1186/s40478-020-00973-y/fulltext.html', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://link.springer.com/content/pdf/10.1186/s40478-020-00973-y.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",757,7.801,6580,"[101,1000]",5,"[2,8]",7,2891,4,NA,NA,NA,NA,NA,NA,NA,NA
+60c210337723bebd86645a33,60c210337723bebd86645a32,' 14-672-0 ',"MARRtino is a robot based on the Robot Operating System (ROS) 2 , thus exploiting all the available open-source components developed by the ROS community.",MARRtino,NA,NA,NA,10.1007/s10758-021-09508-3,de944e29797a5bf9c020bf793a9c72c7e62b3d79,Learning Newtonian Physics through Programming Robot Experiments,NA,"Technology, Knowledge and Learning",Tech Know Learn,journal-article,"['Human-Computer Interaction', 'Education', 'Mathematics (miscellaneous)', 'Computer Science Applications']",NA,"[[2021, 3, 18]]",Springer Science and Business Media LLC,"[{'URL': 'http://link.springer.com/content/pdf/10.1007/s10758-021-09508-3.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://link.springer.com/article/10.1007/s10758-021-09508-3/fulltext.html', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://link.springer.com/content/pdf/10.1007/s10758-021-09508-3.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",NA,NA,NA,No Impact Factor,11,"[9,350]",14,672,0,NA,NA,NA,NA,NA,NA,NA,NA
+60c2103c7723bebd86645a41,60c2103c7723bebd86645a40,' 14-2178-9 ',"The ""iTEM"" software used includes an automated image ""stitching"" module (MIA, multiple image alignment), but the usability for ultrastructural diagnostic purposes is very limited.",iTEM,NA,OSIS,NA,10.1007/978-3-540-85786-0_14,ba87a79cfd249b7f83e7faa66aaed47437da68fb,Ultrastructural Telepathology: Remote EM Diagnostic via Internet,NA,Telepathology,NA,book-chapter,NA,NA,[[2009]],Springer Berlin Heidelberg,"[{'URL': 'http://link.springer.com/content/pdf/10.1007/978-3-540-85786-0_14', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",NA,NA,NA,No Impact Factor,13,"[9,350]",14,2178,9,NA,NA,NA,NA,NA,NA,NA,NA
+60c2104a7723bebd86645a56,60c2104a7723bebd86645a53,' 11-1415-10 ',"Figures were generated using PyMOL (Delano, 2002).",PyMOL,NA,NA,NA,10.3389/fmicb.2020.581856,78e3ae3bfe1278c898acf0a98211ba8dd7435df2,Structural Characterization of Non-structural Protein 9 Complexed With Specific Nanobody Pinpoints Two Important Residues Involved in Porcine Reproductive and Respiratory Syndrome Virus Replication,NA,Frontiers in Microbiology,Front. Microbiol.,journal-article,"['Microbiology (medical)', 'Microbiology']",NA,"[[2020, 11, 12]]",Frontiers Media SA,"[{'URL': 'https://www.frontiersin.org/articles/10.3389/fmicb.2020.581856/full', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",1530,5.64,92879,"[1001,12895]",18,"[9,350]",11,1415,10,"[{'offsetStart': 17083, 'normalizedForm': 'Delano, 2002', 'refKey': 3, 'label': '(Delano, 2002)', 'reference_id': {'$oid': '60c2104a7723bebd86645a54'}, 'offsetEnd': 17097, 'boundingBoxes': [{'x': 139.913, 'h': 8.398000000000025, 'y': 584.292, 'p': 4, 'w': 54.98916666666665}]}]",['60c2104a7723bebd86645a54'],ref_id_1,60c2104a7723bebd86645a54,60c2104a7723bebd86645a54,"<biblStruct xml:id=""b3"">
+	<analytic>
+		<title level=""a"" type=""main"">The PyMol molecular graphics system</title>
+		<author>
+			<persName><forename type=""first"">W</forename><forename type=""middle"">L</forename><surname>Delano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level=""j"">Proteins Struct. Funct. Bioinform</title>
+		<imprint>
+			<biblScope unit=""volume"">30</biblScope>
+			<biblScope unit=""page"" from=""442"" to=""454"" />
+			<date type=""published"" when=""2002"" />
+		</imprint>
+	</monogr>
+</biblStruct>
+",3,60c2104a7723bebd86645a53
+60c2105e7723bebd86645a70,60c2105e7723bebd86645a6f,' 11-1576-22 ',"SAVE v5.0 server used five different algorithms (ERRAT, Prove, Procheck, Ramachandran plot and whatcheck) to validate and check the stereochemical quality and atomic interaction of predicted 3D structure.",SAVE,5,NA,https://servicesn.mbi.ucla.edu/SAVES,10.1007/s10529-020-02792-6,0bc0a39f973e3f8165b47831fc8b0922d5ced66f,"Development of HPV16,18,31,45 E5 and E7 peptides-based vaccines predicted by immunoinformatics tools",NA,Biotechnology Letters,Biotechnol Lett,journal-article,"['Biotechnology', 'General Medicine']",3,"[[2020, 1, 8]]",Springer Science and Business Media LLC,"[{'URL': 'http://link.springer.com/content/pdf/10.1007/s10529-020-02792-6.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://link.springer.com/article/10.1007/s10529-020-02792-6/fulltext.html', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://link.springer.com/content/pdf/10.1007/s10529-020-02792-6.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",6303,2.461,11671,"[1001,12895]",28,"[9,350]",11,1576,22,NA,NA,NA,NA,NA,NA,NA,NA
+60c210f47723bebd86645b89,60c210f47723bebd86645b87,' 7-252-1 ',"Statistical analyses were performed using GraphPad software  (GraphPad Software, Inc., La Jolla, CA, USA), R 23 and StatView version 5.0 (StatView Software, Cary, NC,  USA).",GraphPad,NA,"GraphPad Software, Inc",NA,10.3324/haematol.2020.250423,NA,"DUX4r, ZNF384r and PAX5-P80R mutated B-cell precursor acute lymphoblastic leukemia frequently undergo monocytic switch",NA,Haematologica,Haematologica,journal-article,['Hematology'],NA,"[[2020, 7, 9]]",Ferrata Storti Foundation (Haematologica),"[{'URL': 'https://syndication.highwire.org/content/doi/10.3324/haematol.2020.250423', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",474,9.941,23612,"[101,1000]",2,"[2,8]",7,252,1,NA,NA,NA,NA,NA,NA,NA,NA
+60c210f77723bebd86645b8e,60c210f77723bebd86645b8d,' 6-1252-0 ',"SPSS version 25.0 (IBM Corp., Armonk, NY, USA) was used for the statistical analysis.",SPSS,25,IBM Corp,NA,10.1016/j.jclinane.2021.110253,ac4a504403779cc4944118f3ba394f96a4a4d93d,Clear plastic bags effectively limit aerosolization and droplet spray during extubation in the era of COVID-19,NA,Journal of Clinical Anesthesia,Journal of Clinical Anesthesia,journal-article,['Anesthesiology and Pain Medicine'],NA,"[[2021, 8]]",Elsevier BV,"[{'URL': 'https://api.elsevier.com/content/article/PII:S095281802100091X?httpAccept=text/xml', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/xml'}, {'URL': 'https://api.elsevier.com/content/article/PII:S095281802100091X?httpAccept=text/plain', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/plain'}]",516,9.452,5577,"[101,1000]",1,"[0,1]",6,1252,0,NA,NA,NA,NA,NA,NA,NA,NA
+60c2110b7723bebd86645b99,60c2110b7723bebd86645b98,' 6-779-0 ',Une analyse morphologique de 10 fibres sÃ©lectionnÃ©es alÃ©atoirement dans les divers quadrants d'une image reprÃ©sentative de chaque Ã©chantillon a Ã©tÃ© rÃ©alisÃ©e Ã  l'insu avec ImageJ (https://imagej.nih.gov/ij/).,ImageJ,NA,NA,https://imagej.nih.gov/ij,10.1503/cmaj.201203-f,NA,"DÃ©sinfection Ã  la chaleur humide des respirateurs N95, inactivation du SRAS-CoV-2 et effets sur les propriÃ©tÃ©s des respirateurs",NA,Canadian Medical Association Journal,CMAJ,journal-article,['General Medicine'],49,"[[2020, 12, 6]]",Joule Inc.,"[{'URL': 'https://syndication.highwire.org/content/doi/10.1503/cmaj.201203-f', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",666,8.262,19683,"[101,1000]",1,"[0,1]",6,779,0,NA,NA,NA,NA,NA,NA,NA,NA
+60c211397723bebd86645be2,60c211397723bebd86645be1,' 7-2745-4 ',"Statistical analysis was performed with SPSS (SPSS Statis- tics 22.0, IBM).",SPSS,NA,NA,NA,10.1186/s13054-020-2834-6,ee721163e2db440749961010287cdf61de7bf301,"Changes in shunt, ventilation/perfusion mismatch, and lung aeration with PEEP in patients with ARDS: a prospective single-arm interventional study",NA,Critical Care,Crit Care,journal-article,['Critical Care and Intensive Care Medicine'],1,"[[2020, 3, 23]]",Springer Science and Business Media LLC,"[{'URL': 'http://link.springer.com/content/pdf/10.1186/s13054-020-2834-6.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://link.springer.com/article/10.1186/s13054-020-2834-6/fulltext.html', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://link.springer.com/content/pdf/10.1186/s13054-020-2834-6.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",559,9.097,34057,"[101,1000]",5,"[2,8]",7,2745,4,NA,NA,NA,NA,NA,NA,NA,NA
+60c211f77723bebd86645c40,60c211f77723bebd86645c3f,' 7-1214-1 ',"The Crystal BallÂ® software (Version 2000.2,",Crystal Ball,2000.2,"Decisionerring, Inc",NA,10.1016/j.scitotenv.2011.04.056,7ccfc3b4b4cb4c7966569d165a1b120698ed9b69,Fluctuation analysis-based risk assessment for respiratory virus activity and air pollution associated asthma incidence,NA,Science of The Total Environment,Science of The Total Environment,journal-article,NA,18,"[[2011, 8]]",Elsevier BV,"[{'URL': 'https://api.elsevier.com/content/article/PII:S0048969711005237?httpAccept=text/xml', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/xml'}, {'URL': 'https://api.elsevier.com/content/article/PII:S0048969711005237?httpAccept=text/plain', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/plain'}]",727,7.963,210143,"[101,1000]",2,"[2,8]",7,1214,1,NA,NA,NA,NA,NA,NA,NA,NA
+60c212467723bebd86645cd0,60c212467723bebd86645ccf,' 6-688-0 ',Voltages  affecting ion transmission and declustering were optimized to maximize MeSA.I -signal using the  Thuner software (Tofwerk).,Thuner,NA,Tofwerk,NA,10.1016/j.scitotenv.2020.141406,NA,The fate of methyl salicylate in the environment and its role as signal in multitrophic interactions,NA,Science of The Total Environment,Science of The Total Environment,journal-article,"['Environmental Engineering', 'Waste Management and Disposal', 'Pollution', 'Environmental Chemistry']",NA,"[[2020, 12]]",Elsevier BV,"[{'URL': 'https://api.elsevier.com/content/article/PII:S0048969720349354?httpAccept=text/xml', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/xml'}, {'URL': 'https://api.elsevier.com/content/article/PII:S0048969720349354?httpAccept=text/plain', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/plain'}]",727,7.963,210143,"[101,1000]",1,"[0,1]",6,688,0,NA,NA,NA,NA,NA,NA,NA,NA
+60c2126a7723bebd86645ce9,60c2126a7723bebd86645ce8,' 11-52-6 ',"Perl (http://www.perl.org),",Perl,NA,NA,http://www.perl.org,10.3389/fmicb.2017.02053,5a5dde5900813ecf3b68e226c3976cb2226ccf5b,miPepBase: A Database of Experimentally Verified Peptides Involved in Molecular Mimicry,NA,Frontiers in Microbiology,Front. Microbiol.,journal-article,"['Microbiology (medical)', 'Microbiology']",NA,"[[2017, 10, 23]]",Frontiers Media SA,"[{'URL': 'http://journal.frontiersin.org/article/10.3389/fmicb.2017.02053/full', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",1530,5.64,92879,"[1001,12895]",17,"[9,350]",11,52,6,NA,NA,NA,NA,NA,NA,NA,NA
+60c2129e7723bebd86645d05,60c2129e7723bebd86645d04,' 6-424-0 ',"All results were analyzed with SAS software (version 9.4; SAS Institute, Inc).",SAS,9.4,"SAS Institute, Inc",NA,10.1016/j.chest.2020.11.071,8c1dc530c856147e4450c1f6612bbb56dadba52e,Risk Factors of Viral RNAaemia and Its Association With Clinical Prognosis Among Patients With Severe COVID-19,NA,Chest,Chest,journal-article,"['Critical Care and Intensive Care Medicine', 'Pulmonary and Respiratory Medicine', 'Cardiology and Cardiovascular Medicine']",4,"[[2021, 4]]",Elsevier BV,"[{'URL': 'https://api.elsevier.com/content/article/PII:S0012369221000076?httpAccept=text/xml', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/xml'}, {'URL': 'https://api.elsevier.com/content/article/PII:S0012369221000076?httpAccept=text/plain', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/plain'}]",521,9.41,58778,"[101,1000]",1,"[0,1]",6,424,0,NA,NA,NA,NA,NA,NA,NA,NA
+60c212ca7723bebd86645d1d,60c212ca7723bebd86645d1c,' 6-1163-0 ',Analysis was performed with Microsoft Excel software.,Excel,NA,Microsoft,NA,10.1093/cid/ciaa635,c6fef018c531b49f1d72d90a56db27d20936ef07,Clinical Characteristics and Outcomes in People Living With Human Immunodeficiency Virus Hospitalized for Coronavirus Disease 2019,NA,Clinical Infectious Diseases,NA,journal-article,"['Microbiology (medical)', 'Infectious Diseases']",16,"[[2020, 5, 30]]",Oxford University Press (OUP),"[{'URL': 'http://academic.oup.com/cid/advance-article-pdf/doi/10.1093/cid/ciaa635/33402869/ciaa635.pdf', 'content-version': 'am', 'intended-application': 'syndication', 'content-type': 'application/pdf'}, {'URL': 'http://academic.oup.com/cid/article-pdf/71/16/2294/34393291/ciaa635.pdf', 'content-version': 'vor', 'intended-application': 'syndication', 'content-type': 'application/pdf'}, {'URL': 'http://academic.oup.com/cid/article-pdf/71/16/2294/34393291/ciaa635.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",562,9.079,89276,"[101,1000]",1,"[0,1]",6,1163,0,NA,NA,NA,NA,NA,NA,NA,NA
+60c212da7723bebd86645d2b,60c212da7723bebd86645d29,' 11-1813-14 ',Both GSEA and GPAR can achieve high performance.,GSEA,NA,NA,NA,10.1186/s12859-020-03915-6,b1ffe6d0129e8d33160b62d7bace0af3254e6c34,"Modeling drug mechanism of action with large scale gene-expression profiles using GPAR, an artificial intelligence platform",NA,BMC Bioinformatics,BMC Bioinformatics,journal-article,"['Biochemistry', 'Applied Mathematics', 'Molecular Biology', 'Structural Biology', 'Computer Science Applications']",1,"[[2021, 1, 7]]",Springer Science and Business Media LLC,"[{'URL': 'http://link.springer.com/content/pdf/10.1186/s12859-020-03915-6.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://link.springer.com/article/10.1186/s12859-020-03915-6/fulltext.html', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://link.springer.com/content/pdf/10.1186/s12859-020-03915-6.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",4537,3.169,43420,"[1001,12895]",16,"[9,350]",11,1813,14,NA,NA,NA,NA,NA,NA,NA,NA
+60c212de7723bebd86645d3c,60c212de7723bebd86645d3b,' 7-825-2 ',"In this paper, CovTANet, an end-to-end hybrid neural network is proposed, that is capable of performing precise segmentation of COVID lesions along with accurate diagnosis and severity predictions.",CovTANet,NA,NA,NA,10.1109/tii.2020.3048391,7e164fef04615b235805061c36547be24b9573f2,"CovTANet: A Hybrid Tri-level Attention Based Network for Lesion Segmentation, Diagnosis, and Severity Prediction of COVID-19 Chest CT Scans",NA,IEEE Transactions on Industrial Informatics,IEEE Trans. Ind. Inf.,journal-article,"['Control and Systems Engineering', 'Electrical and Electronic Engineering', 'Information Systems', 'Computer Science Applications']",NA,[[2021]],Institute of Electrical and Electronics Engineers (IEEE),"[{'URL': 'http://xplorestaging.ieee.org/ielx7/9424/4389054/09311781.pdf?arnumber=9311781', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",451,10.215,27020,"[101,1000]",3,"[2,8]",7,825,2,NA,NA,NA,NA,NA,NA,NA,NA
+60c212f77723bebd86645d73,60c212f77723bebd86645d72,' 6-2788-0 ',It can be found that the relative error between two  A validated CFD program STACH-3 developed by Li [22] was used as the simulation tool.,STACH,3,NA,NA,10.1016/j.jhazmat.2011.04.108,622bd073fbf343ce101d251eb01dd363f34cff63,A numerical method to determine the steady state distribution of passive contaminant in generic ventilation systems,NA,Journal of Hazardous Materials,Journal of Hazardous Materials,journal-article,"['Environmental Engineering', 'Waste Management and Disposal', 'Pollution', 'Health, Toxicology and Mutagenesis', 'Environmental Chemistry']",NA,"[[2011, 5]]",Elsevier BV,"[{'URL': 'https://api.elsevier.com/content/article/PII:S0304389411005474?httpAccept=text/xml', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/xml'}, {'URL': 'https://api.elsevier.com/content/article/PII:S0304389411005474?httpAccept=text/plain', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/plain'}]",425,10.588,137983,"[101,1000]",1,"[0,1]",6,2788,0,NA,NA,NA,NA,NA,NA,NA,NA
+60c213da7723bebd86645e6e,60c213da7723bebd86645e6d,' 6-1742-0 ',"The relationship between the number of effector cells and cytokine- positive cells on the one hand and age and FHA on the other hand were investigated with regression analysis for repeated measure- ments (using the Ã”proc mixedÃ• module from SAS 6.12 for windows; SAS, Cary, NC, USA).",SAS,6.12,SAS,NA,10.1111/j.1398-9995.2005.00684.x,c77095b067272c32df1d9a58a814980659737999,Age- and infection-related maturation of the nasal immune response in 0-2-year-old children,NA,Allergy,NA,journal-article,"['Immunology', 'Immunology and Allergy']",2,"[[2005, 2]]",Wiley,"[{'URL': 'https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fj.1398-9995.2005.00684.x', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'unspecified'}, {'URL': 'http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1398-9995.2005.00684.x/fullpdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",277,13.146,25131,"[101,1000]",1,"[0,1]",6,1742,0,NA,NA,NA,NA,NA,NA,NA,NA
+60c214c27723bebd86646016,60c214c27723bebd86646015,' 8-64-12 ',Prism V7.0 (GraphPad Software) and python were used for sta- tistical analysis.,Prism,7,GraphPad Software,NA,10.1126/sciimmunol.abe1670,7b05d24ce13c64cc03db7be6e396c2f46458dd31,MAIT cell activation and dynamics associated with COVID-19 disease severity,NA,Science Immunology,Sci. Immunol.,journal-article,NA,51,"[[2020, 9, 28]]",American Association for the Advancement of Science (AAAS),"[{'URL': 'https://syndication.highwire.org/content/doi/10.1126/sciimmunol.abe1670', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",171,17.727,5232,"[101,1000]",13,"[9,350]",8,64,12,NA,NA,NA,NA,NA,NA,NA,NA
+60c214d37723bebd8664603e,60c214d37723bebd8664603c,' 8-105-0 ',"The IQ-TREE Model Finder Plus option was used (Kalyaanamoorthy et al., 2017) which searches from a database of available nucleotide substitution models and selects the best fit to the analysis, command line:",IQ-TREE Model Finder Plus,NA,NA,NA,10.7554/elife.64618,NA,Genomic epidemiology of COVID-19 in care homes in the east of England,NA,eLife,NA,journal-article,"['General Biochemistry, Genetics and Molecular Biology', 'General Immunology and Microbiology', 'General Neuroscience', 'General Medicine']",NA,"[[2021, 3, 2]]","eLife Sciences Publications, Ltd","[{'URL': 'https://cdn.elifesciences.org/articles/64618/elife-64618-v2.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'https://cdn.elifesciences.org/articles/64618/elife-64618-v2.xml', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/xml'}]",686,8.14,68113,"[101,1000]",13,"[9,350]",8,105,0,NA,NA,NA,NA,NA,NA,NA,NA
+60c215b17723bebd86646107,60c215b17723bebd86646103,' 8-387-10 ',"SerialEM (Mastronarde, 2005) was used to acquire automated tilt-series at either 5,000 x or 30,000 x magnification.",SerialEM,NA,NA,NA,10.1016/j.neuron.2020.09.004,NA,Ultrastructural Imaging of Activity-Dependent Synaptic Membrane-Trafficking Events in Cultured Brain Slices,NA,Neuron,Neuron,journal-article,['General Neuroscience'],5,"[[2020, 12]]",Elsevier BV,"[{'URL': 'https://api.elsevier.com/content/article/PII:S0896627320307042?httpAccept=text/xml', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/xml'}, {'URL': 'https://api.elsevier.com/content/article/PII:S0896627320307042?httpAccept=text/plain', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/plain'}]",183,17.173,111115,"[101,1000]",20,"[9,350]",8,387,10,"[{'offsetStart': 112994, 'normalizedForm': 'Mastronarde, 2005', 'refKey': 46, 'label': '(Mastronarde, 2005)', 'reference_id': {'$oid': '60c215b17723bebd86646104'}, 'offsetEnd': 113014, 'boundingBoxes': [{'x': 394.993, 'h': 7.816100000000006, 'y': 430.432, 'p': 25, 'w': 76.17149999999998}]}]",['60c215b17723bebd86646104'],ref_id_1,60c215b17723bebd86646104,60c215b17723bebd86646104,"<biblStruct xml:id=""b46"">
+	<analytic>
+		<title level=""a"" type=""main"">Automated electron microscope tomography using robust prediction of specimen movements</title>
+		<author>
+			<persName><forename type=""first"">D</forename><forename type=""middle"">N</forename><surname>Mastronarde</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level=""j"">J. Struct. Biol</title>
+		<imprint>
+			<biblScope unit=""volume"">152</biblScope>
+			<biblScope unit=""page"" from=""36"" to=""51"" />
+			<date type=""published"" when=""2005"" />
+		</imprint>
+	</monogr>
+</biblStruct>
+",46,60c215b17723bebd86646103
+60c217027723bebd86646286,60c217027723bebd86646285,' 8-486-3 ',"MultiQC (v1.6a0) was run to summarize QC information for raw reads, QC processed reads, alignment, and gene count information.",MultiQC,1.6a0,NA,NA,10.7554/elife.54385,986f9b1742bffef83795a5fb9279f5f5d98f1d8a,Polyploidy in the adult Drosophila brain,NA,eLife,NA,journal-article,"['General Biochemistry, Genetics and Molecular Biology', 'General Immunology and Microbiology', 'General Neuroscience', 'General Medicine']",NA,"[[2020, 8, 25]]","eLife Sciences Publications, Ltd","[{'URL': 'https://cdn.elifesciences.org/articles/54385/elife-54385-v1.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'https://cdn.elifesciences.org/articles/54385/elife-54385-v1.xml', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/xml'}]",686,8.14,68113,"[101,1000]",13,"[9,350]",8,486,3,NA,NA,NA,NA,NA,NA,NA,NA
+60c217937723bebd86646353,60c217937723bebd86646351,' 8-0-7 ',"Reads were trimmed with Trim Galore version 0.6.5 (http:// www.bioinformatics.babraham.ac.uk/projects/trim_galore/) and mapped with Burrows-Wheeler Aligner 27 to the Wuhan-Hu-1 (MN908947) reference sequence, followed by primer trimming and consensus calling with iVar version 1.2.2 (ref. 28",Trim Galore,0.6.5,NA,http:// www.bioinformatics.babraham.ac.uk/projects/trim_galore,10.1038/s41564-020-00838-z,NA,Genomic epidemiology reveals multiple introductions of SARS-CoV-2 from mainland Europe into Scotland,NA,Nature Microbiology,Nat Microbiol,journal-article,"['Immunology', 'Microbiology (medical)', 'Applied Microbiology and Biotechnology', 'Genetics', 'Cell Biology', 'Microbiology']",1,"[[2020, 12, 21]]",Springer Science and Business Media LLC,"[{'URL': 'http://www.nature.com/articles/s41564-020-00838-z.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://www.nature.com/articles/s41564-020-00838-z', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://www.nature.com/articles/s41564-020-00838-z.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",168,17.745,15714,"[101,1000]",10,"[9,350]",8,0,7,NA,NA,NA,NA,NA,NA,NA,NA
+60c217dd7723bebd866463b6,60c217dd7723bebd866463b5,' 8-2-4 ',Programs Coot and Phenix.refine,Phenix.refine,NA,NA,NA,10.1016/j.chom.2017.08.011,02706a6b709b2f84acc105c6ef04d6196e2d30d3; 679e8e6f1a59eece58e4d3e2396ae97822d8aa9f; 3bacb937f044c8efc911f7cf77b4b525e2328ffe,A Potent Germline-like Human Monoclonal Antibody Targets a pH-Sensitive Epitope on H7N9 Influenza Hemagglutinin,NA,Cell Host & Microbe,Cell Host & Microbe,journal-article,"['Microbiology', 'Parasitology', 'Virology']",4,"[[2017, 10]]",Elsevier BV,"[{'URL': 'https://api.elsevier.com/content/article/PII:S193131281730344X?httpAccept=text/xml', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/xml'}, {'URL': 'https://api.elsevier.com/content/article/PII:S193131281730344X?httpAccept=text/plain', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/plain'}]",124,21.023,28716,"[101,1000]",11,"[9,350]",8,2,4,NA,NA,NA,NA,NA,NA,NA,NA
+60c217ed7723bebd866463cf,60c217ed7723bebd866463cb,' 8-356-9 ',"Galaxy web platform, and the public server at usegalaxy.org",Galaxy,0.6.3,NA,.,10.1371/journal.pbio.3001097,d178ef945b71bf356d35967e36a450ca8e7e66c6,Nonsense-mediated decay controls the reactivation of the oncogenic herpesviruses EBV and KSHV,NA,PLOS Biology,PLoS Biol,journal-article,"['General Biochemistry, Genetics and Molecular Biology', 'General Immunology and Microbiology', 'General Neuroscience', 'General Agricultural and Biological Sciences']",2,"[[2021, 2, 17]]",Public Library of Science (PLoS),"[{'URL': 'https://dx.plos.org/10.1371/journal.pbio.3001097', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",714,8.029,39598,"[101,1000]",15,"[9,350]",8,356,9,"[{'offsetStart': 64762, 'normalizedForm': '[65]', 'refKey': 64, 'label': '[65]', 'reference_id': {'$oid': '60c217ed7723bebd866463cc'}, 'offsetEnd': 64766, 'boundingBoxes': [{'x': 351.04, 'h': 8.5, 'y': 155.894, 'p': 18, 'w': 14.855999999999995}]}]",['60c217ed7723bebd866463cc'],ref_id_1,60c217ed7723bebd866463cc,60c217ed7723bebd866463cc,"<biblStruct xml:id=""b64"">
+	<analytic>
+		<title level=""a"" type=""main"">HISAT: a fast spliced aligner with low memory requirements</title>
+		<author>
+			<persName><forename type=""first"">Daehwan</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Ben</forename><surname>Langmead</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Steven</forename><forename type=""middle"">L</forename><surname>Salzberg</surname></persName>
+			<idno type=""ORCID"">0000-0002-8859-7432</idno>
+		</author>
+		<idno type=""DOI"">10.1038/nmeth.3317</idno>
+		<idno type=""PMID"">25751142</idno>
+		<idno type=""PMCID"">PMC4655817</idno>
+		<ptr type=""open-access"" target=""http://europepmc.org/articles/pmc4655817?pdf=render"" />
+		<ptr target=""https://doi.org/10.1038/nmeth.3317"" />
+	</analytic>
+	<monogr>
+		<title level=""j"">Nature Methods</title>
+		<title level=""j"" type=""abbrev"">Nat Methods</title>
+		<idno type=""ISSN"">1548-7091</idno>
+		<idno type=""ISSNe"">1548-7105</idno>
+		<imprint>
+			<biblScope unit=""volume"">12</biblScope>
+			<biblScope unit=""issue"">4</biblScope>
+			<biblScope unit=""page"" from=""357"" to=""360"" />
+			<date type=""published"" when=""2015-03-09"" />
+			<publisher>Springer Nature</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+",64,60c217ed7723bebd866463cb
+60c219417723bebd86646513,60c219417723bebd86646510,' 4-221-1 ',"In TOMCAT, the large-scale vertical transport was diagnosed from the divergence of the horizontal winds.",TOMCAT,NA,NA,NA,10.1038/s41586-021-03260-5,NA,A decline in global CFC-11 emissions during 2018âˆ’2019,NA,Nature,Nature,journal-article,['Multidisciplinary'],7846,"[[2021, 2, 10]]",Springer Science and Business Media LLC,"[{'URL': 'http://www.nature.com/articles/s41586-021-03260-5.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://www.nature.com/articles/s41586-021-03260-5', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://www.nature.com/articles/s41586-021-03260-5.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",22,49.962,915925,"[11,100]",3,"[2,8]",4,221,1,"[{'offsetStart': 37352, 'normalizedForm': '35', 'refKey': 19, 'label': '35,', 'reference_id': {'$oid': '60c219417723bebd86646511'}, 'offsetEnd': 37358, 'boundingBoxes': [{'x': 382.782, 'h': 4.930199999999957, 'y': 510.685, 'p': 6, 'w': 11.891300000000001}]}, {'offsetStart': 37352, 'normalizedForm': '36', 'refKey': 20, 'label': '36', 'reference_id': {'$oid': '60c219417723bebd86646512'}, 'offsetEnd': 37358, 'boundingBoxes': [{'x': 382.782, 'h': 4.930199999999957, 'y': 510.685, 'p': 6, 'w': 11.891300000000001}]}]","['60c219417723bebd86646511', '60c219417723bebd86646512']",ref_id_1,60c219417723bebd86646511,60c219417723bebd86646511,"<biblStruct xml:id=""b19"">
+	<analytic>
+		<title level=""a"" type=""main"">Quantifying the ozone and ultraviolet benefits already achieved by the Montreal Protocol</title>
+		<author>
+			<persName><forename type=""first"">M</forename><forename type=""middle"">P</forename><surname>Chipperfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">S</forename><forename type=""middle"">S</forename><surname>Dhomse</surname></persName>
+			<idno type=""ORCID"">0000-0003-3854-5383</idno>
+		</author>
+		<author>
+			<persName><forename type=""first"">W</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">R</forename><forename type=""middle"">L</forename><surname>Mckenzie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">G</forename><forename type=""middle"">J M</forename><surname>Velders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">J</forename><forename type=""middle"">A</forename><surname>Pyle</surname></persName>
+		</author>
+		<idno type=""DOI"">10.1038/ncomms8233</idno>
+		<idno type=""PMID"">26011106</idno>
+		<idno type=""PMCID"">PMC4455099</idno>
+		<ptr type=""open-access"" target=""https://www.nature.com/articles/ncomms8233.pdf"" />
+	</analytic>
+	<monogr>
+		<title level=""j"">Nature Communications</title>
+		<title level=""j"" type=""abbrev"">Nat Commun</title>
+		<idno type=""ISSNe"">2041-1723</idno>
+		<imprint>
+			<biblScope unit=""volume"">6</biblScope>
+			<biblScope unit=""issue"">1</biblScope>
+			<biblScope unit=""page"">7233</biblScope>
+			<date type=""published"" when=""2015-05-26"" />
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+",19,60c219417723bebd86646510
+60c219417723bebd86646513,60c219417723bebd86646510,' 4-221-1 ',"In TOMCAT, the large-scale vertical transport was diagnosed from the divergence of the horizontal winds.",TOMCAT,NA,NA,NA,10.1038/s41586-021-03260-5,NA,A decline in global CFC-11 emissions during 2018âˆ’2019,NA,Nature,Nature,journal-article,['Multidisciplinary'],7846,"[[2021, 2, 10]]",Springer Science and Business Media LLC,"[{'URL': 'http://www.nature.com/articles/s41586-021-03260-5.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://www.nature.com/articles/s41586-021-03260-5', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://www.nature.com/articles/s41586-021-03260-5.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",22,49.962,915925,"[11,100]",3,"[2,8]",4,221,1,"[{'offsetStart': 37352, 'normalizedForm': '35', 'refKey': 19, 'label': '35,', 'reference_id': {'$oid': '60c219417723bebd86646511'}, 'offsetEnd': 37358, 'boundingBoxes': [{'x': 382.782, 'h': 4.930199999999957, 'y': 510.685, 'p': 6, 'w': 11.891300000000001}]}, {'offsetStart': 37352, 'normalizedForm': '36', 'refKey': 20, 'label': '36', 'reference_id': {'$oid': '60c219417723bebd86646512'}, 'offsetEnd': 37358, 'boundingBoxes': [{'x': 382.782, 'h': 4.930199999999957, 'y': 510.685, 'p': 6, 'w': 11.891300000000001}]}]","['60c219417723bebd86646511', '60c219417723bebd86646512']",ref_id_2,60c219417723bebd86646512,60c219417723bebd86646512,"<biblStruct xml:id=""b20"">
+	<analytic>
+		<title level=""a"" type=""main"">Model sensitivity studies of the decrease in atmospheric carbon tetrachloride</title>
+		<author>
+			<persName><forename type=""first"">Martyn</forename><forename type=""middle"">P</forename><surname>Chipperfield</surname></persName>
+			<idno type=""ORCID"">0000-0002-6803-4149</idno>
+		</author>
+		<author>
+			<persName><forename type=""first"">Qing</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Matthew</forename><surname>Rigby</surname></persName>
+			<idno type=""ORCID"">0000-0002-2020-9253</idno>
+		</author>
+		<author>
+			<persName><forename type=""first"">Ryan</forename><surname>Hossaini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Stephen</forename><forename type=""middle"">A</forename><surname>Montzka</surname></persName>
+			<idno type=""ORCID"">0000-0002-9396-0400</idno>
+		</author>
+		<author>
+			<persName><forename type=""first"">Sandip</forename><surname>Dhomse</surname></persName>
+			<idno type=""ORCID"">0000-0003-3854-5383</idno>
+		</author>
+		<author>
+			<persName><forename type=""first"">Wuhu</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Ronald</forename><forename type=""middle"">G</forename><surname>Prinn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Ray</forename><forename type=""middle"">F</forename><surname>Weiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Christina</forename><forename type=""middle"">M</forename><surname>Harth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Peter</forename><forename type=""middle"">K</forename><surname>Salameh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Jens</forename><surname>MÃ¼hle</surname></persName>
+			<idno type=""ORCID"">0000-0001-9776-3642</idno>
+		</author>
+		<author>
+			<persName><forename type=""first"">Simon</forename><surname>O&amp;amp;Apos;Doherty</surname></persName>
+			<idno type=""ORCID"">0000-0002-4051-6760</idno>
+		</author>
+		<author>
+			<persName><forename type=""first"">Dickon</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Peter</forename><forename type=""middle"">G</forename><surname>Simmonds</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Paul</forename><forename type=""middle"">B</forename><surname>Krummel</surname></persName>
+			<idno type=""ORCID"">0000-0002-4884-3678</idno>
+		</author>
+		<author>
+			<persName><forename type=""first"">Paul</forename><forename type=""middle"">J</forename><surname>Fraser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">L</forename><forename type=""middle"">Paul</forename><surname>Steele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">James</forename><forename type=""middle"">D</forename><surname>Happell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Robert</forename><forename type=""middle"">C</forename><surname>Rhew</surname></persName>
+			<idno type=""ORCID"">0000-0001-6358-2050</idno>
+		</author>
+		<author>
+			<persName><forename type=""first"">James</forename><surname>Butler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Shari</forename><forename type=""middle"">A</forename><surname>Yvon-Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Bradley</forename><surname>Hall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">David</forename><surname>Nance</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Fred</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Ben</forename><forename type=""middle"">R</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">James</forename><forename type=""middle"">W</forename><surname>Elkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Jeremy</forename><forename type=""middle"">J</forename><surname>Harrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Chris</forename><forename type=""middle"">D</forename><surname>Boone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Elliot</forename><forename type=""middle"">L</forename><surname>Atlas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Emmanuel</forename><surname>Mahieu</surname></persName>
+			<idno type=""ORCID"">0000-0002-5251-0286</idno>
+		</author>
+		<idno type=""DOI"">10.5194/acp-16-15741-2016</idno>
+		<ptr type=""open-access"" target=""https://www.atmos-chem-phys.net/16/15741/2016/acp-16-15741-2016.pdf"" />
+	</analytic>
+	<monogr>
+		<title level=""j"">Atmospheric Chemistry and Physics</title>
+		<title level=""j"" type=""abbrev"">Atmos. Chem. Phys.</title>
+		<idno type=""ISSNe"">1680-7324</idno>
+		<imprint>
+			<biblScope unit=""volume"">16</biblScope>
+			<biblScope unit=""issue"">24</biblScope>
+			<biblScope unit=""page"" from=""15741"" to=""15754"" />
+			<date type=""published"" when=""2016-12-20"" />
+			<publisher>Copernicus GmbH</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+",20,60c219417723bebd86646510
+60c2199b7723bebd86646597,60c2199b7723bebd8664658f,' 8-410-3 ',Cytoscape (3.5.0) was used for visualizing the PPI subnetwork.,Cytoscape,3.5.0,NA,NA,10.1080/22221751.2020.1747363,c765a3e8bf40b0be2e5dc4dda54ddc3858da010d,Transcriptomic characteristics of bronchoalveolar lavage fluid and peripheral blood mononuclear cells in COVID-19 patients,NA,Emerging Microbes & Infections,Emerging Microbes & Infections,journal-article,"['Immunology', 'Epidemiology', 'Microbiology', 'Drug Discovery', 'Parasitology', 'Virology', 'Infectious Diseases', 'General Medicine']",1,"[[2020, 1, 1]]",Informa UK Limited,"[{'URL': 'https://www.tandfonline.com/doi/pdf/10.1080/22221751.2020.1747363', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",908,7.163,8988,"[101,1000]",11,"[9,350]",8,410,3,NA,NA,NA,NA,NA,NA,NA,NA
+60c21a7b7723bebd86646669,60c21a7b7723bebd8664665f,' 8-73-6 ',"With Relion-3.0,",Relion,3,NA,NA,10.1016/j.molcel.2020.09.008,NA,Structures of B.Â subtilis Maturation RNases Captured on 50S Ribosome with Pre-rRNAs,NA,Molecular Cell,Molecular Cell,journal-article,"['Cell Biology', 'Molecular Biology']",2,"[[2020, 10]]",Elsevier BV,"[{'URL': 'https://api.elsevier.com/content/article/PII:S109727652030616X?httpAccept=text/xml', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/xml'}, {'URL': 'https://api.elsevier.com/content/article/PII:S109727652030616X?httpAccept=text/plain', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/plain'}]",163,17.97,86299,"[101,1000]",15,"[9,350]",8,73,6,"[{'offsetStart': 46917, 'normalizedForm': 'Zivanov et al., 2018', 'refKey': 64, 'label': '(Zivanov et al., 2018)', 'reference_id': {'$oid': '60c21a7b7723bebd86646660'}, 'offsetEnd': 46940, 'boundingBoxes': [{'x': 282.79, 'h': 10.799999999999955, 'y': 711.544, 'p': 15, 'w': 104.29199999999997}]}]",['60c21a7b7723bebd86646660'],ref_id_1,60c21a7b7723bebd86646660,60c21a7b7723bebd86646660,"<biblStruct xml:id=""b64"">
+	<monogr>
+		<title level=""m"" type=""main"">RELION-3: new tools for automated high-resolution cryo-EM structure determination</title>
+		<author>
+			<persName><forename type=""first"">Jasenko</forename><surname>Zivanov</surname></persName>
+			<idno type=""ORCID"">0000-0001-8407-0759</idno>
+		</author>
+		<author>
+			<persName><forename type=""first"">Takanori</forename><surname>Nakane</surname></persName>
+			<idno type=""ORCID"">0000-0003-2697-2767</idno>
+		</author>
+		<author>
+			<persName><forename type=""first"">BjÃ¶rn</forename><surname>Forsberg</surname></persName>
+			<idno type=""ORCID"">0000-0002-6247-4063</idno>
+		</author>
+		<author>
+			<persName><forename type=""first"">Dari</forename><surname>Kimanius</surname></persName>
+			<idno type=""ORCID"">0000-0002-2662-6373</idno>
+		</author>
+		<author>
+			<persName><forename type=""first"">Wim</forename><forename type=""middle"">J H</forename><surname>Hagen</surname></persName>
+			<idno type=""ORCID"">0000-0001-6229-2692</idno>
+		</author>
+		<author>
+			<persName><forename type=""first"">Erik</forename><surname>Lindahl</surname></persName>
+			<idno type=""ORCID"">0000-0002-2734-2794</idno>
+		</author>
+		<author>
+			<persName><forename type=""first"">Sjors</forename><forename type=""middle"">H W</forename><surname>Scheres</surname></persName>
+			<idno type=""ORCID"">0000-0002-0462-6540</idno>
+		</author>
+		<idno type=""DOI"">10.1101/421123</idno>
+		<ptr type=""open-access"" target=""https://www.biorxiv.org/content/biorxiv/early/2018/09/19/421123.full.pdf"" />
+		<imprint>
+			<date type=""published"" when=""2018-09-19"" />
+			<publisher>Cold Spring Harbor Laboratory</publisher>
+			<biblScope unit=""page"">7</biblScope>
+		</imprint>
+	</monogr>
+	<note>determination in RELION-3. Elife. 7, e42166. Human MALT1 DD 2G7R(A), 5.0, 2.6 Ã…, 16% 3 Viral ks-vFLIP DED 3CL3(A), 4.7, 2.8 Ã…, 15% * 4 Human RAIDD DD 2OF5(A), 4.6, 2.4 Ã…</note>
+</biblStruct>
+",64,60c21a7b7723bebd8664665f
+60c224167723bebd86646f9b,60c224167723bebd86646f9a,' 4-226-1 ',"The PCA analysis was implemented in Scikit-learn 0.22.1 (https://scikit-learn.org/stable/), a powerful package for data mining and analysis.",Scikit-learn,0.22.1,NA,https://scikit-learn.org/stable,10.1016/j.immuni.2020.10.008,3fa9d837813bfc293979d863196a70b3433e67d4,Plasma Proteomics Identify Biomarkers and Pathogenesis of COVID-19,NA,Immunity,Immunity,journal-article,"['Immunology', 'Immunology and Allergy', 'Infectious Diseases']",5,"[[2020, 11]]",Elsevier BV,"[{'URL': 'https://api.elsevier.com/content/article/PII:S1074761320304490?httpAccept=text/xml', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/xml'}, {'URL': 'https://api.elsevier.com/content/article/PII:S1074761320304490?httpAccept=text/plain', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/plain'}]",54,31.745,70517,"[11,100]",7,"[2,8]",4,226,1,NA,NA,NA,NA,NA,NA,NA,NA
+60c22c137723bebd8664774d,60c22c137723bebd8664774b,' 4-62-1 ',"using MUSCLE (Edgar, 2004).",MUSCLE,NA,NA,NA,10.1016/j.cell.2020.06.011,7fc7186f7204e378f3a6737423ab5b6af621a42a,A SARS-CoV-2 Infection Model in Mice Demonstrates Protection by Neutralizing Antibodies,NA,Cell,Cell,journal-article,"['General Biochemistry, Genetics and Molecular Biology']",3,"[[2020, 8]]",Elsevier BV,"[{'URL': 'https://api.elsevier.com/content/article/PII:S009286742030742X?httpAccept=text/xml', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/xml'}, {'URL': 'https://api.elsevier.com/content/article/PII:S009286742030742X?httpAccept=text/plain', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/plain'}]",33,41.582,320407,"[11,100]",5,"[2,8]",4,62,1,"[{'offsetStart': 52071, 'normalizedForm': 'Edgar, 2004', 'refKey': 12, 'label': '(Edgar, 2004)', 'reference_id': {'$oid': '60c22c137723bebd8664774c'}, 'offsetEnd': 52085, 'boundingBoxes': [{'x': 522.804, 'h': 7.816100000000006, 'y': 386.609, 'p': 15, 'w': 27.073699999999917}, {'x': 59.7547, 'h': 7.816100000000006, 'y': 397.551, 'p': 15, 'w': 19.408416666666653}]}]",['60c22c137723bebd8664774c'],ref_id_1,60c22c137723bebd8664774c,60c22c137723bebd8664774c,"<biblStruct xml:id=""b12"">
+	<analytic>
+		<title level=""a"" type=""main"">MUSCLE: multiple sequence alignment with improved accuracy and speed</title>
+		<author>
+			<persName><forename type=""first"">R</forename><forename type=""middle"">C</forename><surname>Edgar</surname></persName>
+		</author>
+		<idno type=""DOI"">10.1109/csb.2004.1332560</idno>
+	</analytic>
+	<monogr>
+		<title level=""m"">Proceedings. 2004 IEEE Computational Systems Bioinformatics Conference, 2004. CSB 2004.</title>
+				<meeting>2004 IEEE Computational Systems Bioinformatics Conference, 2004. CSB 2004</meeting>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date>2004</date>
+			<biblScope unit=""volume"">32</biblScope>
+			<biblScope unit=""page"" from=""1792"" to=""1797"" />
+		</imprint>
+	</monogr>
+</biblStruct>
+",12,60c22c137723bebd8664774b
+60c23a597723bebd866487bc,60c23a597723bebd866487bb,' 4-32-1 ',"Using the Buxco FinePointe software, the primary cough data recorded were the Bias Flow of the system, the slope of the Bias flow, and the Delta Half Peak Crossing (DHPC) which is the time it takes to transition from the compression phase to the expulsive phase during respiration (Lomask and Larson, 2004).",Buxco FinePointe,NA,NA,NA,10.1016/j.cell.2020.02.026,b3528add37d78281040babe78cffa1b58a9c5b62,Mycobacterium tuberculosis Sulfolipid-1 Activates Nociceptive Neurons and Induces Cough,NA,Cell,Cell,journal-article,"['General Biochemistry, Genetics and Molecular Biology']",2,"[[2020, 4]]",Elsevier BV,"[{'URL': 'https://api.elsevier.com/content/article/PII:S0092867420301707?httpAccept=text/xml', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/xml'}, {'URL': 'https://api.elsevier.com/content/article/PII:S0092867420301707?httpAccept=text/plain', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/plain'}]",33,41.582,320407,"[11,100]",5,"[2,8]",4,32,1,NA,NA,NA,NA,NA,NA,NA,NA
+60c23c9d7723bebd86648acf,60c23c9d7723bebd86648ace,' 4-65-1 ',"Analyses were performed using SPSS Statistics, version 26 (IBM, Armonk, NY, USA).",SPSS Statistics,26,IBM,NA,10.1093/eurheartj/ehab075,bb00627c3e912c78c8003b769eb1bc87d8eee475,Patterns of myocardial injury in recovered troponin-positive COVID-19 patients assessed by cardiovascular magnetic resonance,NA,European Heart Journal,NA,journal-article,['Cardiology and Cardiovascular Medicine'],NA,"[[2021, 2, 18]]",Oxford University Press (OUP),"[{'URL': 'http://academic.oup.com/eurheartj/advance-article-pdf/doi/10.1093/eurheartj/ehab075/36298672/ehab075.pdf', 'content-version': 'vor', 'intended-application': 'syndication', 'content-type': 'application/pdf'}, {'URL': 'http://academic.oup.com/eurheartj/advance-article-pdf/doi/10.1093/eurheartj/ehab075/36298672/ehab075.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",61,29.983,81447,"[11,100]",3,"[2,8]",4,65,1,NA,NA,NA,NA,NA,NA,NA,NA
+60c23cc17723bebd86648aff,60c23cc17723bebd86648afe,' 4-98-4 ',"Pymol (1.7.6.0),",Pymol,1.7.6.0,NA,NA,10.1038/s41586-020-2601-5,cde23d9ae7e093b37b1cf3df20cb0c7b2cd4f06d,Papain-like protease regulates SARS-CoV-2 viral spread and innate immunity,NA,Nature,Nature,journal-article,['Multidisciplinary'],7835,"[[2020, 7, 29]]",Springer Science and Business Media LLC,"[{'URL': 'http://www.nature.com/articles/s41586-020-2601-5.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://www.nature.com/articles/s41586-020-2601-5', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://www.nature.com/articles/s41586-020-2601-5.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",22,49.962,915925,"[11,100]",8,"[2,8]",4,98,4,NA,NA,NA,NA,NA,NA,NA,NA
+60c242f77723bebd866493a3,60c242f77723bebd866493a1,' 4-138-1 ',using Bowtie2 version 2.2.9 19 with parameters --local --no-mixed -X 1500.,Bowtie,2.2.9,NA,NA,10.1038/s41586-020-2423-5,6c91e25d614ed7b33dab9f23169d319d8d36b0f1,Clinical benefit of remdesivir in rhesus macaques infected with SARS-CoV-2,NA,Nature,Nature,journal-article,['Multidisciplinary'],7824,"[[2020, 6, 9]]",Springer Science and Business Media LLC,"[{'URL': 'http://www.nature.com/articles/s41586-020-2423-5.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://www.nature.com/articles/s41586-020-2423-5', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://www.nature.com/articles/s41586-020-2423-5.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",22,49.962,915925,"[11,100]",5,"[2,8]",4,138,1,"[{'offsetStart': 26890, 'normalizedForm': '19', 'refKey': 16, 'label': '19', 'reference_id': {'$oid': '60c242f77723bebd866493a2'}, 'offsetEnd': 26893, 'boundingBoxes': [{'x': 324.869, 'h': 7.2, 'y': 423.602, 'p': 8, 'w': 8}]}]",['60c242f77723bebd866493a2'],ref_id_1,60c242f77723bebd866493a2,60c242f77723bebd866493a2,"<biblStruct xml:id=""b16"">
+	<analytic>
+		<title level=""a"" type=""main"">Fast gapped-read alignment with Bowtie 2</title>
+		<author>
+			<persName><forename type=""first"">B</forename><surname>Langmead</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">S</forename><forename type=""middle"">L</forename><surname>Salzberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level=""j"">Nat Methods</title>
+		<imprint>
+			<biblScope unit=""volume"">9</biblScope>
+			<biblScope unit=""page"" from=""357"" to=""359"" />
+			<date type=""published"" when=""2012"" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 22388286</note>
+</biblStruct>
+",16,60c242f77723bebd866493a1
+60c2461b7723bebd866496f0,60c2461b7723bebd866496ef,' 4-136-2 ',"One popular choice is Adobe Scan, which offers OCR in 19 languages, including English, Spanish, Japanese and Korean, as well as tradi- tional and simplified Chinese characters.",Adobe Scan,NA,NA,NA,10.1038/d41586-020-02728-0,NA,How to digitize your lab notebooks,NA,Nature,Nature,journal-article,['Multidisciplinary'],7827,"[[2020, 9, 28]]",Springer Science and Business Media LLC,"[{'URL': 'http://www.nature.com/articles/d41586-020-02728-0.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://www.nature.com/articles/d41586-020-02728-0', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://www.nature.com/articles/d41586-020-02728-0.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",22,49.962,915925,"[11,100]",8,"[2,8]",4,136,2,NA,NA,NA,NA,NA,NA,NA,NA
+60c24b9c7723bebd86649c9e,60c24b9c7723bebd86649c9c,' 4-137-0 ',Relative fold changes were computed using  Cuffdiff at an FDR of 0.05.,Cuffdiff,NA,NA,NA,10.1016/j.immuni.2015.10.013,b148ad2c5007b9270a1a28b0f23ceb16a21f1796; 2034ca5a9941b6e3d8b0ba9280a5b2fae192778d; 96c1bc8e891b94c919d20cd97d00b3790fc6d2b3,Superoxide Dismutase 1 Protects Hepatocytes from Type I Interferon-Driven Oxidative Damage,NA,Immunity,Immunity,journal-article,NA,5,"[[2015, 11]]",Elsevier BV,"[{'URL': 'https://api.elsevier.com/content/article/PII:S1074761315004380?httpAccept=text/xml', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/xml'}, {'URL': 'https://api.elsevier.com/content/article/PII:S1074761315004380?httpAccept=text/plain', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/plain'}]",54,31.745,70517,"[11,100]",8,"[2,8]",4,137,0,NA,NA,NA,NA,NA,NA,NA,NA
+60c250877723bebd8664a2e5,60c250877723bebd8664a2e4,' 5-13-9 ',The ImarisCell module determines  the cell threshold by calculating voxel (3D pixel) intensities from the enclosed cells and comparing  them with the background intensity in the enclosed sub-regions.,ImarisCell,NA,NA,NA,10.1093/eurheartj/ehaa733,46c607d07c112920e56eb56be5f322c2168c2cb4,Metoprolol exerts a non-class effect against ischaemiaâ€“reperfusion injury by abrogating exacerbated inflammation,NA,European Heart Journal,NA,journal-article,['Cardiology and Cardiovascular Medicine'],46,"[[2020, 10, 7]]",Oxford University Press (OUP),"[{'URL': 'http://academic.oup.com/eurheartj/article-pdf/41/46/4425/36177506/ehaa733.pdf', 'content-version': 'vor', 'intended-application': 'syndication', 'content-type': 'application/pdf'}, {'URL': 'http://academic.oup.com/eurheartj/article-pdf/41/46/4425/36177506/ehaa733.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",61,29.983,81447,"[11,100]",20,"[9,350]",5,13,9,NA,NA,NA,NA,NA,NA,NA,NA
+60c251be7723bebd8664a426,60c251be7723bebd8664a425,' 5-81-3 ',FuncAssociate 3.0 (http://llama.mshri.on.ca/funcassociate/) was used at its default settings for term calling.,FuncAssociate,3,NA,http://llama.mshri.on.ca/funcassociate,10.1038/s41586-020-2536-x,a963a10bb07f2a0e25439af526437ca3c27afa71,The changing mouse embryo transcriptome at whole tissue and single-cell resolution,NA,Nature,Nature,journal-article,['Multidisciplinary'],7818,"[[2020, 7, 29]]",Springer Science and Business Media LLC,"[{'URL': 'http://www.nature.com/articles/s41586-020-2536-x.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://www.nature.com/articles/s41586-020-2536-x', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://www.nature.com/articles/s41586-020-2536-x.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",22,49.962,915925,"[11,100]",9,"[9,350]",5,81,3,NA,NA,NA,NA,NA,NA,NA,NA
+60c2571a7723bebd8664a997,60c2571a7723bebd8664a993,' 5-35-10 ',STAR: ultrafast universal RNA-seq aligner.,STAR,2.5.1a,NA,NA,10.1016/j.cell.2021.02.026,3c4c83bac41da84c77416f4a24791e6def038061,Human neutralizing antibodies against SARS-CoV-2 require intact Fc effector functions for optimal therapeutic protection,NA,Cell,Cell,journal-article,"['General Biochemistry, Genetics and Molecular Biology']",7,"[[2021, 4]]",Elsevier BV,"[{'URL': 'https://api.elsevier.com/content/article/PII:S0092867421001768?httpAccept=text/xml', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/xml'}, {'URL': 'https://api.elsevier.com/content/article/PII:S0092867421001768?httpAccept=text/plain', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/plain'}]",33,41.582,320407,"[11,100]",12,"[9,350]",5,35,10,NA,NA,NA,NA,NA,NA,NA,NA
+60c258ca7723bebd8664ab3d,60c258ca7723bebd8664ab3c,' 3-154-0 ',"Biological network analysis was performed using the Ingenuity Systems (Redwood City, CA) Ingenuity Pathway Analysis program and showed statistical significance when assessed using Fisher's exact test, which was used to calculate a P value determining the probability that each biological function and/or disease assigned to that dataset was due to chance alone.",Ingenuity Pathway Analysis,NA,NA,NA,10.1038/nbt1207-1383,7537b86c4f0c75491fa689eb15b504f464643a1e,Systems biology and the host response to viral infection,NA,Nature Biotechnology,Nat Biotechnol,journal-article,"['Biotechnology', 'Molecular Medicine', 'Applied Microbiology and Biotechnology', 'Bioengineering', 'Biomedical Engineering']",12,"[[2007, 12]]",Springer Science and Business Media LLC,"[{'URL': 'http://www.nature.com/articles/nbt1207-1383.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://www.nature.com/articles/nbt1207-1383', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://www.nature.com/articles/nbt1207-1383.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",15,54.908,78786,"[11,100]",1,"[0,1]",3,154,0,NA,NA,NA,NA,NA,NA,NA,NA
+60c25ac67723bebd8664ad3c,60c25ac67723bebd8664ad3b,' 3-61-0 ',And NtechLab launched the FindFace app in 2016 to permit face-matching on the Russian social network VK.,FindFace,NA,NtechLab,NA,10.1038/d41586-020-03188-2,NA,Resisting the rise of facial recognition,NA,Nature,Nature,journal-article,['Multidisciplinary'],7834,"[[2020, 11, 18]]",Springer Science and Business Media LLC,"[{'URL': 'http://www.nature.com/articles/d41586-020-03188-2.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://www.nature.com/articles/d41586-020-03188-2', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://www.nature.com/articles/d41586-020-03188-2.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",22,49.962,915925,"[11,100]",1,"[0,1]",3,61,0,NA,NA,NA,NA,NA,NA,NA,NA
+60c25cb87723bebd8664aedc,60c25cb87723bebd8664aedb,' 3-79-0 ',"Analyses were performed with Stata, version 14 (Stata Corp., College Station, TX, USA).",Stata,14,Stata Corp,NA,10.1093/eurheartj/ehaa388,c0d473aba76cc26e6a8db62370989fbbcbc9ed53,Characteristics and outcomes of patients hospitalized for COVID-19 and cardiac disease in Northern Italy,NA,European Heart Journal,NA,journal-article,['Cardiology and Cardiovascular Medicine'],19,"[[2020, 5, 8]]",Oxford University Press (OUP),"[{'URL': 'http://academic.oup.com/eurheartj/article-pdf/41/19/1821/33535558/ehaa388.pdf', 'content-version': 'vor', 'intended-application': 'syndication', 'content-type': 'application/pdf'}, {'URL': 'http://academic.oup.com/eurheartj/article-pdf/41/19/1821/33535558/ehaa388.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",61,29.983,81447,"[11,100]",1,"[0,1]",3,79,0,NA,NA,NA,NA,NA,NA,NA,NA
+60c25ec07723bebd8664b21e,60c25ec07723bebd8664b217,' 5-41-4 ',"deconvolved using UniDec ver- sions 3.2 and 4.1 (Marty et al., 2015; Reid et al., 2019) and plotted using the m/z software (Proteometrics LLC, New York, NY).",UniDec,3.2 and 4.1,Thermo,NA,10.1016/j.cell.2020.07.033,f149236453e2cb5a9f253f30f6d53fa9a506f640,Structural Basis for Helicase-Polymerase Coupling in the SARS-CoV-2 Replication-Transcription Complex,NA,Cell,Cell,journal-article,"['General Biochemistry, Genetics and Molecular Biology']",6,"[[2020, 9]]",Elsevier BV,"[{'URL': 'https://api.elsevier.com/content/article/PII:S0092867420309417?httpAccept=text/xml', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/xml'}, {'URL': 'https://api.elsevier.com/content/article/PII:S0092867420309417?httpAccept=text/plain', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/plain'}]",33,41.582,320407,"[11,100]",13,"[9,350]",5,41,4,"[{'offsetStart': 100140, 'normalizedForm': '(Marty et al., 2015', 'refKey': 54, 'label': '(Marty et al., 2015;', 'reference_id': {'$oid': '60c25ec07723bebd8664b218'}, 'offsetEnd': 100180, 'boundingBoxes': [{'x': 117.805, 'h': 7.816100000000006, 'y': 649.607, 'p': 22, 'w': 132.4834}]}, {'offsetStart': 100140, 'normalizedForm': 'Reid et al., 2019)', 'refKey': 67, 'label': 'Reid et al., 2019)', 'reference_id': {'$oid': '60c25ec07723bebd8664b219'}, 'offsetEnd': 100180, 'boundingBoxes': [{'x': 117.805, 'h': 7.816100000000006, 'y': 649.607, 'p': 22, 'w': 132.4834}]}]","['60c25ec07723bebd8664b218', '60c25ec07723bebd8664b219']",ref_id_1,60c25ec07723bebd8664b218,60c25ec07723bebd8664b218,"<biblStruct xml:id=""b54"">
+	<analytic>
+		<title level=""a"" type=""main"">Bayesian deconvolution of mass and ion mobility spectra: from binary interactions to polydisperse ensembles</title>
+		<author>
+			<persName><forename type=""first"">Article</forename><surname>Marty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">M</forename><forename type=""middle"">T</forename><surname>Baldwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">A</forename><forename type=""middle"">J</forename><surname>Marklund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">E</forename><forename type=""middle"">G</forename><surname>Hochberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">G</forename><forename type=""middle"">K A</forename><surname>Benesch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">J</forename><forename type=""middle"">L P</forename></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Robinson</forename></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">C</forename><forename type=""middle"">V</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level=""j"">Anal. Chem</title>
+		<imprint>
+			<biblScope unit=""volume"">87</biblScope>
+			<biblScope unit=""page"" from=""4370"" to=""4376"" />
+			<date type=""published"" when=""2015"" />
+		</imprint>
+	</monogr>
+</biblStruct>
+",54,60c25ec07723bebd8664b217
+60c25ec07723bebd8664b21e,60c25ec07723bebd8664b217,' 5-41-4 ',"deconvolved using UniDec ver- sions 3.2 and 4.1 (Marty et al., 2015; Reid et al., 2019) and plotted using the m/z software (Proteometrics LLC, New York, NY).",UniDec,3.2 and 4.1,Thermo,NA,10.1016/j.cell.2020.07.033,f149236453e2cb5a9f253f30f6d53fa9a506f640,Structural Basis for Helicase-Polymerase Coupling in the SARS-CoV-2 Replication-Transcription Complex,NA,Cell,Cell,journal-article,"['General Biochemistry, Genetics and Molecular Biology']",6,"[[2020, 9]]",Elsevier BV,"[{'URL': 'https://api.elsevier.com/content/article/PII:S0092867420309417?httpAccept=text/xml', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/xml'}, {'URL': 'https://api.elsevier.com/content/article/PII:S0092867420309417?httpAccept=text/plain', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/plain'}]",33,41.582,320407,"[11,100]",13,"[9,350]",5,41,4,"[{'offsetStart': 100140, 'normalizedForm': '(Marty et al., 2015', 'refKey': 54, 'label': '(Marty et al., 2015;', 'reference_id': {'$oid': '60c25ec07723bebd8664b218'}, 'offsetEnd': 100180, 'boundingBoxes': [{'x': 117.805, 'h': 7.816100000000006, 'y': 649.607, 'p': 22, 'w': 132.4834}]}, {'offsetStart': 100140, 'normalizedForm': 'Reid et al., 2019)', 'refKey': 67, 'label': 'Reid et al., 2019)', 'reference_id': {'$oid': '60c25ec07723bebd8664b219'}, 'offsetEnd': 100180, 'boundingBoxes': [{'x': 117.805, 'h': 7.816100000000006, 'y': 649.607, 'p': 22, 'w': 132.4834}]}]","['60c25ec07723bebd8664b218', '60c25ec07723bebd8664b219']",ref_id_2,60c25ec07723bebd8664b219,60c25ec07723bebd8664b219,"<biblStruct xml:id=""b67"">
+	<analytic>
+		<title level=""a"" type=""main"">MetaUniDec: High-Throughput Deconvolution of Native Mass Spectra</title>
+		<author>
+			<persName><forename type=""first"">Deseree</forename><forename type=""middle"">J</forename><surname>Reid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Jessica</forename><forename type=""middle"">M</forename><surname>Diesing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Matthew</forename><forename type=""middle"">A</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Scott</forename><forename type=""middle"">M</forename><surname>Perry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Jessica</forename><forename type=""middle"">A</forename><surname>Wales</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">William</forename><forename type=""middle"">R</forename><surname>Montfort</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Michael</forename><forename type=""middle"">T</forename><surname>Marty</surname></persName>
+			<idno type=""ORCID"">0000-0001-8115-1772</idno>
+		</author>
+		<idno type=""DOI"">10.1007/s13361-018-1951-9</idno>
+		<idno type=""PMID"">29667162</idno>
+	</analytic>
+	<monogr>
+		<title level=""j"">Journal of The American Society for Mass Spectrometry</title>
+		<title level=""j"" type=""abbrev"">J. Am. Soc. Mass Spectrom.</title>
+		<idno type=""ISSN"">1044-0305</idno>
+		<idno type=""ISSNe"">1879-1123</idno>
+		<imprint>
+			<biblScope unit=""volume"">30</biblScope>
+			<biblScope unit=""issue"">1</biblScope>
+			<biblScope unit=""page"" from=""118"" to=""127"" />
+			<date type=""published"" when=""2018-04-17"" />
+			<publisher>Springer Nature</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+",67,60c25ec07723bebd8664b217
+60c26f867723bebd8664c587,60c26f867723bebd8664c586,' 3-48-0 ',Both patients had relatively independent distributions of cell subsets by t-distributed stochastic neigh- bor embedding and PhenoGraph analysis.,PhenoGraph,NA,NA,NA,10.7326/l20-0227,eb4f27fb2f1694d07befe341750db11d555bb1ef,Inflammatory Response Cells During Acute Respiratory Distress Syndrome in Patients With Coronavirus Disease 2019 (COVID-19),NA,Annals of Internal Medicine,Annals of Internal Medicine,journal-article,"['Internal Medicine', 'General Medicine']",5,"[[2020, 9, 1]]",American College of Physicians,"[{'URL': 'https://annals.org/aim/fullarticle/2764744/inflammatory-response-cells-during-acute-respiratory-distress-syndrome-patients-coronavirus', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",86,25.391,72588,"[11,100]",1,"[0,1]",3,48,0,NA,NA,NA,NA,NA,NA,NA,NA
+60c276037723bebd8664cc2a,60c276037723bebd8664cc29,' 5-50-7 ',"pandas v0.25.0,",pandas,0.25.0,NA,NA,10.1038/s41591-021-01292-y,NA,Attributes and predictors of long COVID,NA,Nature Medicine,Nat Med,journal-article,"['General Biochemistry, Genetics and Molecular Biology', 'General Medicine']",NA,"[[2021, 3, 10]]",Springer Science and Business Media LLC,"[{'URL': 'http://www.nature.com/articles/s41591-021-01292-y.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://www.nature.com/articles/s41591-021-01292-y', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://www.nature.com/articles/s41591-021-01292-y.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",18,53.44,114401,"[11,100]",13,"[9,350]",5,50,7,NA,NA,NA,NA,NA,NA,NA,NA
+60c27a0b7723bebd8664d3f4,60c27a0b7723bebd8664d3f3,' 3-102-0 ',"To characterize the diversity in gene usage and affinity maturation, the phylogenetic trees of these S-ECD-specific mAbs were analyzed on the basis of the amino acid sequences of VHDJH and VLJL by using a neighbor-joining method in MEGA7 Software (38).",MEGA,7,NA,NA,10.1126/science.abc6952,NA,A neutralizing human antibody binds to the N-terminal domain of the Spike protein of SARS-CoV-2,NA,Science,Science,journal-article,['Multidisciplinary'],6504,"[[2020, 6, 22]]",American Association for the Advancement of Science (AAAS),"[{'URL': 'https://syndication.highwire.org/content/doi/10.1126/science.abc6952', 'content-version': 'vor', 'intended-application': 'syndication', 'content-type': 'unspecified'}, {'URL': 'https://syndication.highwire.org/content/doi/10.1126/science.abc6952', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",25,47.728,814971,"[11,100]",1,"[0,1]",3,102,0,NA,NA,NA,NA,NA,NA,NA,NA
+60c284c47723bebd8664deae,60c284c47723bebd8664deab,' 5-78-9 ',BAM files were examined with QualiMap (Version 2.2.2-dev) and multiqc.,QualiMap,2.2.2-dev,NA,NA,10.1126/science.abe6230,2c9208b279b38687052d6dfe47c196e6951e968f,Structure-guided multivalent nanobodies block SARS-CoV-2 infection and suppress mutational escape,NA,Science,Science,journal-article,['Multidisciplinary'],6530,"[[2021, 1, 12]]",American Association for the Advancement of Science (AAAS),"[{'URL': 'https://syndication.highwire.org/content/doi/10.1126/science.abe6230', 'content-version': 'vor', 'intended-application': 'syndication', 'content-type': 'unspecified'}, {'URL': 'https://syndication.highwire.org/content/doi/10.1126/science.abe6230', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",25,47.728,814971,"[11,100]",22,"[9,350]",5,78,9,NA,NA,NA,NA,NA,NA,NA,NA
+60c293a37723bebd8664ed68,60c293a37723bebd8664ed67,' 3-189-0 ',Data were analyzed in Python 3.5,Python,3.5,NA,NA,10.1038/s41591-020-0857-9,89b21cace5dcf0fef4df9ab534ff19b3651baaae,A framework for identifying regional outbreak and spread of COVID-19 from one-minute population-wide surveys,NA,Nature Medicine,Nat Med,journal-article,"['General Biochemistry, Genetics and Molecular Biology', 'General Medicine']",5,"[[2020, 4, 9]]",Springer Science and Business Media LLC,"[{'URL': 'http://www.nature.com/articles/s41591-020-0857-9.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://www.nature.com/articles/s41591-020-0857-9', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://www.nature.com/articles/s41591-020-0857-9.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",18,53.44,114401,"[11,100]",1,"[0,1]",3,189,0,NA,NA,NA,NA,NA,NA,NA,NA
+60c294007723bebd8664edc8,60c294007723bebd8664edc7,' 3-52-0 ',Large-scale digitization was performed using a Zeiss Gemini 300 field-emission scanning electron microscope in conjunction with a STEM detector via Atlas 5 software at a pixel size of 4-6 nm.,Atlas,5,NA,NA,10.1038/s41593-020-00758-5,NA,Olfactory transmucosal SARS-CoV-2 invasion as a port of central nervous system entry in individuals with COVID-19,NA,Nature Neuroscience,Nat Neurosci,journal-article,['General Neuroscience'],2,"[[2020, 11, 30]]",Springer Science and Business Media LLC,"[{'URL': 'http://www.nature.com/articles/s41593-020-00758-5.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://www.nature.com/articles/s41593-020-00758-5', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://www.nature.com/articles/s41593-020-00758-5.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",95,24.884,73709,"[11,100]",1,"[0,1]",3,52,0,NA,NA,NA,NA,NA,NA,NA,NA
+60c2969c7723bebd8664f048,60c2969c7723bebd8664f047,' 3-106-0 ',"We analyzed the electronic medical records (EMR) of MSHS from 1 March 2020 to 6 April 2020, using Epic Sli- cerDicer software, Verona, WI.",Epic Sli- cerDicer,NA,NA,NA,10.1016/j.annonc.2020.04.006,7875a9e1b9af180d309858e14c64284999006e51,Do patients with cancer have a poorer prognosis of COVID-19? An experience in New York City,NA,Annals of Oncology,Annals of Oncology,journal-article,"['Oncology', 'Hematology']",8,"[[2020, 8]]",Elsevier BV,"[{'URL': 'https://api.elsevier.com/content/article/PII:S0923753420393030?httpAccept=text/xml', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/xml'}, {'URL': 'https://api.elsevier.com/content/article/PII:S0923753420393030?httpAccept=text/plain', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/plain'}]",50,32.976,61542,"[11,100]",1,"[0,1]",3,106,0,NA,NA,NA,NA,NA,NA,NA,NA
+60c299057723bebd8664f305,60c299057723bebd8664f304,' 5-39-0 ',We used Bowtie 1.2.2 to align crRNAs to the human transcriptome (HG38; including non-coding RNA) and removed crRNAs that mapped to the human transcriptome with 2 or fewer mismatches.,Bowtie,1.2.2,NA,NA,10.1016/j.cell.2020.04.020,49495f01505ddab5e8de8fc921e829950edad7e7,Development of CRISPR as an Antiviral Strategy to Combat SARS-CoV-2 and Influenza,NA,Cell,Cell,journal-article,"['General Biochemistry, Genetics and Molecular Biology']",4,"[[2020, 5]]",Elsevier BV,"[{'URL': 'https://api.elsevier.com/content/article/PII:S0092867420304839?httpAccept=text/xml', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/xml'}, {'URL': 'https://api.elsevier.com/content/article/PII:S0092867420304839?httpAccept=text/plain', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/plain'}]",33,41.582,320407,"[11,100]",12,"[9,350]",5,39,0,NA,NA,NA,NA,NA,NA,NA,NA
+60c2aa037723bebd866501d7,60c2aa037723bebd866501d2,' 5-126-6 ',We used bioconductorÂ´s package DEXSeq 77 to identify DUEs.,DEXSeq,NA,NA,NA,10.1038/s41586-020-2151-x,931adf73488f9e9174fcac0a04810dcc10fdc563,Landscape of cohesin-mediated chromatin loops in the human genome,NA,Nature,Nature,journal-article,['Multidisciplinary'],7818,"[[2020, 7, 29]]",Springer Science and Business Media LLC,"[{'URL': 'http://www.nature.com/articles/s41586-020-2151-x.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://www.nature.com/articles/s41586-020-2151-x', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://www.nature.com/articles/s41586-020-2151-x.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",22,49.962,915925,"[11,100]",18,"[9,350]",5,126,6,NA,NA,NA,NA,NA,NA,NA,NA
+60c2ae597723bebd86650679,60c2ae597723bebd86650675,' 5-84-18 ',PROC RANK and PROC GLM from SAS 9.4 were used to calculate the P values.,SAS,9.4,NA,NA,10.1038/s41586-021-03275-y,NA,BNT162b vaccines protect rhesus macaques from SARS-CoV-2,NA,Nature,Nature,journal-article,['Multidisciplinary'],7853,"[[2021, 2, 1]]",Springer Science and Business Media LLC,"[{'URL': 'http://www.nature.com/articles/s41586-021-03275-y.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://www.nature.com/articles/s41586-021-03275-y', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://www.nature.com/articles/s41586-021-03275-y.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",22,49.962,915925,"[11,100]",22,"[9,350]",5,84,18,NA,NA,NA,NA,NA,NA,NA,NA
+60c2da407723bebd86653377,60c2da407723bebd86653376,' 1-24-1 ',"(2020-10-10), using the rstan package version 2.21.0.",rstan,2.21.0,NA,NA,10.1056/nejmoa2100433,a8820c95939a4410abdc207ee9979033992d89e7; 6305c266c11552b2b753c2ba33103cd099931841; 9f93e044f0ea662afc21ef7b3293497ea520391c; 34065a8cfbbe30328894cbfdc6451fdf83714d14,Interleukin-6 Receptor Antagonists in Critically Ill Patients with Covid-19,NA,New England Journal of Medicine,N Engl J Med,journal-article,['General Medicine'],NA,"[[2021, 2, 25]]",Massachusetts Medical Society,"[{'URL': 'http://www.nejm.org/doi/pdf/10.1056/NEJMoa2100433', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",3,91.245,464351,"[1,10]",2,"[2,8]",1,24,1,NA,NA,NA,NA,NA,NA,NA,NA
+60c2e22f7723bebd86653b11,60c2e22f7723bebd86653b0e,' 1-11-0 ',"From the output of the CellRanger-ATAC call, we quantified mtDNA using the mgatk software package, version 0.5.0. 17",CellRanger-ATAC,NA,NA,NA,10.1056/nejmoa2001265,NA,Purifying Selection against Pathogenic Mitochondrial DNA in Human T Cells,NA,New England Journal of Medicine,N Engl J Med,journal-article,['General Medicine'],16,"[[2020, 10, 15]]",Massachusetts Medical Society,"[{'URL': 'http://www.nejm.org/doi/pdf/10.1056/NEJMoa2001265', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",3,91.245,464351,"[1,10]",4,"[2,8]",1,11,0,NA,NA,NA,NA,NA,NA,NA,NA
+60c34e947723bebd8665a45b,60c34e947723bebd8665a45a,' 1-17-0 ',"The eBURST algorithm, which was developed for the interpretation of MLST results, first identifies mutually exclusive groups of related genotypes in the population, then identifies the group's found- ing genotype, predicts the descent -from the founder -of other genotypes, and shows the output as a radial diagram, centred on the predicted founding genotype.",eBURST,NA,NA,NA,10.1038/nrmicro1656,906608d58dae3ca34aeb3a67c2d19f945417f106,Pathogen profiling for disease management and surveillance,NA,Nature Reviews Microbiology,Nat Rev Microbiol,journal-article,['General Immunology and Microbiology'],6,"[[2007, 5, 8]]",Springer Science and Business Media LLC,"[{'URL': 'http://www.nature.com/articles/nrmicro1656.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://www.nature.com/articles/nrmicro1656', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://www.nature.com/articles/nrmicro1656.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",10,60.633,43313,"[1,10]",2,"[2,8]",1,17,0,NA,NA,NA,NA,NA,NA,NA,NA
