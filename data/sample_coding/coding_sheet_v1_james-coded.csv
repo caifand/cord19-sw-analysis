@@ -517,7 +517,7 @@ If a unique and persistent identifier of the software itself has been identified
 ' 4-161-1 ',,C3,"According to both in-text mention and references, the specific version of the software mentioned in the article is has at least one official presence (e.g., a versioned release, documentation for a specific version, a web page, or an official release note) that is findable.",,0,
 ' 4-161-1 ',,C4,"Either or both in-text mention and references contains a unique, persistent identifier (e.g., DOI, ARK, Handle, PURL, NBN) that can resolve to the software itself and/or its metadata. (i.e., the software itself is registered with a persistent URI)",,0,
 ' 4-161-1 ',,C5,Either or both in-text mention and references contains a commit hash that points to a snapshot of the software.,,0,
-' 4-161-1 ',Access to software,C6,There is no access to the software.,"The software may have an online presence, but there is no available information about how to access the software for use.",1,
+' 4-161-1 ',Access to software,C6,There is no access to the software.,"The software may have an online presence, but there is no available information about how to access the software for use.",0,
 ' 4-161-1 ',,C7,There is only purchase access to the software.,,0,
 ' 4-161-1 ',,C8,There is free access to the software.,"If the software can be accessed by personal contact or direct download/fork, but there is no information indicating a payment/license fee is required for using it, then software has free access.",1,
 ' 4-161-1 ',,C9,The source code of the software is accessible.,,1,https://github.com/OpenTrace-Community

@@ -2420,7 +2420,7 @@ Any public information that address how to cite the software from the official s
 ' 8-2-4 ',,D2,The software has a publically accessible citation request in plain text style.,,1,
 ' 8-2-4 ',,D3,The software has a publically accessible citation request in BibTex format.,,0,
 ' 8-2-4 ',,D4,"The citation request is in a working repository README. (e.g., GitHub; GitLab)",,0,
-' 8-2-4 ',,D5,The citation request is on project/software website/webpage.,"If the citation request is on a webpage dedicated to the software mentioned, then this code is TRUE. (e.g., it could be a specific page in an online software catalog, index, or repository)",https://phenix-online.org/,
+' 8-2-4 ',,D5,The citation request is on project/software website/webpage.,"If the citation request is on a webpage dedicated to the software mentioned, then this code is TRUE. (e.g., it could be a specific page in an online software catalog, index, or repository)",1,
 ' 8-2-4 ',,D6,The software has a publically accessible CITATION file.,,0,
 ' 8-2-4 ',,D7,The software has a publically accessible CITATION.cff.,,0,
 ' 8-2-4 ',,D8,The software has a publically accessible CodeMeta file.,,0,
