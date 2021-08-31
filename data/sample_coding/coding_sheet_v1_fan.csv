@@ -2781,7 +2781,7 @@ If a unique and persistent identifier of the software itself has been identified
 ' 4-62-1 ',,C8,There is free access to the software.,"If the software can be accessed by personal contact or direct download/fork, but there is no information indicating a payment/license fee is required for using it, then software has free access.",1,
 ' 4-62-1 ',,C9,The source code of the software is accessible.,,1,
 ' 4-62-1 ',,C10,"The software has a permission to modify. (i.e., free software or an open source license is available; no permission if it requires personal contact)",,1,
-' 4-62-1 ',,C11,The software has an open souce license.,,it is public domain,
+' 4-62-1 ',,C11,The software has an open souce license.,,0,
 ' 4-62-1 ',Citation request,D1,The extracted software mention (including reference) is refered in a way that matches the citation request of the software.,"This code requires finding the citation request online if available. 
 Any public information that address how to cite the software from the official source of the software (i.e. not a third party) is interpreted as a citation request. (i.e., it may not contain phrase like ""request"" but specify a way to reference the software). If a citation request is not available, this code is FALSE (i.e., ""0"").",0,
 ' 4-62-1 ',,D2,The software has a publically accessible citation request in plain text style.,,1,
