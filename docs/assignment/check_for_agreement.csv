@@ -1,0 +1,171 @@
+anno_key,doc_key,sample_id,context,software_name,version,publisher,url,DOI,cord_sha,doc_title,doc_subtitle,document_type,journal_title,journal_short_title,journal_subject,journal_issue,issue_dates,journal_publisher,doc_link,jif,jif_rank,journal_total_cites,stratum,mention_density,mention_density_group,group_num,doc_num,anno_num,refs,ref_id,tei,refKey,ref_doc_key
+60c261c67723bebd8664b51e,60c261c67723bebd8664b51c,' 0-21-0 ',"Given the lack of data regarding parental genotypes, we considered compound heterozygous variants (allele frequency, <1%) as possible causes of stillbirth only if the variants were confirmed through read-based phasing in the Integrative Genomics Viewer. 22",Integrative Genomics Viewer,NA,NA,NA,10.1056/nejmoa1908753,NA,Causal Genetic Variants in Stillbirth,NA,journal-article,New England Journal of Medicine,N Engl J Med,['General Medicine'],12,"[[2020, 9, 17]]",Massachusetts Medical Society,"[{'URL': 'http://www.nejm.org/doi/pdf/10.1056/NEJMoa1908753', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",91.245,3,464351,"[1,10]",1,"[0,1]",0,21,0,ref_id_1,60c261c67723bebd8664b51d,"<biblStruct xml:id=""b21"">
+	<analytic>
+		<title level=""a"" type=""main"">Integrative Genomics Viewer (IGV): highperformance genomics data visualization and exploration</title>
+		<author>
+			<persName><forename type=""first"">H</forename><surname>Thorvaldsdóttir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">J</forename><forename type=""middle"">T</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">J</forename><forename type=""middle"">P</forename><surname>Mesirov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level=""j"">Brief Bioinform</title>
+		<imprint>
+			<biblScope unit=""volume"">14</biblScope>
+			<biblScope unit=""page"" from=""178"" to=""192"" />
+			<date type=""published"" when=""2013"" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 22517427</note>
+</biblStruct>
+",21,60c261c67723bebd8664b51c
+60c2b87c7723bebd8665114e,60c2b87c7723bebd8665114d,' 0-24-0 ',"All analyses were performed with the use of the Stata/SE statistical package, version 13.1 (StataCorp).",Stata/SE,13.1,StataCorp,NA,10.1056/nejmoa1411587,NA,A Randomized Trial of Intraarterial Treatment for Acute Ischemic Stroke,NA,journal-article,New England Journal of Medicine,N Engl J Med,NA,1,"[[2015, 1, 1]]",Massachusetts Medical Society,"[{'URL': 'http://www.nejm.org/doi/pdf/10.1056/NEJMoa1411587', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",91.245,3,464351,"[1,10]",1,"[0,1]",0,24,0,NA,NA,NA,NA,NA
+60c217f27723bebd866463df,60c217f27723bebd866463de,' 1-22-4 ',"Maximum-likelihood phylogenies were inferred with the use of Phylogenetic Estimation Using Maximum Likelihood (PhyML), version 3.0, software and bootstrapped 1000 times to assess confidence.",Phylogenetic Estimation Using Maximum Likelihood (PhyML),3,NA,NA,10.1056/nejmoa1306742,NA,Hospital Outbreak of Middle East Respiratory Syndrome Coronavirus,NA,journal-article,New England Journal of Medicine,N Engl J Med,['General Medicine'],5,"[[2013, 8]]",Massachusetts Medical Society,"[{'URL': 'http://www.nejm.org/doi/pdf/10.1056/NEJMoa1306742', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",91.245,3,464351,"[1,10]",5,"[2,8]",1,22,4,NA,NA,NA,NA,NA
+60c22d107723bebd8664780d,60c22d107723bebd8664780c,' 1-26-1 ',"This dilemma has led to some creative workarounds: nurses may hold the bedside phone up to the patient's ear or bring their per- sonal smartphone into the room and hold it up while using Skype, WhatsApp, or FaceTime.",Skype,NA,NA,NA,10.1056/nejmp2007781,NA,Not Dying Alone — Modern Compassionate Care in the Covid-19 Pandemic,NA,journal-article,New England Journal of Medicine,N Engl J Med,['General Medicine'],24,"[[2020, 6, 11]]",Massachusetts Medical Society,"[{'URL': 'http://www.nejm.org/doi/pdf/10.1056/NEJMp2007781', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",91.245,3,464351,"[1,10]",2,"[2,8]",1,26,1,NA,NA,NA,NA,NA
+60c20a727723bebd8664533a,60c20a727723bebd86645338,' 10-12611-1 ',Sequences were aligned by Molecular Evolutionary Genetic Analysis version 7.0 (MEGA7) [6] and a search of homologous sequences was performed using Basic Local Alignment Search Tool (BLAST) [7].,Molecular Evolutionary Genetic Analysis,NA,NA,NA,10.3390/ani9050228,3442b139e80c8351c89a9398709090db63edb8fe,"Seroprevalence of Rodent Pathogens in Wild Rats from the Island of St. Kitts, West Indies",NA,journal-article,Animals,Animals,NA,5,"[[2019, 5, 10]]",MDPI AG,"[{'URL': 'https://www.mdpi.com/2076-2615/9/5/228/pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",2.752,5491,6875,"[1001,12895]",3,"[2,8]",10,12611,1,NA,NA,NA,NA,NA
+60c20a747723bebd8664533e,60c20a747723bebd8664533d,' 10-11669-0 ',"The phylogenetic trees were constructed by MEGA 7.0 with the best bases substitution model consideration, neighbour-joining, maximum likelihood and bootstrap values adjustment.",MEGA,7,NA,NA,10.1186/s12985-017-0896-0,c890cb0b691543c29b35b5a1351ff8c990739fe2,Prevalence and genetic diversity analysis of human coronaviruses among cross-border children,NA,journal-article,Virology Journal,Virol J,NA,1,"[[2017, 11, 22]]",Springer Science and Business Media LLC,"[{'URL': 'http://link.springer.com/content/pdf/10.1186/s12985-017-0896-0.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",4.099,2905,9953,"[1001,12895]",2,"[2,8]",10,11669,0,NA,NA,NA,NA,NA
+60c20bf57723bebd866454e3,60c20bf47723bebd866454e2,' 11-252-5 ',"PeptideCutter software (Swiss Institute of Bioinformatics) was used to identify sites in enterocin A with a high susceptibility to trypsin, chymotrypsin, and pepsin (45).",PeptideCutter,NA,Swiss Institute of Bioinformatics,NA,10.1128/aem.01646-20,NA,Mining and Statistical Modeling of Natural and Variant Class IIa Bacteriocins Elucidate Activity and Selectivity Profiles across Species,NA,journal-article,Applied and Environmental Microbiology,Appl Environ Microbiol,"['Biotechnology', 'Food Science', 'Ecology', 'Applied Microbiology and Biotechnology']",22,"[[2020, 9, 11]]",American Society for Microbiology,"[{'URL': 'https://syndication.highwire.org/content/doi/10.1128/AEM.01646-20', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",4.792,2158,118391,"[1001,12895]",9,"[9,350]",11,252,5,NA,NA,NA,NA,NA
+60c20c867723bebd86645567,60c20c867723bebd86645566,' 11-2356-5 ',Neurolucida software was used to create morphological reconstruction using ten cells per layer in each brain.,Neurolucida,11.02.1,MBF Bioscience,NA,10.1242/dev.190249,NA,Endogenous erythropoietin signaling regulates migration and laminar positioning of upper-layer neurons in the developing neocortex,NA,journal-article,Development,Development,"['Developmental Biology', 'Molecular Biology']",19,"[[2020, 8, 6]]",The Company of Biologists,"[{'URL': 'https://syndication.highwire.org/content/doi/10.1242/dev.190249', 'content-version': 'vor', 'intended-application': 'syndication', 'content-type': 'unspecified'}, {'URL': 'https://syndication.highwire.org/content/doi/10.1242/dev.190249', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",6.868,1009,63735,"[1001,12895]",11,"[9,350]",11,2356,5,NA,NA,NA,NA,NA
+60c20a827723bebd86645357,60c20a827723bebd86645355,' 12-3586-0 ',"For encoding the cardinality constraints, we use cardinality networks [1] as implemented in PySAT [10].",PySAT,NA,NA,NA,10.1007/978-3-030-51825-7_34,4a49245bf16248d33f51229673574237b8002dad,SAT Solving with Fragmented Hamiltonian Path Constraints for Wire Arc Additive Manufacturing,NA,book-chapter,"Theory and Applications of Satisfiability Testing – SAT 2020,Lecture Notes in Computer Science",NA,NA,NA,[[2020]],Springer International Publishing,"[{'URL': 'http://link.springer.com/content/pdf/10.1007/978-3-030-51825-7_34', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",NA,NA,NA,No Impact Factor,1,"[0,1]",12,3586,0,ref_id_1,60c20a827723bebd86645356,"<biblStruct xml:id=""b9"">
+	<analytic>
+		<title level=""a"" type=""main"">PySAT: A Python Toolkit for Prototyping with SAT Oracles</title>
+		<author>
+			<persName><forename type=""first"">Alexey</forename><surname>Ignatiev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Antonio</forename><surname>Morgado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Joao</forename><surname>Marques-Silva</surname></persName>
+		</author>
+		<idno type=""DOI"">10.1007/978-3-319-94144-8_26</idno>
+		<ptr target=""https://doi.org/10.1007/978-3-319-94144-826"" />
+	</analytic>
+	<monogr>
+		<title level=""m"">Theory and Applications of Satisfiability Testing – SAT 2018</title>
+				<editor>
+			<persName><forename type=""first"">O</forename><surname>Beyersdorff</surname></persName>
+			<persName><forename type=""first"">C</forename><forename type=""middle"">M</forename><surname>Wintersteiger</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Cham</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type=""published"" when=""2018"" />
+			<biblScope unit=""volume"">10929</biblScope>
+			<biblScope unit=""page"" from=""428"" to=""437"" />
+		</imprint>
+	</monogr>
+</biblStruct>
+",9,60c20a827723bebd86645355
+60c20a997723bebd86645368,60c20a997723bebd86645367,' 12-5455-0 ',"SLaM's BRC Case Register was set up  in 2008, providing researcher access to de-identified data from SLaM's EHR via the Clinical  Record Interactive Search (CRIS) platform and within a robust security model and  governance framework (10).",Clinical Record Interactive Search (CRIS),NA,NA,NA,10.1101/2020.10.25.20219071,NA,"Causes of death in mental health service users during the first wave of the COVID-19 pandemic: South London and Maudsley data from March to June 2020, compared with 2015-2019",NA,posted-content,NA,NA,NA,NA,"[[2020, 10, 27]]",Cold Spring Harbor Laboratory,"[{'URL': 'https://syndication.highwire.org/content/doi/10.1101/2020.10.25.20219071', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",NA,NA,NA,No Impact Factor,1,"[0,1]",12,5455,0,NA,NA,NA,NA,NA
+60c20a7b7723bebd86645350,60c20a7b7723bebd8664534f,' 13-1933-1 ',"However, unfortunately the OSRATY platform was not completely functional and few services were not available.",OSRATY,NA,NA,NA,10.11604/pamj.2020.37.262.26574,473e04a044265ee62d57f87666ee5764e80743fe,Becoming virtual: a preliminary experience of outpatient primary care during COVID-19 pandemic,NA,journal-article,Pan African Medical Journal,Pan Afr Med J,['General Medicine'],NA,[[2020]],Pan African Medical Journal,NA,NA,NA,NA,No Impact Factor,2,"[2,8]",13,1933,1,NA,NA,NA,NA,NA
+60c20a877723bebd8664535b,60c20a877723bebd8664535a,' 13-3518-0 ',"P p 1 For phylogenetic analysis, first the Tree-Puzzle program (ver- sion 5.0) was used to generate approximate quartet-likelihood trees, with 1000 puzzling steps [9].",Tree-Puzzle,5,NA,NA,10.1086/382892,4a0de3f874ad61c102ddb195fc10aa721d9f5b85,Monophyletic Relationship between Severe Acute Respiratory Syndrome Coronavirus and Group 2 Coronaviruses,NA,journal-article,The Journal of Infectious Diseases,J INFECT DIS,"['Immunology and Allergy', 'Infectious Diseases']",9,"[[2004, 5]]",Oxford University Press (OUP),"[{'URL': 'http://academic.oup.com/jid/article-pdf/189/9/1676/2593894/189-9-1676.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",NA,NA,NA,No Impact Factor,5,"[2,8]",13,3518,0,NA,NA,NA,NA,NA
+60c20ae57723bebd866453a6,60c20ae57723bebd8664539e,' 14-1167-2 ',ABGD was carried out using the online version of ABGD software [64]; https://bioinfo.mnhn.fr/abi/public/abgd/abgdweb.html).,ABGD,NA,NA,https://species.h-its.org/gmyc,10.1101/2020.03.31.018457,204020507c227cf6f02ed17eaa9916099ff42c5e,Hidden biodiversity in Neotropical streams: DNA barcoding uncovers high endemicity of freshwater macroinvertebrates at small spatial scales,NA,posted-content,NA,NA,NA,NA,"[[2020, 3, 31]]",Cold Spring Harbor Laboratory,"[{'URL': 'https://syndication.highwire.org/content/doi/10.1101/2020.03.31.018457', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",NA,NA,NA,No Impact Factor,17,"[9,350]",14,1167,2,ref_id_1,60c20ae57723bebd8664539f,"<biblStruct xml:id=""b62"">
+	<analytic>
+		<title level=""a"" type=""main"">ABGD, Automatic Barcode Gap Discovery for primary species delimitation</title>
+		<author>
+			<persName><forename type=""first"">N</forename><surname>Puillandre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">A</forename><surname>Lambert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">S</forename><surname>Brouillet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">G</forename><surname>Achaz</surname></persName>
+		</author>
+		<idno type=""DOI"">10.1111/j.1365-294x.2011.05239.x</idno>
+		<idno type=""PMID"">21883587</idno>
+		<idno type=""ark"">ark:/67375/WNG-93L5RXJL-G</idno>
+		<idno type=""istexId"">80057509CD1C762CDAF3EFD2A95F254CCA60939D</idno>
+		<ptr target=""https://doi.org/10.1111/j.1365-294X.2011.05239.x"" />
+	</analytic>
+	<monogr>
+		<title level=""j"">Molecular Ecology</title>
+		<idno type=""ISSN"">0962-1083</idno>
+		<imprint>
+			<biblScope unit=""volume"">21</biblScope>
+			<biblScope unit=""issue"">8</biblScope>
+			<biblScope unit=""page"" from=""1864"" to=""1877"" />
+			<date type=""published"" when=""2011-08-29"" />
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+",62,60c20ae57723bebd8664539e
+60c20b287723bebd866453e7,60c20b287723bebd866453e0,' 14-507-37 ',", X!Tandem Vengeance (2015.12.15.2) 34 and MS-GF+ release  (v2018.04.09) 35 .",X!Tandem Vengeance,2015.12.15.2,NA,NA,10.1101/2020.11.04.358739,0bc3644e8877888dd776644dad4d9568688927eb,"Human Chr18: “Stakhanovite” Genes, Missing and uPE1 Proteins in Liver Tissue and HepG2 Cells",NA,posted-content,NA,NA,NA,NA,"[[2020, 11, 4]]",Cold Spring Harbor Laboratory,"[{'URL': 'https://syndication.highwire.org/content/doi/10.1101/2020.11.04.358739', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",NA,NA,NA,No Impact Factor,39,"[9,350]",14,507,37,ref_id_1,60c20b287723bebd866453e1,"<biblStruct xml:id=""b35"">
+	<analytic>
+		<title level=""a"" type=""main"">TANDEM: matching proteins with tandem mass spectra</title>
+		<author>
+			<persName><forename type=""first"">R</forename><surname>Craig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">R</forename><forename type=""middle"">C</forename><surname>Beavis</surname></persName>
+		</author>
+		<idno type=""DOI"">10.1093/bioinformatics/bth092</idno>
+		<idno type=""PMID"">14976030</idno>
+		<idno type=""ark"">ark:/67375/HXZ-Q6QW2SFN-P</idno>
+		<idno type=""istexId"">3F31815812C554F44556E5B8433D2BE05C949105</idno>
+		<ptr type=""open-access"" target=""https://academic.oup.com/bioinformatics/article-pdf/20/9/1466/488920/bth092.pdf"" />
+		<ptr target=""https://doi.org/10.1093/bioinformatics/bth092"" />
+	</analytic>
+	<monogr>
+		<title level=""j"">Bioinformatics</title>
+		<title level=""j"" type=""abbrev"">Bioinformatics</title>
+		<idno type=""ISSN"">1367-4803</idno>
+		<idno type=""ISSNe"">1460-2059</idno>
+		<imprint>
+			<biblScope unit=""volume"">20</biblScope>
+			<biblScope unit=""issue"">9</biblScope>
+			<biblScope unit=""page"" from=""1466"" to=""1467"" />
+			<date type=""published"" when=""2004-02-19"" />
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+",35,60c20b287723bebd866453e0
+60c2268e7723bebd86647237,60c2268e7723bebd86647236,' 3-47-0 ',"For the first approach, we used the Rosetta blueprint builder to gener- ate miniproteins that incorporate the ACE2 helix (human ACE2 residues 23 to 46).",Rosetta,NA,NA,NA,10.1126/science.abd9909,d203ccbdf9b437271d15617955d1e87d5c0e08d3,De novo design of picomolar SARS-CoV-2 miniprotein inhibitors,NA,journal-article,Science,Science,['Multidisciplinary'],6515,"[[2020, 9, 9]]",American Association for the Advancement of Science (AAAS),"[{'URL': 'https://syndication.highwire.org/content/doi/10.1126/science.abd9909', 'content-version': 'vor', 'intended-application': 'syndication', 'content-type': 'unspecified'}, {'URL': 'https://syndication.highwire.org/content/doi/10.1126/science.abd9909', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",47.728,25,814971,"[11,100]",1,"[0,1]",3,47,0,NA,NA,NA,NA,NA
+60c226977723bebd86647249,60c226977723bebd86647248,' 3-147-0 ',The COVID-EMDA + data hub and codes for all the analyses in this paper are publicly available on Github 17 .,COVID-EMDA,NA,NA,NA,10.1016/j.joule.2020.08.017,1a7850a61313e580ead019d286489ef6a63d5290; e4d0b4c8f85818d52f990e49d4d3bec0cf5c1930; 4fd3feec128af1399869e66c02d72ab020332060,A Cross-Domain Approach to Analyzing the Short-Run Impact of COVID-19 on the US Electricity Sector,NA,journal-article,Joule,Joule,NA,11,"[[2020, 11]]",Elsevier BV,"[{'URL': 'https://api.elsevier.com/content/article/PII:S2542435120303986?httpAccept=text/xml', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/xml'}, {'URL': 'https://api.elsevier.com/content/article/PII:S2542435120303986?httpAccept=text/plain', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/plain'}]",41.248,35,17275,"[11,100]",1,"[0,1]",3,147,0,NA,NA,NA,NA,NA
+60c20be47723bebd866454d3,60c20be47723bebd866454d2,' 4-302-5 ',Sequence identity was visualized using EvolView (http://www. evolgenius.info/) and SARS-CoV Co-V-2 WA1 served as the reference sequence.,EvolView,NA,NA,http://www. evolgenius.info,10.1038/s41586-021-03237-4,NA,Loss of furin cleavage site attenuates SARS-CoV-2 pathogenesis,NA,journal-article,Nature,Nature,['Multidisciplinary'],7849,"[[2021, 1, 25]]",Springer Science and Business Media LLC,"[{'URL': 'http://www.nature.com/articles/s41586-021-03237-4.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://www.nature.com/articles/s41586-021-03237-4', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://www.nature.com/articles/s41586-021-03237-4.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",49.962,22,915925,"[11,100]",6,"[2,8]",4,302,5,NA,NA,NA,NA,NA
+60c20e4e7723bebd86645835,60c20e4e7723bebd86645833,' 4-80-5 ',"Sequences were aligned with Clustal W 40 using default parameters (gap opening penalty: 15, extension penalty: 6, IUB matrix).",Clustal W,NA,NA,NA,10.1038/nature13429,0ce959882a912b65a604fa42e75c0a16ff830f56,Ribosomal frameshifting in the CCR5 mRNA is regulated by miRNAs and the NMD pathway,NA,journal-article,Nature,Nature,['Multidisciplinary'],7514,"[[2014, 7, 9]]",Springer Science and Business Media LLC,"[{'URL': 'http://www.nature.com/articles/nature13429.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://www.nature.com/articles/nature13429', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://www.nature.com/articles/nature13429.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",49.962,22,915925,"[11,100]",7,"[2,8]",4,80,5,NA,NA,NA,NA,NA
+60c216387723bebd86646199,60c216387723bebd86646196,' 5-131-17 ',and AnnotationDBi (version 1.44.0).,AnnotationDBi,1.44.0,NA,NA,10.1038/s41590-020-00832-x,NA,Macrophage expression and prognostic significance of the long pentraxin PTX3 in COVID-19,NA,journal-article,Nature Immunology,Nat Immunol,['Immunology'],1,"[[2020, 11, 18]]",Springer Science and Business Media LLC,"[{'URL': 'http://www.nature.com/articles/s41590-020-00832-x.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://www.nature.com/articles/s41590-020-00832-x', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://www.nature.com/articles/s41590-020-00832-x.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",25.606,82,54588,"[11,100]",18,"[9,350]",5,131,17,NA,NA,NA,NA,NA
+60c22cb57723bebd866477ee,60c22cb57723bebd866477ed,' 5-91-8 ',The CellRanger software (version 3.1.0),CellRanger,3.1.0,NA,NA,10.1038/s41422-020-0391-9,NA,Dysregulated adaptive immune response contributes to severe COVID-19,NA,journal-article,Cell Research,Cell Res,"['Cell Biology', 'Molecular Biology']",9,"[[2020, 8, 5]]",Springer Science and Business Media LLC,"[{'URL': 'http://www.nature.com/articles/s41422-020-0391-9.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://www.nature.com/articles/s41422-020-0391-9', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://www.nature.com/articles/s41422-020-0391-9.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",25.617,81,24108,"[11,100]",15,"[9,350]",5,91,8,NA,NA,NA,NA,NA
+60c20ab17723bebd86645379,60c20ab17723bebd86645378,' 6-1854-0 ',Statistical data analyses were done using GraphPad Prism 6 software.,GraphPad Prism,6,NA,NA,10.3389/fimmu.2020.607918,3645dbeb6f1de0f0f01d4f1e54bab7f667c40510,HCoV- and SARS-CoV-2 Cross-Reactive T Cells in CVID Patients,NA,journal-article,Frontiers in Immunology,Front. Immunol.,NA,NA,"[[2020, 12, 23]]",Frontiers Media SA,"[{'URL': 'https://www.frontiersin.org/articles/10.3389/fimmu.2020.607918/full', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",7.561,802,84852,"[101,1000]",1,"[0,1]",6,1854,0,NA,NA,NA,NA,NA
+60c20bf97723bebd866454f9,60c20bf97723bebd866454f8,' 6-2595-0 ',Table S1: Extracted data from the Immuno-analytics tool.,Immuno,NA,NA,NA,10.1186/s13073-020-00822-6,1ab87ddfa68c13810aee8df31c9784026d16386a,An integrated in silico immuno-genetic analytical platform provides insights into COVID-19 serological and vaccine targets,NA,journal-article,Genome Medicine,Genome Med,"['Genetics(clinical)', 'Molecular Medicine', 'Genetics', 'Molecular Biology']",1,"[[2021, 1, 7]]",Springer Science and Business Media LLC,"[{'URL': 'http://link.springer.com/content/pdf/10.1186/s13073-020-00822-6.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://link.springer.com/article/10.1186/s13073-020-00822-6/fulltext.html', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://link.springer.com/content/pdf/10.1186/s13073-020-00822-6.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",11.117,380,8115,"[101,1000]",1,"[0,1]",6,2595,0,NA,NA,NA,NA,NA
+60c20b477723bebd86645432,60c20b477723bebd86645431,' 7-1590-1 ',"Each site requires a designated principal investigator who is responsible for: all team members having GCP; data qual- ity and entry via REDCap (Research Electronic Data Capture), and obtain- ing local ethical/audit approval (it can be registered as a service evalu- ation or clinical audit).",REDCap (,NA,NA,NA,10.1002/bjs.11711,NA,The HAREM (Had Appendicitis and Resolved/Recurred Emergency Morbidity/Mortality) Study,NA,journal-article,British Journal of Surgery,NA,['Surgery'],8,"[[2020, 5, 28]]",Oxford University Press (OUP),"[{'URL': 'https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fbjs.11711', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://academic.oup.com/bjs/article-pdf/107/8/e257/35708951/bjs11711.pdf', 'content-version': 'vor', 'intended-application': 'syndication', 'content-type': 'application/pdf'}, {'URL': 'http://academic.oup.com/bjs/article-pdf/107/8/e257/35708951/bjs11711.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",6.939,982,29311,"[101,1000]",2,"[2,8]",7,1590,1,NA,NA,NA,NA,NA
+60c20b927723bebd86645479,60c20b927723bebd86645478,' 7-1774-1 ',"Radionuclide images were reconstructed using HiSPECT (Scivis, Göttingen, Germany) iterative reconstruc- tion software and fused with CT images using proprietary InVivoScope (Bioscan) software.",HiSPECT,NA,Scivis,NA,10.1007/s00259-014-2940-2,NA,Development of the designed ankyrin repeat protein (DARPin) G3 for HER2 molecular imaging,NA,journal-article,European Journal of Nuclear Medicine and Molecular Imaging,Eur J Nucl Med Mol Imaging,NA,2,"[[2014, 11, 13]]",Springer Science and Business Media LLC,"[{'URL': 'http://link.springer.com/article/10.1007/s00259-014-2940-2/fulltext.html', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://link.springer.com/content/pdf/10.1007/s00259-014-2940-2.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://link.springer.com/content/pdf/10.1007/s00259-014-2940-2', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",9.236,545,20634,"[101,1000]",4,"[2,8]",7,1774,1,NA,NA,NA,NA,NA
+60c20b6d7723bebd86645458,60c20b6d7723bebd86645452,' 8-686-1 ',"The data were analysed with Real-Time PCR Analysis Software (Fluidigm Corporation, CA, USA).",Real-Time PCR Analysis,NA,Fluidigm,NA,10.7554/elife.47615,1eb822e2417937f3273c3423e25cd1344ba9a1e7,Endangered wild salmon infected by newly discovered viruses,NA,journal-article,eLife,NA,"['General Biochemistry, Genetics and Molecular Biology', 'General Immunology and Microbiology', 'General Neuroscience', 'General Medicine']",NA,"[[2019, 9, 3]]","eLife Sciences Publications, Ltd","[{'URL': 'https://cdn.elifesciences.org/articles/47615/elife-47615-v1.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'https://cdn.elifesciences.org/articles/47615/elife-47615-v1.xml', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/xml'}]",8.14,686,68113,"[101,1000]",14,"[9,350]",8,686,1,NA,NA,NA,NA,NA
+60c20d277723bebd8664566f,60c20d277723bebd8664566a,' 8-331-11 ',"The SWISS-MODEL Repository (http://swissmodel.expasy. org/repository) [12] is also a database of annotated compara- tive protein 3D structure models, which have been generated using the fully automated homology-modeling pipeline SWISS-MODEL.",SWISS-MODEL,NA,NA,http://swissmodel.expasy. org/repository,10.1016/s1359-6446(04)03196-4,99156f16aa2efd7b6ccd284fbec65d5b1efc2968,Utility of homology models in the drug discovery process,NA,journal-article,Drug Discovery Today,Drug Discovery Today,"['Pharmacology', 'Drug Discovery']",15,"[[2004, 8]]",Elsevier BV,"[{'URL': 'https://api.elsevier.com/content/article/PII:S1359644604031964?httpAccept=text/xml', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/xml'}, {'URL': 'https://api.elsevier.com/content/article/PII:S1359644604031964?httpAccept=text/plain', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/plain'}]",7.851,745,18695,"[101,1000]",14,"[9,350]",8,331,11,ref_id_1,60c20d277723bebd8664566b,"<biblStruct xml:id=""b11"">
+	<analytic>
+		<title level=""a"" type=""main"">The SWISS-MODEL Repository of annotated three-dimensional protein structure homology models</title>
+		<author>
+			<persName><forename type=""first"">J</forename><surname>Kopp</surname></persName>
+		</author>
+		<idno type=""DOI"">10.1093/nar/gkh008</idno>
+		<idno type=""PMID"">14681401</idno>
+		<idno type=""PMCID"">PMC308743</idno>
+		<idno type=""ark"">ark:/67375/HXZ-SQZ5BXM3-N</idno>
+		<idno type=""istexId"">ABF2100F8F5AF151E7B72E182EB6BD4FFEB68243</idno>
+		<ptr type=""open-access"" target=""https://academic.oup.com/nar/article-pdf/32/suppl_1/D230/7621243/gkh008.pdf"" />
+	</analytic>
+	<monogr>
+		<title level=""j"">Nucleic Acids Research</title>
+		<title level=""j"" type=""abbrev"">Nucleic Acids Research</title>
+		<idno type=""ISSNe"">1362-4962</idno>
+		<imprint>
+			<biblScope unit=""volume"">32</biblScope>
+			<biblScope unit=""issue"">90001</biblScope>
+			<biblScope unit=""page"" from=""230D"" to=""234"" />
+			<date type=""published"" when=""2004-01-01"" />
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+",11,60c20d277723bebd8664566a
+60c20a757723bebd86645341,60c20a757723bebd86645340,' 9-11008-0 ',"Analyses were conducted in SPSS version 18. Statistical significance was set at P < 0.05, and all tests were 2-tailed.",SPSS,18,NA,NA,10.1016/j.jpsychires.2020.09.021,f78a19404a7bc2d7a6aaf48370dc867a1043cf9e,COVID-19 and mental health in Brazil: Psychiatric symptoms in the general population,NA,journal-article,Journal of Psychiatric Research,Journal of Psychiatric Research,"['Biological Psychiatry', 'Psychiatry and Mental health']",NA,"[[2021, 1]]",Elsevier BV,"[{'URL': 'https://api.elsevier.com/content/article/PII:S0022395620309870?httpAccept=text/xml', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/xml'}, {'URL': 'https://api.elsevier.com/content/article/PII:S0022395620309870?httpAccept=text/plain', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/plain'}]",4.791,2160,20371,"[1001,12895]",1,"[0,1]",9,11008,0,NA,NA,NA,NA,NA
+60c20a827723bebd86645359,60c20a827723bebd86645358,' 9-10493-0 ',"According to a story in Gizmodo, its new Reply All Storm Protection software ""detects possible reply-all screw-ups and essentially puts all recipients on a temporary time-out"".",Reply All Storm Protection,NA,NA,NA,10.1016/s0262-4079(20)30976-3,NA,Feedback,NA,journal-article,New Scientist,New Scientist,['Multidisciplinary'],3283,"[[2020, 5]]",Elsevier BV,"[{'URL': 'https://api.elsevier.com/content/article/PII:S0262407920309763?httpAccept=text/xml', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/xml'}, {'URL': 'https://api.elsevier.com/content/article/PII:S0262407920309763?httpAccept=text/plain', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/plain'}]",0.319,12710,1124,"[1001,12895]",1,"[0,1]",9,10493,0,NA,NA,NA,NA,NA
