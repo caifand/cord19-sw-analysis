@@ -1,0 +1,302 @@
+doc_key,anno_key,sample_id,doc_num,anno_num,context,software_name,version,publisher,url,DOI,cord_sha,doc_title,doc_subtitle,journal_title,journal_short_title,document_type,journal_subject,journal_issue,issue_dates,journal_publisher,doc_link,jif_rank,jif,journal_total_cites,stratum,mention_density,mention_density_group,group_num,references,ref_id_list,refs,ref_id,ref_key,tei,refKey,ref_doc_key,issue_year,issue_month,issue_day
+60c614b47723bebd86683cbe,60c614b47723bebd86683cc0,'0-0-0',0,0,"We used an algorithm, PocketFinder 81 , to estimate the quality of potential ligand-binding pockets formed from a representative set of RNAs.",PocketFinder,,,,10.1038/nrd.2018.93,5b833b7e5501944dfe1db8a6657e05360661353d,Principles for targeting RNA with drug-like small molecules,,Nature Reviews Drug Discovery,Nat Rev Drug Discov,journal-article,"['Pharmacology', 'Drug Discovery', 'General Medicine']",8,"2018, 7, 6",Springer Science and Business Media LLC,"[{'URL': 'http://www.nature.com/articles/nrd.2018.93.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://www.nature.com/articles/nrd.2018.93', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://www.nature.com/doifinder/10.1038/nrd.2018.93', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}, {'URL': 'http://www.nature.com/articles/nrd.2018.93.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",4.0,84.694,"41,989","[1,10]",1,"[0,1]",0,"[{'offsetStart': 43109, 'normalizedForm': '81', 'refKey': 55, 'label': '81', 'reference_id': {'$oid': '60c614b47723bebd86683cbf'}, 'offsetEnd': 43112, 'boundingBoxes': [{'x': 305.382, 'h': 5.4226, 'y': 667.554, 'p': 8, 'w': 5.1222}]}]",['60c614b47723bebd86683cbf'],ref_id_1,60c614b47723bebd86683cbf,60c614b47723bebd86683cbf,"<biblStruct xml:id=""b55"">
+	<analytic>
+		<title level=""a"" type=""main"">Pocketome via comprehensive identification and classification of ligand binding envelopes</title>
+		<author>
+			<persName><forename type=""first"">J</forename><surname>An</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">M</forename><surname>Totrov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">R</forename><surname>Abagyan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level=""j"">Mol. Cell. Proteomics</title>
+		<imprint>
+			<biblScope unit=""volume"">4</biblScope>
+			<biblScope unit=""page"" from=""752"" to=""761"" />
+			<date type=""published"" when=""2005"" />
+		</imprint>
+	</monogr>
+</biblStruct>
+",55.0,60c614b47723bebd86683cbe,2018, 7, 6
+60c7def87723bebd8669ef12,60c7def87723bebd8669ef13,'0-1-0',1,0,"Sequences for full-length DUB and SENP (sentrin/SUMO-specific protease) proteins were aligned with COBALT (constraint-based multiple alignment tool), a computational tool for multiple protein sequences, and subsequently visualized with FigTree v1.4.3.",COBALT (constraint-based multiple alignment tool,,,,10.1038/nrd.2017.152,be0b956b1af0198aaec423ad1087bb0322b77d10,Deubiquitylating enzymes and drug discovery: emerging opportunities,,Nature Reviews Drug Discovery,Nat Rev Drug Discov,journal-article,"['Pharmacology', 'Drug Discovery', 'General Medicine']",1,"2017, 9, 29",Springer Science and Business Media LLC,"[{'URL': 'http://www.nature.com/articles/nrd.2017.152.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://www.nature.com/articles/nrd.2017.152', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://www.nature.com/doifinder/10.1038/nrd.2017.152', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}, {'URL': 'http://www.nature.com/articles/nrd.2017.152.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",4.0,84.694,"41,989","[1,10]",1,"[0,1]",0,,,,,,,,,2017, 9, 29
+60c612387723bebd86683bba,60c612387723bebd86683bbb,'0-6-0',6,0,"SAS software, version 9.3 (SAS Insti- tute), was used for analyses.",SAS,9.3,SAS Insti- tute,,10.1056/nejmoa1515510,,Low-Dose versus Standard-Dose Intravenous Alteplase in Acute Ischemic Stroke,,New England Journal of Medicine,N Engl J Med,journal-article,,24,"2016, 6, 16",Massachusetts Medical Society,"[{'URL': 'http://www.nejm.org/doi/pdf/10.1056/NEJMoa1515510', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",3.0,91.245,"464,351","[1,10]",1,"[0,1]",0,,,,,,,,,2016, 6, 16
+60c6f21f7723bebd86690980,60c6f21f7723bebd86690981,'0-7-0',7,0,"To determine the risk factors associated with each outcome, logistic regression analysis was performed  using Stata version 12 (College Station, Texas, 2011).",Stata,12,,,10.1056/nejmc2029354,13d75fe3dd198fa8e845fa7fd6fab84940e085dc; b65d67807a3803dce01e970757871eddc164f3c3,Risk Factors for SARS-CoV-2 in a Statewide Correctional System,,New England Journal of Medicine,N Engl J Med,journal-article,['General Medicine'],25,"2020, 12, 17",Massachusetts Medical Society,"[{'URL': 'http://www.nejm.org/doi/pdf/10.1056/NEJMc2029354', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",3.0,91.245,"464,351","[1,10]",1,"[0,1]",0,,,,,,,,,2020, 12, 17
+60c6e17a7723bebd8668f989,60c6e17a7723bebd8668f98a,'0-14-0',14,0,"All analyses were performed with the use of SAS software, version 9.4 (SAS Institute).",SAS,9.4,SAS Institute,,10.1056/nejmoa1914735,,Uterine-Artery Embolization or Myomectomy for Uterine Fibroids,,New England Journal of Medicine,N Engl J Med,journal-article,['General Medicine'],5,"2020, 7, 30",Massachusetts Medical Society,"[{'URL': 'http://www.nejm.org/doi/pdf/10.1056/NEJMoa1914735', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",3.0,91.245,"464,351","[1,10]",1,"[0,1]",0,,,,,,,,,2020, 7, 30
+60c6347e7723bebd86685929,60c6347e7723bebd8668592a,'0-16-0',16,0,"The analysis was performed with the STATA statistical software, version 15.1 MP, Par- allel Edition (StataCorp).",STATA,15.1 MP,StataCorp,,10.1056/nejmoa2031304,0097b6c04e34bc093fe1693c9e3fd971fca084b0; 96ff8021aa099f832a56a4d15683fc926dc5c3ab; 46f1f499371779cb0f08f8be5fbbf5f40e84c8f0,A Randomized Trial of Convalescent Plasma in Covid-19 Severe Pneumonia,,New England Journal of Medicine,N Engl J Med,journal-article,['General Medicine'],7,"2021, 2, 18",Massachusetts Medical Society,"[{'URL': 'http://www.nejm.org/doi/pdf/10.1056/NEJMoa2031304', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",3.0,91.245,"464,351","[1,10]",1,"[0,1]",0,,,,,,,,,2021, 2, 18
+60c70b767723bebd866921f8,60c70b767723bebd866921f9,'0-19-0',19,0,or the Interactive Tree of Life (itol.embl.de). 9,Interactive Tree of Life,,,.,10.1056/nejmsr1813907,,Pathogen Genomics in Public Health,,New England Journal of Medicine,N Engl J Med,journal-article,['General Medicine'],26,"2019, 12, 26",Massachusetts Medical Society,"[{'URL': 'http://www.nejm.org/doi/pdf/10.1056/NEJMsr1813907', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",3.0,91.245,"464,351","[1,10]",1,"[0,1]",0,,,,,,,,,2019, 12, 26
+60c8329c7723bebd866a3a58,60c8329c7723bebd866a3a59,'0-25-0',25,0,"We placed a weakly informative Half-Normal prior on the standard deviations of the experimental  error distributions σi:  σi ~ Half-Normal(0, 2)  Markov Chain Monte Carlo Methods  We drew posterior samples using Stan, which implements a No-U-Turn Sampler (a form of Markov  Chain Monte Carlo).",Stan,,,,10.1056/nejmc2004973,705ffac6a353567613f501fbe0a987a7639d4cb5; c291be92616cec747739620fa69d87d7175901dd; 80e3df981027499564370e77556e5044f16909c0,Aerosol and Surface Stability of SARS-CoV-2 as Compared with SARS-CoV-1,,New England Journal of Medicine,N Engl J Med,journal-article,['General Medicine'],16,"2020, 4, 16",Massachusetts Medical Society,"[{'URL': 'http://www.nejm.org/doi/pdf/10.1056/NEJMc2004973', 'content-version': 'vor', 'intended-application': 'syndication', 'content-type': 'application/pdf'}, {'URL': 'http://www.nejm.org/doi/pdf/10.1056/NEJMc2004973', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",3.0,91.245,"464,351","[1,10]",1,"[0,1]",0,,,,,,,,,2020, 4, 16
+60c8c7f27723bebd866ac7ff,60c8c7f27723bebd866ac800,'1-1-0',1,0,"Remarkably, essential SARS-CoV contact residues that interact with ACE2 were highly con- served in SARS-CoV-2 as well as in members of the species Severe acute respiratory syndrome-related coro- navirus that use ACE2 or have similar amino acid side  The spike gene sequence alignment was performed using MUSCLE and using the default settings and codon alignment, then translated into amino acids using MEGA7 , version 7.0.26.",MUSCLE,,,,10.1038/s41579-020-00468-6,33958c7e6f936b3359cd6324fdbe60ae07a38f74,Coronavirus biology and replication: implications for SARS-CoV-2,,Nature Reviews Microbiology,Nat Rev Microbiol,journal-article,['General Immunology and Microbiology'],3,"2020, 10, 28",Springer Science and Business Media LLC,"[{'URL': 'http://www.nature.com/articles/s41579-020-00468-6.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://www.nature.com/articles/s41579-020-00468-6', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://www.nature.com/articles/s41579-020-00468-6.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",10.0,60.633,"43,313","[1,10]",2,"[2,8]",1,,,,,,,,,2020, 10, 28
+60c7d41a7723bebd8669e43c,60c7d41a7723bebd8669e43e,'1-3-0',3,0,Low- quality bases were trimmed from the 3' end of reads and 3' adapter was trimmed using FASTQ/A Clipper with default settings (Hannon lab).,FASTQ/A Clipper,,Hannon lab,,10.1056/nejmc2033369,,Microvascular Injury in the Brains of Patients with Covid-19,,New England Journal of Medicine,N Engl J Med,journal-article,['General Medicine'],5,"2021, 2, 4",Massachusetts Medical Society,"[{'URL': 'http://www.nejm.org/doi/pdf/10.1056/NEJMc2033369', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",3.0,91.245,"464,351","[1,10]",4,"[2,8]",1,,,,,,,,,2021, 2, 4
+60c573457723bebd8667b07c,60c573457723bebd8667b080,'1-5-0',5,0,"Deep learning may therefore eventually replace classical image processing and feature extraction algorithms, such as those in the currently most commonly used software program, CellProfiler 158 , or one of its commercial counterparts.",CellProfiler,,,,10.1038/s41573-020-00117-w,9e863f91f3db9e8c2b070c7095a37c7ce2a567fb,Image-based profiling for drug discovery: due for a machine-learning upgrade?,,Nature Reviews Drug Discovery,Nat Rev Drug Discov,journal-article,"['Pharmacology', 'Drug Discovery', 'General Medicine']",2,"2020, 12, 22",Springer Science and Business Media LLC,"[{'URL': 'http://www.nature.com/articles/s41573-020-00117-w.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://www.nature.com/articles/s41573-020-00117-w', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://www.nature.com/articles/s41573-020-00117-w.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",4.0,84.694,"41,989","[1,10]",3,"[2,8]",1,"[{'offsetStart': 70978, 'normalizedForm': '158', 'refKey': 162, 'label': '158', 'reference_id': {'$oid': '60c573457723bebd8667b07d'}, 'offsetEnd': 70982, 'boundingBoxes': [{'x': 543.009, 'h': 5.4226, 'y': 612.554, 'p': 11, 'w': 7.6699}]}]",['60c573457723bebd8667b07d'],ref_id_1,60c573457723bebd8667b07d,60c573457723bebd8667b07d,"<biblStruct xml:id=""b162"">
+	<analytic>
+		<title level=""a"" type=""main"">CellProfiler 3.0: next-generation image processing for biology</title>
+		<author>
+			<persName><forename type=""first"">C</forename><surname>Mcquin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level=""j"">PLoS Biol</title>
+		<imprint>
+			<biblScope unit=""volume"">16</biblScope>
+			<biblScope unit=""page"">e2005970</biblScope>
+			<date type=""published"" when=""2018"" />
+		</imprint>
+	</monogr>
+</biblStruct>
+",162.0,60c573457723bebd8667b07c,2020, 12, 22
+60c5525d7723bebd86679385,60c5525d7723bebd86679388,'1-6-0',6,0,"We believe that Zoom, Jitsi and other similar software can be used as well.",Jitsi,,,,10.1038/s41578-020-0194-0,bfd5c084db5af0d8cea70e27f2c8561743fbc12e; 64b27bf90c3ef7b941f8ca682b0bc23e4f559252,How to organize an online conference,,Nature Reviews Materials,Nat Rev Mater,journal-article,,4,"2020, 3, 18",Springer Science and Business Media LLC,"[{'URL': 'http://www.nature.com/articles/s41578-020-0194-0.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://www.nature.com/articles/s41578-020-0194-0', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://www.nature.com/articles/s41578-020-0194-0.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",7.0,66.308,"19,887","[1,10]",6,"[2,8]",1,,,,,,,,,2020, 3, 18
+60c55feb7723bebd86679fb6,60c55feb7723bebd86679fbb,'1-14-0',14,0,The recorded experimental spectra can be searched against putative structures and their corresponding predicted MS/MS spectra generated by tools such as competitive fragmentation modelling (CFM-ID) 43 .,CFM-ID,,,,10.1038/s41573-020-00114-z,4f9490eb836e683d85f935be174e2c9903a8a2ce,Natural products in drug discovery: advances and opportunities,,Nature Reviews Drug Discovery,Nat Rev Drug Discov,journal-article,"['Pharmacology', 'Drug Discovery', 'General Medicine']",3,"2021, 1, 28",Springer Science and Business Media LLC,"[{'URL': 'http://www.nature.com/articles/s41573-020-00114-z.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://www.nature.com/articles/s41573-020-00114-z', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://www.nature.com/articles/s41573-020-00114-z.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",4.0,84.694,"41,989","[1,10]",5,"[2,8]",1,"[{'offsetStart': 21496, 'normalizedForm': '43', 'refKey': 42, 'label': '43', 'reference_id': {'$oid': '60c55feb7723bebd86679fb7'}, 'offsetEnd': 21499, 'boundingBoxes': [{'x': 391.812, 'h': 5.4226, 'y': 678.554, 'p': 4, 'w': 5.1383}]}]",['60c55feb7723bebd86679fb7'],ref_id_1,60c55feb7723bebd86679fb7,60c55feb7723bebd86679fb7,"<biblStruct xml:id=""b42"">
+	<analytic>
+		<title level=""a"" type=""main"">Competitive fragmentation modeling of ESI-MS/MS spectra for putative metabolite identification</title>
+		<author>
+			<persName><forename type=""first"">Felicity</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Russ</forename><surname>Greiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">David</forename><surname>Wishart</surname></persName>
+		</author>
+		<idno type=""DOI"">10.1007/s11306-014-0676-4</idno>
+		<ptr type=""open-access"" target=""http://arxiv.org/pdf/1312.0264"" />
+	</analytic>
+	<monogr>
+		<title level=""j"">Metabolomics</title>
+		<title level=""j"" type=""abbrev"">Metabolomics</title>
+		<idno type=""ISSN"">1573-3882</idno>
+		<idno type=""ISSNe"">1573-3890</idno>
+		<imprint>
+			<biblScope unit=""volume"">11</biblScope>
+			<biblScope unit=""issue"">1</biblScope>
+			<biblScope unit=""page"" from=""98"" to=""110"" />
+			<date type=""published"" when=""2014-06-05"" />
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+",42.0,60c55feb7723bebd86679fb6,2021, 1, 28
+60c88afe7723bebd866a8cfa,60c88afe7723bebd866a8d00,'1-20-0',20,0,"We refer to this streamlined test as STOPCovid, version 2 (STOPCovid.v2)",STOPCovid,2,STOPCovid,,10.1056/nejmc2026172,60411630270b3aff6255d3216ff5544b700788b7; 21da307489de3db5206031372a14a773310b517b,Detection of SARS-CoV-2 with SHERLOCK One-Pot Testing,,New England Journal of Medicine,N Engl J Med,journal-article,['General Medicine'],15,"2020, 10, 8",Massachusetts Medical Society,"[{'URL': 'http://www.nejm.org/doi/pdf/10.1056/NEJMc2026172', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",3.0,91.245,"464,351","[1,10]",8,"[2,8]",1,,,,,,,,,2020, 10, 8
+60c708d37723bebd86691eca,60c708d37723bebd86691ecb,'1-21-0',21,0,"Data were analyzed using FlowJo software version Xv10 (Tree Star Inc.,  Ashland, OR).",FlowJo,Xv,Tree Star Inc,,10.1056/nejmoa2026920,ad8d231dac15f43824b3648fdeda0d3c428b4a5d; 6151a063936f377b65852d115e13b34145e4812d; ab47f116a82aa8f2caae90504895dc893e2bc1c9; 25b29aa118a6bd56d0c495adf0d0d297ae657544,Phase 1–2 Trial of a SARS-CoV-2 Recombinant Spike Protein Nanoparticle Vaccine,,New England Journal of Medicine,N Engl J Med,journal-article,['General Medicine'],24,"2020, 12, 10",Massachusetts Medical Society,"[{'URL': 'http://www.nejm.org/doi/pdf/10.1056/NEJMoa2026920', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",3.0,91.245,"464,351","[1,10]",2,"[2,8]",1,,,,,,,,,2020, 12, 10
+60c67f207723bebd8668a0e4,60c67f207723bebd8668a0e6,'1-25-0',25,0,"The tree is based on published trees of Coronavirinae 25,136 and reconstructed with sequences of the complete RNA-dependent RNA polymerase-coding region of the representative coronaviruses (maximum likelihood method under the GTR + I + Γ model of nucleotide substitution as implemented in PhyML , version 3.1 (rEF. 137",PhyML,3.1,,,10.1038/s41579-018-0118-9,8bcd1c3897124adec322dffb8a315fc4e24cb17e,Origin and evolution of pathogenic coronaviruses,,Nature Reviews Microbiology,Nat Rev Microbiol,journal-article,['General Immunology and Microbiology'],3,"2018, 12, 10",Springer Science and Business Media LLC,"[{'URL': 'http://www.nature.com/articles/s41579-018-0118-9', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://www.nature.com/articles/s41579-018-0118-9.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://www.nature.com/articles/s41579-018-0118-9.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",10.0,60.633,"43,313","[1,10]",2,"[2,8]",1,,,,,,,,,2018, 12, 10
+60c48f067723bebd8666da0d,60c48f067723bebd8666da0e,'3-0-0',0,0,Area of percent posi- tive staining was quantified by ZEN (Zeiss) or HALO software (Indica Labs) as previously described. 4,HALO,,Indica Labs,,10.1161/circulationaha.120.051828,,Microthrombi as a Major Cause of Cardiac Injury in COVID-19,A Pathologic Study,Circulation,Circulation,journal-article,"['Physiology (medical)', 'Cardiology and Cardiovascular Medicine']",10,"2021, 3, 9",Ovid Technologies (Wolters Kluwer Health),,62.0,29.69,"190,210","[11,100]",1,"[0,1]",3,,,,,,,,,2021, 3, 9
+60c69c037723bebd8668bcdf,60c69c037723bebd8668bce0,'3-2-0',2,0,"One participant produces and publishes online videos using Twitch where anyone can watch the inspection, refinement, and rebuilding of previously deposited or predicted structures related to this virus.",Twitch,,,,10.1016/j.cell.2020.09.027,,Lifted Up from Lockdown,,Cell,Cell,journal-article,"['General Biochemistry, Genetics and Molecular Biology']",1,"2020, 10",Elsevier BV,"[{'URL': 'https://api.elsevier.com/content/article/PII:S0092867420312241?httpAccept=text/xml', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/xml'}, {'URL': 'https://api.elsevier.com/content/article/PII:S0092867420312241?httpAccept=text/plain', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/plain'}]",33.0,41.582,"320,407","[11,100]",1,"[0,1]",3,,,,,,,,,2020, 10,
+60c3b00a7723bebd86660632,60c3b00a7723bebd86660633,'3-3-0',3,0,"The APS also made an effort to recreate the social experience of a conference by organizing virtual meet-ups, and some delegates set up their own discus- sions using messaging tools such as Slack.",Slack,,,,10.1038/d41586-020-01239-2,,‘Loving the minimal FOMO’: First major physics conference to go virtual sees record attendance,,Nature,Nature,journal-article,['Multidisciplinary'],7805,"2020, 4",Springer Science and Business Media LLC,"[{'URL': 'http://www.nature.com/articles/d41586-020-01239-2.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://www.nature.com/articles/d41586-020-01239-2', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://www.nature.com/articles/d41586-020-01239-2.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",22.0,49.962,"915,925","[11,100]",1,"[0,1]",3,,,,,,,,,2020, 4,
+60c51db77723bebd8667643d,60c51db77723bebd8667643f,'4-0-0',0,0,"Analyses were performed using SAS, version 9.4 (SAS Institute), and Stata 16 (StataCorp); the figure was produced using the ggplot2 package in R (R Foundation for Statistical Computing).",Stata,16,StataCorp,,10.7326/m20-7580,776e049333c86365c77eee33a4d74606bece46e0,Cross-sectional Assessment of COVID-19 Vaccine Acceptance Among Health Care Workers in Los Angeles,,Annals of Internal Medicine,Ann Intern Med,journal-article,"['Internal Medicine', 'General Medicine']",,"2021, 2, 9",American College of Physicians,,86.0,25.391,"72,588","[11,100]",3,"[2,8]",4,,,,,,,,,2021, 2, 9
+60c312ad7723bebd86656a75,60c312ad7723bebd86656a79,'4-2-0',2,0,I'll be tracking insti- tutional-level milestones using Evernote and Confluence project-management software.,Evernote,,,,10.1038/d41586-020-00935-3,,Science-ing from home,,Nature,Nature,journal-article,['Multidisciplinary'],7803,"2020, 3, 26",Springer Science and Business Media LLC,"[{'URL': 'http://www.nature.com/articles/d41586-020-00935-3.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://www.nature.com/articles/d41586-020-00935-3', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://www.nature.com/articles/d41586-020-00935-3.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",22.0,49.962,"915,925","[11,100]",7,"[2,8]",4,,,,,,,,,2020, 3, 26
+60c797697723bebd8669a6a0,60c797697723bebd8669a6a9,'5-0-0',0,0,"For IgG quantification, data were analyzed using ForeCyt software version 6.2 (IntelliCyt Corp).",ForeCyt,6.2,IntelliCyt Corp,,10.1038/s41591-020-0998-x,,Rapid isolation and profiling of a diverse panel of human monoclonal antibodies targeting the SARS-CoV-2 spike protein,,Nature Medicine,Nat Med,journal-article,"['General Biochemistry, Genetics and Molecular Biology', 'General Medicine']",9,"2020, 7, 10",Springer Science and Business Media LLC,"[{'URL': 'http://www.nature.com/articles/s41591-020-0998-x.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://www.nature.com/articles/s41591-020-0998-x', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://www.nature.com/articles/s41591-020-0998-x.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",18.0,53.44,"114,401","[11,100]",21,"[9,350]",5,,,,,,,,,2020, 7, 10
+60c27f637723bebd8664d97f,60c27f637723bebd8664d980,'6-1-0',1,0,"All statistical analyses were performed using SPSS soft- ware, version 26.0 (IBM Corporation).",SPSS,26.0,IBM Corporation,,10.1001/jamainternmed.2020.3862,,Clinical Course and Molecular Viral Shedding Among Asymptomatic and Symptomatic Patients With SARS-CoV-2 Infection in a Community Treatment Center in the Republic of Korea,,JAMA Internal Medicine,JAMA Intern Med,journal-article,['Internal Medicine'],11,"2020, 11, 1",American Medical Association (AMA),"[{'URL': 'https://jamanetwork.com/journals/jamainternalmedicine/articlepdf/2769235/jamainternal_lee_2020_oi_200057_1603479600.04745.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",116.0,21.873,"25,002","[101,1000]",1,"[0,1]",6,,,,,,,,,2020, 11, 1
+60c214a27723bebd86646007,60c214a27723bebd86646008,'6-4-0',4,0,Prompts were delivered and responses collected via LifeData software.,LifeData,,,,10.1177/2167702621993857,,Increase in Suicidal Thinking During COVID-19,,Clinical Psychological Science,Clinical Psychological Science,journal-article,['Clinical Psychology'],,"2021, 3, 15",SAGE Publications,"[{'URL': 'http://journals.sagepub.com/doi/pdf/10.1177/2167702621993857', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://journals.sagepub.com/doi/full-xml/10.1177/2167702621993857', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/xml'}, {'URL': 'http://journals.sagepub.com/doi/pdf/10.1177/2167702621993857', 'content-version': 'vor', 'intended-application': 'syndication', 'content-type': 'application/pdf'}, {'URL': 'http://journals.sagepub.com/doi/pdf/10.1177/2167702621993857', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",905.0,7.169,"3,811","[101,1000]",1,"[0,1]",6,,,,,,,,,2021, 3, 15
+60c454c37723bebd8666a557,60c454c37723bebd8666a558,'6-5-0',5,0,"A predesigned Excel spreadsheet was used to extract data, including design type, intervention, patient, outcome, and so forth.",Excel,,,,10.1016/j.eng.2020.03.002,165562ba942e0a8aa506fdf31fd8ade1a7e0ef1e,Core Outcome Set for Clinical Trials on Coronavirus Disease 2019 (COS-COVID),,Engineering,Engineering,journal-article,"['General Engineering', 'Environmental Engineering', 'General Computer Science', 'Energy Engineering and Power Technology', 'Materials Science (miscellaneous)', 'General Chemical Engineering']",10,"2020, 10",Elsevier BV,"[{'URL': 'https://api.elsevier.com/content/article/PII:S2095809920300424?httpAccept=text/xml', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/xml'}, {'URL': 'https://api.elsevier.com/content/article/PII:S2095809920300424?httpAccept=text/plain', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/plain'}]",806.0,7.553,"4,023","[101,1000]",1,"[0,1]",6,,,,,,,,,2020, 10,
+60c38e357723bebd8665e557,60c38e357723bebd8665e558,'6-6-0',6,0,Multiple X-ray crystallographic structures for one antibody were aligned in PyMOL (59).,PyMOL,,,,10.3389/fimmu.2020.570018,9c5d3d1b670d83e4446cfa895eb25ee0a037f089,Blocking of the High-Affinity Interaction-Synapse Between SARS-CoV-2 Spike and Human ACE2 Proteins Likely Requires Multiple High-Affinity Antibodies: An Immune Perspective,,Frontiers in Immunology,Front. Immunol.,journal-article,,,"2020, 9, 17",Frontiers Media SA,"[{'URL': 'https://www.frontiersin.org/article/10.3389/fimmu.2020.570018/full', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",802.0,7.561,"84,852","[101,1000]",1,"[0,1]",6,,,,,,,,,2020, 9, 17
+60c4b8977723bebd8667001f,60c4b8977723bebd86670021,'7-0-0',0,0,"Reference delineations of lung and lobar boundaries were automatically obtained for a  convenience sample of 400 scans from the training and development set and for all 105  scans in the internal test set using commercial software (LungQ v1.1.1,",LungQ,1.1.1,Thirona,,10.1148/radiol.2020202439,77d2998052da2dce4efd48dbc009b20cc81e674e,Automated Assessment of COVID-19 Reporting and Data System and Chest                     CT Severity Scores in Patients Suspected of Having COVID-19 Using Artificial                     Intelligence,,Radiology,Radiology,journal-article,['Radiology Nuclear Medicine and imaging'],1,"2021, 1",Radiological Society of North America (RSNA),"[{'URL': 'http://pubs.rsna.org/doi/pdf/10.1148/radiol.2020202439', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",385.0,11.105,"72,249","[101,1000]",2,"[2,8]",7,,,,,,,,,2021, 1,
+60c502327723bebd86674896,60c502327723bebd86674897,'7-1-0',1,0,"SAS statistical software (SAS 9.4; SAS Institute Inc., Cary, NC, USA) was used to perform data pretreatment and post- treatment, and R software (version 3.6.2) was used to train the models and yield the final predictions.",SAS,9.4,SAS Institute Inc,,10.1016/j.scitotenv.2020.144151,05c7c82fd154c4acf32f9be1be4f0c5b6965f168,Evaluating the impact of mobility on COVID-19 pandemic with machine learning hybrid predictions,,Science of The Total Environment,Science of The Total Environment,journal-article,"['Environmental Engineering', 'Waste Management and Disposal', 'Pollution', 'Environmental Chemistry']",,"2021, 3",Elsevier BV,"[{'URL': 'https://api.elsevier.com/content/article/PII:S0048969720376828?httpAccept=text/xml', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/xml'}, {'URL': 'https://api.elsevier.com/content/article/PII:S0048969720376828?httpAccept=text/plain', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/plain'}]",727.0,7.963,"210,143","[101,1000]",2,"[2,8]",7,,,,,,,,,2021, 3,
+60c7d4867723bebd8669e486,60c7d4867723bebd8669e48b,'7-2-0',2,0,"Specifically, we used the random forest method implemented in the scikit-learn (version 0.23.1)",scikit-learn,0.23.1,,,10.1093/ve/veaa106,1f31a090d97c2dffe5713e26cdfa8bc99967b62e,Tuning intrinsic disorder predictors for virus proteins,,Virus Evolution,,journal-article,,1,"2021, 1",Oxford University Press (OUP),"[{'URL': 'http://academic.oup.com/ve/advance-article-pdf/doi/10.1093/ve/veaa106/36107212/veaa106.pdf', 'content-version': 'am', 'intended-application': 'syndication', 'content-type': 'application/pdf'}, {'URL': 'http://academic.oup.com/ve/article-pdf/7/1/veaa106/36252969/veaa106.pdf', 'content-version': 'vor', 'intended-application': 'syndication', 'content-type': 'application/pdf'}, {'URL': 'http://academic.oup.com/ve/article-pdf/7/1/veaa106/36252969/veaa106.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",724.0,7.989,"1,901","[101,1000]",7,"[2,8]",7,,,,,,,,,2021, 1,
+60c46e887723bebd8666bdd4,60c46e887723bebd8666bde3,'8-1-0',1,0,"Using nonoverlapping windows of 100 bp, different popu- lation genetics variables (Watterson estimator of h, Tajima's D, and mean and PWD) were inferred using the R packages ape and pegas (Paradis 2010; Paradis and Schliep 2019).",pegas,,,,10.1093/molbev/msab046,,Global Patterns of Recombination across Human Viruses,,Molecular Biology and Evolution,,journal-article,"['Genetics', 'Ecology, Evolution, Behavior and Systematics', 'Molecular Biology']",,"2021, 2, 15",Oxford University Press (OUP),"[{'URL': 'http://academic.oup.com/mbe/advance-article-pdf/doi/10.1093/molbev/msab046/36520977/msab046.pdf', 'content-version': 'am', 'intended-application': 'syndication', 'content-type': 'application/pdf'}, {'URL': 'http://academic.oup.com/mbe/advance-article-pdf/doi/10.1093/molbev/msab046/36520977/msab046.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",199.0,16.24,"61,557","[101,1000]",11,"[9,350]",8,"[{'offsetStart': 41031, 'normalizedForm': '(Paradis 2010', 'refKey': 42, 'label': '(Paradis 2010;', 'reference_id': {'$oid': '60c46e887723bebd8666bdd7'}, 'offsetEnd': 41071, 'boundingBoxes': [{'x': 368.328, 'h': 8.883100000000013, 'y': 436.038, 'p': 9, 'w': 154.4813333333334}]}, {'offsetStart': 41031, 'normalizedForm': 'Paradis and Schliep 2019)', 'refKey': 43, 'label': 'Paradis and Schliep 2019)', 'reference_id': {'$oid': '60c46e887723bebd8666bdd8'}, 'offsetEnd': 41071, 'boundingBoxes': [{'x': 368.328, 'h': 8.883100000000013, 'y': 436.038, 'p': 9, 'w': 154.4813333333334}]}]","['60c46e887723bebd8666bdd7', '60c46e887723bebd8666bdd8']",ref_id_1,60c46e887723bebd8666bdd7,60c46e887723bebd8666bdd7,"<biblStruct xml:id=""b42"">
+	<analytic>
+		<title level=""a"" type=""main"">Pegas: an R package for population genetics with an integrated-modular approach</title>
+		<author>
+			<persName><forename type=""first"">E</forename><surname>Paradis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level=""j"">Bioinformatics</title>
+		<imprint>
+			<biblScope unit=""volume"">26</biblScope>
+			<biblScope unit=""issue"">3</biblScope>
+			<biblScope unit=""page"" from=""419"" to=""420"" />
+			<date type=""published"" when=""2010"" />
+		</imprint>
+	</monogr>
+</biblStruct>
+",42.0,60c46e887723bebd8666bdd4,2021, 2, 15
+60c46e887723bebd8666bdd4,60c46e887723bebd8666bde3,'8-1-0',1,0,"Using nonoverlapping windows of 100 bp, different popu- lation genetics variables (Watterson estimator of h, Tajima's D, and mean and PWD) were inferred using the R packages ape and pegas (Paradis 2010; Paradis and Schliep 2019).",pegas,,,,10.1093/molbev/msab046,,Global Patterns of Recombination across Human Viruses,,Molecular Biology and Evolution,,journal-article,"['Genetics', 'Ecology, Evolution, Behavior and Systematics', 'Molecular Biology']",,"2021, 2, 15",Oxford University Press (OUP),"[{'URL': 'http://academic.oup.com/mbe/advance-article-pdf/doi/10.1093/molbev/msab046/36520977/msab046.pdf', 'content-version': 'am', 'intended-application': 'syndication', 'content-type': 'application/pdf'}, {'URL': 'http://academic.oup.com/mbe/advance-article-pdf/doi/10.1093/molbev/msab046/36520977/msab046.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",199.0,16.24,"61,557","[101,1000]",11,"[9,350]",8,"[{'offsetStart': 41031, 'normalizedForm': '(Paradis 2010', 'refKey': 42, 'label': '(Paradis 2010;', 'reference_id': {'$oid': '60c46e887723bebd8666bdd7'}, 'offsetEnd': 41071, 'boundingBoxes': [{'x': 368.328, 'h': 8.883100000000013, 'y': 436.038, 'p': 9, 'w': 154.4813333333334}]}, {'offsetStart': 41031, 'normalizedForm': 'Paradis and Schliep 2019)', 'refKey': 43, 'label': 'Paradis and Schliep 2019)', 'reference_id': {'$oid': '60c46e887723bebd8666bdd8'}, 'offsetEnd': 41071, 'boundingBoxes': [{'x': 368.328, 'h': 8.883100000000013, 'y': 436.038, 'p': 9, 'w': 154.4813333333334}]}]","['60c46e887723bebd8666bdd7', '60c46e887723bebd8666bdd8']",ref_id_2,60c46e887723bebd8666bdd8,60c46e887723bebd8666bdd8,"<biblStruct xml:id=""b43"">
+	<analytic>
+		<title level=""a"" type=""main"">ape 5.0: an environment for modern phylogenetics and evolutionary analyses in R</title>
+		<author>
+			<persName><forename type=""first"">E</forename><surname>Paradis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">K</forename><surname>Schliep</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level=""j"">Bioinformatics</title>
+		<imprint>
+			<biblScope unit=""volume"">35</biblScope>
+			<biblScope unit=""issue"">3</biblScope>
+			<biblScope unit=""page"" from=""526"" to=""528"" />
+			<date type=""published"" when=""2019"" />
+		</imprint>
+	</monogr>
+</biblStruct>
+",43.0,60c46e887723bebd8666bdd4,2021, 2, 15
+60c5eaf37723bebd86681fbc,60c5eaf37723bebd86681fc1,'8-3-0',3,0,"The SYGNAL model utilizes a combination of somatic mutation profiles, inferred TF physical binding map and gene co-expression to infer TF and microRNA (miRNA) regulatory relationships, filters for experimentally supported edges, and uses network edge orientation to infer causality in the network.",SYGNAL,,,,10.15252/msb.20209506,,Integrated regulatory models for inference of subtype‐specific susceptibilities in glioblastoma,,Molecular Systems Biology,Mol Syst Biol,journal-article,"['General Biochemistry, Genetics and Molecular Biology', 'Computational Theory and Mathematics', 'General Immunology and Microbiology', 'Applied Mathematics', 'General Agricultural and Biological Sciences', 'Information Systems']",9,"2020, 9",EMBO,"[{'URL': 'https://onlinelibrary.wiley.com/doi/pdf/10.15252/msb.20209506', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'https://onlinelibrary.wiley.com/doi/full-xml/10.15252/msb.20209506', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/xml'}, {'URL': 'https://onlinelibrary.wiley.com/doi/pdf/10.15252/msb.20209506', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",355.0,11.429,"10,149","[101,1000]",19,"[9,350]",8,"[{'offsetStart': 58294, 'normalizedForm': '(Plaisier et al, 2016', 'refKey': 50, 'label': '(Plaisier et al, 2016;', 'reference_id': {'$oid': '60c5eaf37723bebd86681fbd'}, 'offsetEnd': 58327, 'boundingBoxes': [{'x': 403.764, 'h': 7.45029999999997, 'y': 569.879, 'p': 14, 'w': 113.38420000000008}]}]",['60c5eaf37723bebd86681fbd'],ref_id_1,60c5eaf37723bebd86681fbd,60c5eaf37723bebd86681fbd,"<biblStruct xml:id=""b50"">
+	<analytic>
+		<title level=""a"" type=""main"">Causal Mechanistic Regulatory Network for Glioblastoma Deciphered Using Systems Genetics Network Analysis</title>
+		<author>
+			<persName><forename type=""first"">Christopher</forename><forename type=""middle"">L</forename><surname>Plaisier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Sofie</forename><surname>O’brien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Brady</forename><surname>Bernard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Sheila</forename><surname>Reynolds</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Zac</forename><surname>Simon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Chad</forename><forename type=""middle"">M</forename><surname>Toledo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Yu</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">David</forename><forename type=""middle"">J</forename><surname>Reiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Patrick</forename><forename type=""middle"">J</forename><surname>Paddison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Nitin</forename><forename type=""middle"">S</forename><surname>Baliga</surname></persName>
+		</author>
+		<idno type=""DOI"">10.1016/j.cels.2016.06.006</idno>
+		<idno type=""PMID"">27426982</idno>
+		<idno type=""PMCID"">PMC5001912</idno>
+		<ptr type=""open-access"" target=""http://www.cell.com/article/S2405471216301892/pdf"" />
+	</analytic>
+	<monogr>
+		<title level=""j"">Cell Systems</title>
+		<title level=""j"" type=""abbrev"">Cell Systems</title>
+		<idno type=""ISSN"">2405-4712</idno>
+		<imprint>
+			<biblScope unit=""volume"">3</biblScope>
+			<biblScope unit=""issue"">2</biblScope>
+			<biblScope unit=""page"" from=""172"" to=""186"" />
+			<date type=""published"" when=""2016-08"" />
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+",50.0,60c5eaf37723bebd86681fbc,2020, 9,
+60c8a0e37723bebd866aa1aa,60c8a0e37723bebd866aa1da,'8-4-0',4,0,"Second, we defined DHMRs and DMRs by comparing TAB-seq and WGBS data between 7-and 79-week-old cerebella using the tool DSS (37).",DSS,,,,10.1126/sciadv.aba0521,,DeepH&M: Estimating single-CpG hydroxymethylation and methylation levels from enrichment and restriction enzyme sequencing methods,,Science Advances,Sci. Adv.,journal-article,,27,"2020, 7",American Association for the Advancement of Science (AAAS),"[{'URL': 'https://syndication.highwire.org/content/doi/10.1126/sciadv.aba0521', 'content-version': 'vor', 'intended-application': 'syndication', 'content-type': 'unspecified'}, {'URL': 'https://syndication.highwire.org/content/doi/10.1126/sciadv.aba0521', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",247.0,14.136,"65,205","[101,1000]",54,"[9,350]",8,"[{'offsetStart': 22367, 'normalizedForm': '37', 'refKey': 36, 'label': '(37)', 'reference_id': {'$oid': '60c8a0e37723bebd866aa1ae'}, 'offsetEnd': 22371, 'boundingBoxes': [{'x': 257.388, 'h': 10.924999999999955, 'y': 665.334, 'p': 5, 'w': 14.242400000000032}]}]",['60c8a0e37723bebd866aa1ae'],ref_id_1,60c8a0e37723bebd866aa1ae,60c8a0e37723bebd866aa1ae,"<biblStruct xml:id=""b36"">
+	<analytic>
+		<title level=""a"" type=""main"">A new shrinkage estimator for dispersion improves differential expression detection in RNA-seq data</title>
+		<author>
+			<persName><forename type=""first"">H</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Z</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level=""j"">Biostatistics</title>
+		<imprint>
+			<biblScope unit=""volume"">14</biblScope>
+			<biblScope unit=""page"" from=""232"" to=""243"" />
+			<date type=""published"" when=""2013"" />
+		</imprint>
+	</monogr>
+</biblStruct>
+",36.0,60c8a0e37723bebd866aa1aa,2020, 7,
+60c2260d7723bebd866471d6,60c2260d7723bebd866471d7,'9-1-0',1,0,"All statistical analyses were performed using SAS Enterprise Edition  3.8, SAS Institute Inc.",SAS Enterprise Edition,3.8,SAS Institute Inc,,10.1111/aas.13701,,"Characteristics, interventions, and longer term outcomes of COVID‐19 ICU patients in Denmark—A nationwide, observational study",,Acta Anaesthesiologica Scandinavica,Acta Anaesthesiol. Scand.,journal-article,"['Anesthesiology and Pain Medicine', 'General Medicine']",1,"2020, 10, 3",Wiley,"[{'URL': 'https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Faas.13701', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'https://onlinelibrary.wiley.com/doi/pdf/10.1111/aas.13701', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'https://onlinelibrary.wiley.com/doi/full-xml/10.1111/aas.13701', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/xml'}, {'URL': 'https://onlinelibrary.wiley.com/doi/pdf/10.1111/aas.13701', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",7413.0,2.105,"7,801","[1001,12895]",1,"[0,1]",9,,,,,,,,,2020, 10, 3
+60c5d90e7723bebd8668100d,60c5d90e7723bebd8668100e,'9-2-0',2,0,"SPSS software package, version 13.0 (SPSS Inc., Chicago, IL, USA) was used for statistical analysis of the data.",SPSS,13.0,SPSS Inc,,10.3390/pathogens9110913,c65eb6bf9337b42be153c00e4d48fc4a3ab07d7d,Neutrophil-to-Lymphocyte Ratio Predicts Mortality in Adult Renal Transplant Recipients with Severe Community-Acquired Pneumonia,,Pathogens,Pathogens,journal-article,,11,"2020, 11, 4",MDPI AG,"[{'URL': 'https://www.mdpi.com/2076-0817/9/11/913/pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",3857.0,3.492,"4,177","[1001,12895]",1,"[0,1]",9,,,,,,,,,2020, 11, 4
+60c827a47723bebd866a2fdd,60c827a47723bebd866a2fde,'10-0-0',0,0,and TensorFlow 1.10.0.,TensorFlow,1.10.0,,,10.1007/s11325-020-02249-0,,Screening of sleep apnea based on heart rate variability and long short-term memory,,Sleep and Breathing,Sleep Breath,journal-article,"['Otorhinolaryngology', 'Clinical Neurology']",,"2021, 1, 10",Springer Science and Business Media LLC,"[{'URL': 'http://link.springer.com/content/pdf/10.1007/s11325-020-02249-0.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://link.springer.com/article/10.1007/s11325-020-02249-0/fulltext.html', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://link.springer.com/content/pdf/10.1007/s11325-020-02249-0.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",5347.0,2.816,"4,728","[1001,12895]",3,"[2,8]",10,,,,,,,,,2021, 1, 10
+60c590107723bebd8667cc3c,60c590107723bebd8667cc3d,'10-1-0',1,0,STATA 14 software and the command psmatch2 [24] have been used to perform the PSM.,STATA,14,,,10.3390/pathogens9060502,1ea2f40cee7372e6098eea3f9bdade3573d426a1,A Probiotic-Based Sanitation System for the Reduction of Healthcare Associated Infections and Antimicrobial Resistances: A Budget Impact Analysis,,Pathogens,Pathogens,journal-article,,6,"2020, 6, 23",MDPI AG,"[{'URL': 'https://www.mdpi.com/2076-0817/9/6/502/pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",3857.0,3.492,"4,177","[1001,12895]",2,"[2,8]",10,,,,,,,,,2020, 6, 23
+60c4558f7723bebd8666a5e4,60c4558f7723bebd8666a5e5,'10-2-0',2,0,Revman 5.3 software will be used for the meta-analysis.,Revman,5.3,,,10.1097/md.0000000000020525,237a37e99eb49cc66775a77ce3f87c6a6dcdafff,The efficacy of masks for influenza-like illness in the community,A protocol for systematic review and meta-analysis,Medicine,,journal-article,['General Medicine'],23,"2020, 6, 5",Ovid Technologies (Wolters Kluwer Health),"[{'URL': 'https://journals.lww.com/10.1097/MD.0000000000020525', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",8152.0,1.889,"50,118","[1001,12895]",2,"[2,8]",10,,,,,,,,,2020, 6, 5
+60c7ca8d7723bebd8669dbaa,60c7ca8d7723bebd8669dbae,'10-3-0',3,0,"Every N- glycan structure was confirmed by the MS/MS (LIFT) analysis and the spectra were interpreted by the ProteinScape (Bruker Daltonics, MA, USA) or GlycoWork Bench (Ceroni et al., 2008) softwares.",GlycoWork Bench,,,,10.1016/j.jbiotec.2020.03.009,6caea188ce723e31d63f06062e643c4c59ad9f44,Influence of media composition on recombinant monoclonal IgA1 glycosylation analysed by lectin-based protein microarray and MALDI-MS,,Journal of Biotechnology,Journal of Biotechnology,journal-article,"['Biotechnology', 'Applied Microbiology and Biotechnology', 'General Medicine']",,"2020, 5",Elsevier BV,"[{'URL': 'https://api.elsevier.com/content/article/PII:S0168165620300729?httpAccept=text/xml', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/xml'}, {'URL': 'https://api.elsevier.com/content/article/PII:S0168165620300729?httpAccept=text/plain', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/plain'}]",4226.0,3.307,"18,376","[1001,12895]",3,"[2,8]",10,"[{'offsetStart': 18405, 'normalizedForm': 'Ceroni et al., 2008', 'refKey': 6, 'label': '(Ceroni et al., 2008)', 'reference_id': {'$oid': '60c7ca8d7723bebd8669dbab'}, 'offsetEnd': 18427, 'boundingBoxes': [{'x': 403.708, 'h': 8.846800000000002, 'y': 216.662, 'p': 4, 'w': 72.7054}]}]",['60c7ca8d7723bebd8669dbab'],ref_id_1,60c7ca8d7723bebd8669dbab,60c7ca8d7723bebd8669dbab,"<biblStruct xml:id=""b6"">
+	<analytic>
+		<title level=""a"" type=""main"">GlycoWorkbench: A Tool for the Computer-Assisted Annotation of Mass Spectra of Glycans†</title>
+		<author>
+			<persName><forename type=""first"">Alessio</forename><surname>Ceroni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Kai</forename><surname>Maass</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Hildegard</forename><surname>Geyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Rudolf</forename><surname>Geyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Anne</forename><surname>Dell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Stuart</forename><forename type=""middle"">M</forename><surname>Haslam</surname></persName>
+		</author>
+		<idno type=""DOI"">10.1021/pr7008252</idno>
+		<idno type=""PMID"">18311910</idno>
+		<ptr target=""https://doi.org/10.1021/pr7008252"" />
+	</analytic>
+	<monogr>
+		<title level=""j"">Journal of Proteome Research</title>
+		<title level=""j"" type=""abbrev"">J. Proteome Res.</title>
+		<idno type=""ISSN"">1535-3893</idno>
+		<idno type=""ISSNe"">1535-3907</idno>
+		<imprint>
+			<biblScope unit=""volume"">7</biblScope>
+			<biblScope unit=""issue"">4</biblScope>
+			<biblScope unit=""page"" from=""1650"" to=""1659"" />
+			<date type=""published"" when=""2008-04"" />
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+",6.0,60c7ca8d7723bebd8669dbaa,2020, 5,
+60c3c1b47723bebd866619bb,60c3c1b47723bebd866619bf,'10-4-0',4,0,The entire extracted DNA were sequenced by Sanger sequencer platform to identify any possible mutation occurrence and compared with stock RCMV ALL-03 solution using Clustal Omega online software system.,Clustal Omega,,,,10.1186/s12985-020-01436-5,30b000e59930aa8c680783f10a4dafbd9f44e15f,Multiple gene targeting siRNAs for down regulation of Immediate Early-2 (Ie2) and DNA polymerase genes mediated inhibition of novel rat Cytomegalovirus (strain All-03),,Virology Journal,Virol J,journal-article,"['Virology', 'Infectious Diseases']",1,"2020, 10, 27",Springer Science and Business Media LLC,"[{'URL': 'http://link.springer.com/content/pdf/10.1186/s12985-020-01436-5.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://link.springer.com/article/10.1186/s12985-020-01436-5/fulltext.html', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://link.springer.com/content/pdf/10.1186/s12985-020-01436-5.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",2905.0,4.099,"9,953","[1001,12895]",5,"[2,8]",10,,,,,,,,,2020, 10, 27
+60c6c3087723bebd8668df81,60c6c3087723bebd8668df88,'11-0-0',0,0,Sequences were mapped using bowtie2 (Langmead and Salzberg 2012) versus curated mRNAs described in the mouse genome (available at NCBI ftp site).,bowtie2,,,,10.1261/rna.075424.120,,PDCD4 regulates axonal growth by translational repression of neurite growth-related genes and is modulated during nerve injury responses,,RNA,RNA,journal-article,['Molecular Biology'],11,"2020, 8, 3",Cold Spring Harbor Laboratory,"[{'URL': 'https://syndication.highwire.org/content/doi/10.1261/rna.075424.120', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",2044.0,4.942,"14,914","[1001,12895]",9,"[9,350]",11,,,,,,,,,2020, 8, 3
+60c4733e7723bebd8666c21a,60c4733e7723bebd8666c225,'11-2-0',2,0,"Gly- copeptide identifications from Byonic were manually inspected in Skyline and evaluated for correct isotope assignments and well-defined elution profiles, acceptable for peak integration.",Skyline,,,,10.1371/journal.ppat.1009282,1d59a7cabfd09c9acc43aaa0503989f9ec56dfa8,Multimerization- and glycosylation-dependent receptor binding of SARS-CoV-2 spike proteins,,PLOS Pathogens,PLoS Pathog,journal-article,"['Immunology', 'Genetics', 'Molecular Biology', 'Microbiology', 'Parasitology', 'Virology']",2,"2021, 2, 8",Public Library of Science (PLoS),"[{'URL': 'https://dx.plos.org/10.1371/journal.ppat.1009282', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",1021.0,6.823,"55,666","[1001,12895]",9,"[9,350]",11,,,,,,,,,2021, 2, 8
+60c72a1a7723bebd86693e77,60c72a1a7723bebd86693e78,'12-0-0',0,0,"All analyses were carried out with statistical software SAS version 9.4 (SAS Institute, Cary, NC, USA) and R version 4.0.0 (R Project for Statistical Computing, www.R-project.org).",SAS,9.4,SAS Institute,,10.1101/2020.07.10.20150565,028cf64dda6bf54e37a666d3ddb078d98f2d0cb1,Magnitude and time-course of excess mortality during COVID-19 outbreak: population-based empirical evidence from highly impacted provinces in northern Italy,,,,posted-content,,,"2020, 7, 11",Cold Spring Harbor Laboratory,"[{'URL': 'https://syndication.highwire.org/content/doi/10.1101/2020.07.10.20150565', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",,,,No Impact Factor,1,"[0,1]",12,,,,,,,,,2020, 7, 11
+60c5f30a7723bebd866825db,60c5f30a7723bebd866825dc,'13-0-0',0,0,The check types are based on PEDSnet framework (22) and revised to fit our project's specific needs.,PEDSnet,,,,10.1101/2020.09.21.20196220,d6ca61663c13c1f391a86f8f92321535238c0e36; a55e639bf7e6bc4fdc3914fbb7f9e0dfa73e8da4,"Privacy-Protecting, Reliable Response Data Discovery Using COVID-19 Patient Observations",,,,posted-content,,,"2020, 9, 23",Cold Spring Harbor Laboratory,"[{'URL': 'https://syndication.highwire.org/content/doi/10.1101/2020.09.21.20196220', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",,,,No Impact Factor,3,"[2,8]",13,,,,,,,,,2020, 9, 23
+60c2eacc7723bebd86654478,60c2eacc7723bebd8665447a,'13-1-0',1,0,"Finally, the substrates were imaged using a prototype AIR Reader and internally developed imaging software at several integration times with dark field subtraction.",AIR Reader,,,,10.1016/j.bios.2020.112643,cc0e6676ee1b53b0e6f09265e3d0491efad38221,"Array-based analysis of SARS-CoV-2, other coronaviruses, and influenza antibodies in convalescent COVID-19 patients",,Biosensors and Bioelectronics,Biosensors and Bioelectronics,journal-article,"['Biotechnology', 'Biophysics', 'Electrochemistry', 'Biomedical Engineering', 'General Medicine']",,"2020, 12",Elsevier BV,"[{'URL': 'https://api.elsevier.com/content/article/PII:S0956566320306333?httpAccept=text/xml', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/xml'}, {'URL': 'https://api.elsevier.com/content/article/PII:S0956566320306333?httpAccept=text/plain', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/plain'}]",,,,No Impact Factor,3,"[2,8]",13,,,,,,,,,2020, 12,
+60c4691d7723bebd8666b97e,60c4691d7723bebd8666b980,'13-2-0',2,0,"Statistical analyses were performed using SPSS (IBM SPSS Statistics Version 25, IBM Corp., Armonk, NY, USA).",SPSS Statistics,25,IBM Corp,,10.7759/cureus.13336,,The Imbalance in Medico-Legal Cover Awareness and Uptake Between Overseas Junior Doctors and Local Graduates in the NHS,,Cureus,,journal-article,,,"2021, 2, 14","Cureus, Inc.","[{'URL': 'https://www.cureus.com/articles/50570-the-imbalance-in-medico-legal-cover-awareness-and-uptake-between-overseas-junior-doctors-and-local-graduates-in-the-nhs', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",,,,No Impact Factor,2,"[2,8]",13,,,,,,,,,2021, 2, 14
+60c2b6787723bebd86650f5b,60c2b6787723bebd86650f70,'14-0-0',0,0,"All  ligands from the SWEETLEAD database were first preprocessed using the AutoDock  ligand preparation script, and docked into the 3CLpro binding pocket using AutoDock- GPU [27].",AutoDock,,,,10.1101/2021.03.02.433618,ee5efc6f3920dda673bc8552eabca19b77d6f5cd,A pharmacophore model for SARS-CoV-2 3CLpro small molecule inhibitors and in vitro experimental validation of computationally screened inhibitors,,,,posted-content,,,"2021, 3, 3",Cold Spring Harbor Laboratory,"[{'URL': 'https://syndication.highwire.org/content/doi/10.1101/2021.03.02.433618', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",,,,No Impact Factor,40,"[9,350]",14,,,,,,,,,2021, 3, 3
+60c235727723bebd866480dd,60c235727723bebd866480eb,'14-1-0',1,0,"Via support for the Jani format [8], mcsta can exchange models with other tools like Epmc [18] and Storm [10].",Epmc,,,,10.1007/978-3-030-53291-8_26,64f67a4f67919cf13d086ee38c103dfccf665436,Optimistic Value Iteration,,"Computer Aided Verification,Lecture Notes in Computer Science",,book-chapter,,,2020,Springer International Publishing,"[{'URL': 'http://link.springer.com/content/pdf/10.1007/978-3-030-53291-8_26', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",,,,No Impact Factor,20,"[9,350]",14,"[{'offsetStart': 41685, 'normalizedForm': '[18]', 'refKey': 21, 'label': '[18]', 'reference_id': {'$oid': '60c235727723bebd866480e1'}, 'offsetEnd': 41690, 'boundingBoxes': [{'x': 86.1824, 'h': 8.936499999999995, 'y': 241.565, 'p': 15, 'w': 15.503799999999998}]}]",['60c235727723bebd866480e1'],ref_id_1,60c235727723bebd866480e1,60c235727723bebd866480e1,"<biblStruct xml:id=""b21"">
+	<analytic>
+		<title level=""a"" type=""main"">iscasMc: A Web-Based Probabilistic Model Checker</title>
+		<author>
+			<persName><forename type=""first"">Ernst</forename><forename type=""middle"">Moritz</forename><surname>Hahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Yi</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Sven</forename><surname>Schewe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Andrea</forename><surname>Turrini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Lijun</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type=""DOI"">10.1007/978-3-319-06410-9_22</idno>
+		<ptr target=""https://doi.org/10.1007/978-3-319-06410-922"" />
+	</analytic>
+	<monogr>
+		<title level=""m"">Lecture Notes in Computer Science</title>
+				<editor>
+			<persName><forename type=""first"">C</forename><surname>Jones</surname></persName>
+			<persName><forename type=""first"">P</forename><surname>Pihlajasaari</surname></persName>
+			<persName><forename type=""first"">J</forename><surname>Sun</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Cham</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type=""published"" when=""2014"" />
+			<biblScope unit=""volume"">8442</biblScope>
+			<biblScope unit=""page"" from=""312"" to=""317"" />
+		</imprint>
+	</monogr>
+</biblStruct>
+",21.0,60c235727723bebd866480dd,2020,,

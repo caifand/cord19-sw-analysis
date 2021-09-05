@@ -1,0 +1,158 @@
+sample_id,anno_key,doc_key,context,software_name,version,publisher,url,DOI,cord_sha,doc_title,doc_subtitle,journal_title,journal_short_title,document_type,journal_subject,journal_issue,issue_dates,journal_publisher,doc_link,jif_rank,jif,journal_total_cites,stratum,mention_density,mention_density_group,group_num,doc_num,anno_num,references,ref_id_list,refs,ref_id,ref_key,tei,refKey,ref_doc_key,issue_year
+' 1-27-0 ',60c6ab047723bebd8668c91f,60c6ab047723bebd8668c91e,"Analyses were performed with the use of R statistical software, version 3.6.1 (with the libraries MatchIt and BayesianFirstAid).",MatchIt,NA,NA,NA,10.1056/nejmoa2008975,92b64b1d49a8b6094da70a4dad03ee9d3d24c8b8,Renin–Angiotensin–Aldosterone System Inhibitors and Risk of Covid-19,NA,New England Journal of Medicine,N Engl J Med,journal-article,['General Medicine'],25,"2020, 6, 18",Massachusetts Medical Society,"[{'URL': 'http://www.nejm.org/doi/pdf/10.1056/NEJMoa2008975', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",3,91.245,464351,"[1,10]",2,"[2,8]",1,27,0,NA,NA,NA,NA,NA,NA,NA,NA,2020
+' 3-6-0 ',60c8da037723bebd866ad893,60c8da037723bebd866ad891,"Docking of minimised natural product structures against X-ray structures of target proteins can be achieved using open source software such as AutoDock, 49 which gives docking scores that can be used to select the best candidates, although it is good practice to visually inspect top candidates to check if they actually main- tain essential interaction with target residues.",AutoDock,NA,NA,NA,10.1039/d0cs01118e,NA,Antiviral drug discovery: preparing for the next pandemic,NA,Chemical Society Reviews,Chem. Soc. Rev.,journal-article,['General Chemistry'],6,2021,Royal Society of Chemistry (RSC),"[{'URL': 'http://pubs.rsc.org/en/content/articlepdf/2021/CS/D0CS01118E', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",16,54.564,173170,"[11,100]",1,"[0,1]",3,6,0,"[{'offsetStart': 34137, 'normalizedForm': '49', 'refKey': 48, 'label': '49', 'reference_id': {'$oid': '60c8da037723bebd866ad892'}, 'offsetEnd': 34140, 'boundingBoxes': [{'x': 83.622, 'h': 5.2357, 'y': 431.592, 'p': 6, 'w': 6.9943}]}]",['60c8da037723bebd866ad892'],ref_id_1,60c8da037723bebd866ad892,60c8da037723bebd866ad892,"<biblStruct xml:id=""b48"">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type=""first"">O</forename><surname>Trott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">A</forename><forename type=""middle"">J</forename><surname>Olson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level=""j"">J. Comput. Chem</title>
+		<imprint>
+			<biblScope unit=""volume"">31</biblScope>
+			<biblScope unit=""page"" from=""5"" to=""461"" />
+			<date type=""published"" when=""2010"" />
+		</imprint>
+	</monogr>
+</biblStruct>
+",48,60c8da037723bebd866ad891,2021
+' 4-3-0 ',60c657d87723bebd86687b1b,60c657d87723bebd86687b19,"After applying computational tools (SAINTexpress and MiST) to screen the MS results for high-confidence protein- protein interactions, the researchers used chemoinformatics and human expertise to match 66 druggable human proteins or host factors as targets of 69 different compounds (29 of which have been approved by the US Food and Drug Administration, 12 of which are experimental molecules in clinical testing, and 28 of which are experimental molecules in preclinical testing).",MiST,NA,NA,NA,10.1038/s41587-020-0569-1,NA,Dyno advances AI-powered gene therapy,NA,Nature Biotechnology,Nat Biotechnol,journal-article,"['Biotechnology', 'Molecular Medicine', 'Applied Microbiology and Biotechnology', 'Bioengineering', 'Biomedical Engineering']",6,"2020, 6",Springer Science and Business Media LLC,"[{'URL': 'http://www.nature.com/articles/s41587-020-0569-1.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://www.nature.com/articles/s41587-020-0569-1', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://www.nature.com/articles/s41587-020-0569-1.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",15,54.908,78786,"[11,100]",2,"[2,8]",4,3,0,NA,NA,NA,NA,NA,NA,NA,NA,2020
+' 10-17-0 ',60c4ea507723bebd86673509,60c4ea507723bebd86673505,"L1 and L2 were delivered identi- cally in all aspects, including:  the presentation platform (PowerPoint, Microsoft Corp, Redmond, WA), the lecturer (both L1 and L2 were given by the same registered specialist orthodontist (F.A.), and the duration of the lectures which was 60 min.",PowerPoint,NA,Microsoft Corp,NA,10.1186/s12909-020-02363-3,f712b71d727a755f3a34543b4623a91a29b81e2b,Phone-based audience response system as an adjunct in orthodontic teaching of undergraduate dental students: a cross-over randomised controlled trial,NA,BMC Medical Education,BMC Med Educ,journal-article,"['Education', 'General Medicine']",1,"2020, 11, 16",Springer Science and Business Media LLC,"[{'URL': 'http://link.springer.com/content/pdf/10.1186/s12909-020-02363-3.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://link.springer.com/article/10.1186/s12909-020-02363-3/fulltext.html', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://link.springer.com/content/pdf/10.1186/s12909-020-02363-3.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",6297,2.463,8400,"[1001,12895]",5,"[2,8]",10,17,0,NA,NA,NA,NA,NA,NA,NA,NA,2020
+' 12-9-0 ',60c2aac67723bebd866502d8,60c2aac67723bebd866502d7,"Statistical data processing was carried out using the MedCalc software, version 18.10.2.",MedCalc,18.10.2,NA,NA,10.1134/s0362119720050060,2059739b21830de7aa4d0e772839567fbbd9b25e,Prediction of the Effectiveness of Spontaneous Breathing in Patients with Brain Damage of Various Etiologies,NA,Human Physiology,Hum Physiol,journal-article,"['Physiology (medical)', 'Physiology']",6,"2020, 11",Pleiades Publishing Ltd,"[{'URL': 'http://link.springer.com/content/pdf/10.1134/S0362119720050060.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://link.springer.com/article/10.1134/S0362119720050060/fulltext.html', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://link.springer.com/content/pdf/10.1134/S0362119720050060.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",NA,NA,NA,No Impact Factor,1,"[0,1]",12,9,0,NA,NA,NA,NA,NA,NA,NA,NA,2020
+' 13-10-0 ',60c756ab7723bebd866967f0,60c756ab7723bebd866967ee,"To supplement our results, a further manual search was per- formed by two independent reviewers on Google Scholar and through the bibliographies of all included articles.",Google Scholar,NA,NA,NA,10.1016/j.bjps.2020.08.088,0db6d2bdd1f894f9f8bbbb9ac5e5a4fa81a31a1f,The early response of plastic and reconstructive surgery services to the COVID-19 pandemic: A systematic review,NA,"Journal of Plastic, Reconstructive & Aesthetic Surgery","Journal of Plastic, Reconstructive & Aesthetic Surgery",journal-article,['Surgery'],11,"2020, 11",Elsevier BV,"[{'URL': 'https://api.elsevier.com/content/article/PII:S1748681520304320?httpAccept=text/xml', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/xml'}, {'URL': 'https://api.elsevier.com/content/article/PII:S1748681520304320?httpAccept=text/plain', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/plain'}]",NA,NA,NA,No Impact Factor,2,"[2,8]",13,10,0,NA,NA,NA,NA,NA,NA,NA,NA,2020
+' 13-11-0 ',60c39b727723bebd8665f0a6,60c39b727723bebd8665f0a5,"Microsoft Excel was used for data cleaning, editing, sorting, and coding.",Excel,2019,Microsoft,NA,10.1101/2021.02.16.21251802,69852ce485b81b4bb09183f32fa590598b3093fc,"Knowledge, attitudes and perceptions towards COVID-19 vaccinations: a cross-sectional community survey in Bangladesh",NA,NA,NA,posted-content,NA,NA,"2021, 2, 19",Cold Spring Harbor Laboratory,"[{'URL': 'https://syndication.highwire.org/content/doi/10.1101/2021.02.16.21251802', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",NA,NA,NA,No Impact Factor,5,"[2,8]",13,11,0,NA,NA,NA,NA,NA,NA,NA,NA,2021
+' 13-12-0 ',60c30b067723bebd8665632c,60c30b067723bebd8665632b,"We use AMOS 19.0 to construct a structural equation model to test the hypotheses: χ 2 /df = 2.38, GFI = 0.950, NFI = 0.938, TLI = 0.945, CFI = 0.921, and RMSEA = 0.070.",AMOS,19.0,NA,NA,10.1186/s11782-020-00096-0,1e7ddee41d13a3aba68102be2b68c0a0790b8950,The influence of the corporate social responsibility disclosures on consumer brand attitudes under the impact of COVID-19,NA,Frontiers of Business Research in China,Front. Bus. Res. China,journal-article,"['General Business, Management and Accounting', 'Public Administration']",1,"2020, 12",Springer Science and Business Media LLC,"[{'URL': 'http://link.springer.com/content/pdf/10.1186/s11782-020-00096-0.pdf', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'application/pdf'}, {'URL': 'http://link.springer.com/article/10.1186/s11782-020-00096-0/fulltext.html', 'content-version': 'vor', 'intended-application': 'text-mining', 'content-type': 'text/html'}, {'URL': 'http://link.springer.com/content/pdf/10.1186/s11782-020-00096-0.pdf', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'application/pdf'}]",NA,NA,NA,No Impact Factor,2,"[2,8]",13,12,0,NA,NA,NA,NA,NA,NA,NA,NA,2020
+' 13-13-0 ',60c795087723bebd8669a493,60c795087723bebd8669a491,Data were coded and abstracted into the Microsoft Excel spreadsheet and thereafter loaded into the Statistical Package for the Social Sciences version 20 for final analysis.,Excel,NA,Microsoft,NA,10.4269/ajtmh.20-0838,0acab36e7861cf7a887c31f2f39f7dca86c8ad8d,Impact of the COVID-19 Pandemic on Consumers’ Access to Essential Medicines in Nigeria,NA,The American Journal of Tropical Medicine and Hygiene,NA,journal-article,"['Parasitology', 'Virology', 'Infectious Diseases']",4,"2020, 10, 7",American Society of Tropical Medicine and Hygiene,NA,NA,NA,NA,No Impact Factor,3,"[2,8]",13,13,0,NA,NA,NA,NA,NA,NA,NA,NA,2020
+' 14-2-0 ',60c2cf5b7723bebd866528d9,60c2cf5b7723bebd866528a7,"Potential splice donor/acceptor splice sites, exon splicing enhancer (ESE), exon splicing silencer (ESS), intron splicing enhancer (ISE), and intron splicing silencer (ISS) motifs were predicted using RegRNA2.0 [68], HSF [69], and NIPU [70,71] tools.",NIPU,NA,NA,NA,10.1101/2020.05.15.098947,f6d0a2c9b24b8a196594115f3e3f70afaf2e6717,Implications of SARS-CoV-2 mutations for genomic RNA structure and host microRNA targeting,NA,NA,NA,posted-content,NA,NA,"2020, 5, 16",Cold Spring Harbor Laboratory,"[{'URL': 'https://syndication.highwire.org/content/doi/10.1101/2020.05.15.098947', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",NA,NA,NA,No Impact Factor,45,"[9,350]",14,2,0,"[{'offsetStart': 42516, 'normalizedForm': '[70', 'refKey': 69, 'label': '[70,', 'reference_id': {'$oid': '60c2cf5b7723bebd866528ad'}, 'offsetEnd': 42524, 'boundingBoxes': [{'x': 243.089, 'h': 9.584000000000003, 'y': 309.396, 'p': 13, 'w': 29.050900000000013}]}, {'offsetStart': 42516, 'normalizedForm': '71]', 'refKey': 70, 'label': '71]', 'reference_id': {'$oid': '60c2cf5b7723bebd866528a8'}, 'offsetEnd': 42524, 'boundingBoxes': [{'x': 243.089, 'h': 9.584000000000003, 'y': 309.396, 'p': 13, 'w': 29.050900000000013}]}]","['60c2cf5b7723bebd866528ad', '60c2cf5b7723bebd866528a8']",ref_id_1,60c2cf5b7723bebd866528ad,60c2cf5b7723bebd866528ad,"<biblStruct xml:id=""b69"">
+	<analytic>
+		<title level=""a"" type=""main"">Pre-mRNA Secondary Structures Influence Exon Recognition</title>
+		<author>
+			<persName><forename type=""first"">Michael</forename><surname>Hiller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Zhaiyi</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Rolf</forename><surname>Backofen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Stefan</forename><surname>Stamm</surname></persName>
+		</author>
+		<idno type=""DOI"">10.1371/journal.pgen.0030204</idno>
+		<idno type=""PMID"">18020710</idno>
+		<idno type=""PMCID"">PMC2077896</idno>
+		<ptr type=""open-access"" target=""https://journals.plos.org/plosgenetics/article/file?id=10.1371/journal.pgen.0030204&amp;type=printable"" />
+	</analytic>
+	<monogr>
+		<title level=""j"">PLoS Genetics</title>
+		<title level=""j"" type=""abbrev"">PLoS Genet</title>
+		<idno type=""ISSN"">1553-7390</idno>
+		<idno type=""ISSNe"">1553-7404</idno>
+		<imprint>
+			<biblScope unit=""volume"">3</biblScope>
+			<biblScope unit=""issue"">11</biblScope>
+			<biblScope unit=""page"">e204</biblScope>
+			<date type=""published"" when=""2007"" />
+			<publisher>Public Library of Science (PLoS)</publisher>
+		</imprint>
+	</monogr>
+	<note>3, e204. [CrossRef</note>
+</biblStruct>
+",69,60c2cf5b7723bebd866528a7,2020
+' 14-2-0 ',60c2cf5b7723bebd866528d9,60c2cf5b7723bebd866528a7,"Potential splice donor/acceptor splice sites, exon splicing enhancer (ESE), exon splicing silencer (ESS), intron splicing enhancer (ISE), and intron splicing silencer (ISS) motifs were predicted using RegRNA2.0 [68], HSF [69], and NIPU [70,71] tools.",NIPU,NA,NA,NA,10.1101/2020.05.15.098947,f6d0a2c9b24b8a196594115f3e3f70afaf2e6717,Implications of SARS-CoV-2 mutations for genomic RNA structure and host microRNA targeting,NA,NA,NA,posted-content,NA,NA,"2020, 5, 16",Cold Spring Harbor Laboratory,"[{'URL': 'https://syndication.highwire.org/content/doi/10.1101/2020.05.15.098947', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",NA,NA,NA,No Impact Factor,45,"[9,350]",14,2,0,"[{'offsetStart': 42516, 'normalizedForm': '[70', 'refKey': 69, 'label': '[70,', 'reference_id': {'$oid': '60c2cf5b7723bebd866528ad'}, 'offsetEnd': 42524, 'boundingBoxes': [{'x': 243.089, 'h': 9.584000000000003, 'y': 309.396, 'p': 13, 'w': 29.050900000000013}]}, {'offsetStart': 42516, 'normalizedForm': '71]', 'refKey': 70, 'label': '71]', 'reference_id': {'$oid': '60c2cf5b7723bebd866528a8'}, 'offsetEnd': 42524, 'boundingBoxes': [{'x': 243.089, 'h': 9.584000000000003, 'y': 309.396, 'p': 13, 'w': 29.050900000000013}]}]","['60c2cf5b7723bebd866528ad', '60c2cf5b7723bebd866528a8']",ref_id_2,60c2cf5b7723bebd866528a8,60c2cf5b7723bebd866528a8,"<biblStruct xml:id=""b70"">
+	<analytic>
+		<title level=""a"" type=""main"">Freiburg RNA tools: a central online resource for RNA-focused research and teaching</title>
+		<author>
+			<persName><forename type=""first"">Martin</forename><surname>Raden</surname></persName>
+			<idno type=""ORCID"">0000-0002-7926-5911</idno>
+		</author>
+		<author>
+			<persName><forename type=""first"">Syed</forename><forename type=""middle"">M</forename><surname>Ali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Omer</forename><forename type=""middle"">S</forename><surname>Alkhnbashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Anke</forename><surname>Busch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Fabrizio</forename><surname>Costa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Jason</forename><forename type=""middle"">A</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Florian</forename><surname>Eggenhofer</surname></persName>
+			<idno type=""ORCID"">0000-0001-9564-7525</idno>
+		</author>
+		<author>
+			<persName><forename type=""first"">Rick</forename><surname>Gelhausen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Jens</forename><surname>Georg</surname></persName>
+			<idno type=""ORCID"">0000-0002-7746-5522</idno>
+		</author>
+		<author>
+			<persName><forename type=""first"">Steffen</forename><surname>Heyne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Michael</forename><surname>Hiller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Kousik</forename><surname>Kundu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Robert</forename><surname>Kleinkauf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Steffen</forename><forename type=""middle"">C</forename><surname>Lott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Mostafa</forename><forename type=""middle"">M</forename><surname>Mohamed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Alexander</forename><surname>Mattheis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Milad</forename><surname>Miladi</surname></persName>
+			<idno type=""ORCID"">0000-0002-0173-3009</idno>
+		</author>
+		<author>
+			<persName><forename type=""first"">Andreas</forename><forename type=""middle"">S</forename><surname>Richter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Sebastian</forename><surname>Will</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Joachim</forename><surname>Wolff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Patrick</forename><forename type=""middle"">R</forename><surname>Wright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type=""first"">Rolf</forename><surname>Backofen</surname></persName>
+		</author>
+		<idno type=""DOI"">10.1093/nar/gky329</idno>
+		<idno type=""PMID"">29788132</idno>
+		<idno type=""PMCID"">PMC6030932</idno>
+		<ptr type=""open-access"" target=""https://academic.oup.com/nar/article-pdf/46/W1/W25/25110272/gky329.pdf"" />
+	</analytic>
+	<monogr>
+		<title level=""j"">Nucleic Acids Research</title>
+		<idno type=""ISSN"">0305-1048</idno>
+		<idno type=""ISSNe"">1362-4962</idno>
+		<imprint>
+			<biblScope unit=""volume"">46</biblScope>
+			<biblScope unit=""issue"">W1</biblScope>
+			<biblScope unit=""page"" from=""W25"" to=""W29"" />
+			<date type=""published"" when=""2018-05-21"" />
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+",70,60c2cf5b7723bebd866528a7,2020
+' 14-3-0 ',60c55a3f7723bebd86679a59,60c55a3f7723bebd86679a58,"We adopted AbMap, a method that  was developed recently (20) for high-throughput epitope mapping.",AbMap,NA,NA,NA,10.1101/2020.09.08.20190496,467b21151c8d0d3b417019d6f9d4e19ac9ebc506,Systematic profiling of SARS-CoV-2 specific IgG epitopes at single amino acid resolution,NA,NA,NA,posted-content,NA,NA,"2020, 9, 9",Cold Spring Harbor Laboratory,"[{'URL': 'https://syndication.highwire.org/content/doi/10.1101/2020.09.08.20190496', 'content-version': 'vor', 'intended-application': 'similarity-checking', 'content-type': 'unspecified'}]",NA,NA,NA,No Impact Factor,11,"[9,350]",14,3,0,NA,NA,NA,NA,NA,NA,NA,NA,2020
