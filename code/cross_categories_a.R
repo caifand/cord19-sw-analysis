@@ -1,10 +1,9 @@
-# August 30, 2021. Mon
-# Analyzing categories
+# November 23, 2021. Tue
+# Cross categories analysis
 
 library(tidyverse)
-library(xtable)
 
-frame <- read_csv("data/sample_frame.csv") %>% 
+frame <- read_csv("draft/data/sample_frame.csv") %>% 
   mutate(issue_dates=str_sub(issue_dates, 3, -3)) %>% 
   mutate(issue_year=as.numeric(str_sub(issue_dates, 1, 4))) %>% 
   filter(issue_year>2015) %>% 
@@ -17,24 +16,7 @@ frame$stratum <- factor(frame$stratum, levels=c("[1,10]", "[11,100]",
                                                 "[101,1000]","[1001,12982]",
                                                 "No Impact Factor"))  
 
-james_a <- read_csv("cord19-sw-analysis/data/sample_coding/coding_sheet_v1_james-coded.csv")
-james_b <- read_csv("cord19-sw-analysis/data/sample_coding/coding_sheet_v1.1_james.csv")
-hannah <- read_csv("cord19-sw-analysis/data/sample_coding/coding_sheet_v1_hannah-updated.csv")
-fan <- read_csv("cord19-sw-analysis/data/sample_coding/coding_sheet_v1_fan.csv")
-agreement <- read_csv("cord19-sw-analysis/data/agreement_coding/agreement_coding.csv")
-
-james_c <- read_csv("cord19-sw-analysis/data/sample_coding/coding_sheet_v1.2_james-updated.csv")
-hannah_b <- read_csv("cord19-sw-analysis/data/sample_coding/coding_sheet_v1.2_hannah-updated.csv")
-fan_b <- read_csv("cord19-sw-analysis/data/sample_coding/coding_sheet_v1.2_fan-updated.csv")
-fan_c <- read_csv("cord19-sw-analysis/data/sample_coding/coding_sheet_v1.2_fan_2.csv")
-fan_d <- read_csv("cord19-sw-analysis/data/sample_coding/coding_sheet_v1.2_fan_3.csv")
-
-all <- rbind(james_a, james_b, hannah, fan, agreement, james_c, hannah_b, 
-             fan_b, fan_c, fan_d)
-all %>% distinct(sample_id)
-all %>% write_csv("data/full_coding_results.csv")
-
-all <- read_csv("data/full_coding_results.csv")
+all <- read_csv("draft/data/full_coding_results.csv")
 
 # sanity check
 all %>% 
@@ -61,23 +43,13 @@ frame %>%
   scale_y_continuous(name="Number of articles mentioning software", limits=c(0,30000))
 ggsave(filename="output/mention_density_group.png", width=6, height=4)
 
-frame %>% 
-  distinct(doc_key, mention_density_group, stratum) %>% 
-  group_by(mention_density_group, stratum) %>% 
-  summarise(doc_count=n_distinct(doc_key)) %>% 
-  ungroup() %>% 
-  pivot_wider(names_from=stratum, values_from=doc_count) %>% 
-  mutate(`[1,10]`=replace_na(`[1,10]`, 0)) %>% 
-  rename(`Stratum
-          Mention density`="mention_density_group") %>% 
-  xtable(., type='latex')
-
 all_valid <- all %>% 
   filter(coding_id=="A1" & coding_result==1) %>% 
   distinct(sample_id) %>% 
   mutate(sample_id=str_extract(sample_id, "\\d+-\\d+-\\d+")) %>% 
   left_join(frame, by="sample_id") %>% drop_na(anno_key) %>% 
-  distinct(sample_id, anno_key, doc_key, group_num, doc_num, anno_num, issue_year) %>% 
+  distinct(sample_id, anno_key, doc_key, group_num, doc_num, anno_num, 
+           issue_year, stratum, mention_density_group) %>% 
   filter(issue_year > 2015)
   
 all_valid_id <- all_valid %>% distinct(sample_id) %>% pull()
@@ -160,15 +132,16 @@ categories <- all_cleaned %>%
     coding_id == "E2" ~ "software has unique, persistent identifier",
     coding_id == "E3" ~ "software has publicly accessible metadata",
     TRUE              ~ as.character(coding_id)
-  )) 
+  )) %>% 
+  left_join(all_valid, by="sample_id")
 
-# types of software mentions
-mention_types <- categories %>% 
+# types of software mentions by strata
+mention_types_by_strata <- categories %>% 
   filter(coding_id %in% c("A2", "A3", "A5", "A7", "A9", "A11",
                           "B3", "B4", "B5", "B6", "B7", "B9",
                           "B10", "B11", "B12", "C4", "C5")) %>% 
 # note that 157 true positive software mentions here
-  group_by(category, coding_result) %>% 
+  group_by(category, stratum, coding_result) %>% 
   summarise(mention_count = n_distinct(sample_id)) %>% 
   # ungroup() %>% 
   pivot_wider(names_from=coding_result,
@@ -181,24 +154,13 @@ mention_types <- categories %>%
   rowwise() %>% 
   mutate(conf_int_low=prop.test(true,sum)$conf.int[1],
          conf_int_high=prop.test(true,sum)$conf.int[2])
-# we don't have non-named software this time
-# but this could be biased by the extraction?
-
-# no mention cites software itself in this sample
-# then no reference is a software reference. 
-# The utility of them for detection would mostly be:
-# if they are software publications, they provide names etc. of the software
-
-# now plotting this group
-# TODO: UpSet chart w/ name, version, publisher, URL, formal citation
-# TODO: also calculate CI for this
 
 # bar plot first: name only, like instrument, URL given, 
 # informal mention, configuration details,
 # cite to software publication, cite to domain publication
 
-mention_type_plot <- categories %>% 
-  distinct(sample_id, category, coding_result) %>% 
+mention_type_plot_by_strata <- categories %>% 
+  distinct(sample_id, category, stratum, coding_result) %>% 
   pivot_wider(names_from=category, values_from=coding_result) %>% 
   mutate(label = case_when(
     `cite to software` == 1 ~ "Cite to software",
@@ -210,8 +172,8 @@ mention_type_plot <- categories %>%
     `cite to software publication` == 1 ~ "Cite to software publication",
     TRUE ~ as.character("NA")
   )) %>% 
-  select(sample_id, label) %>% 
-  group_by(label) %>% 
+  select(sample_id, stratum, label) %>% 
+  group_by(label, stratum) %>% 
   summarise(mention_count = as.numeric(n_distinct(sample_id))) %>% 
   ungroup() %>% 
   filter(label != "NA") %>% 
@@ -222,7 +184,7 @@ mention_type_plot <- categories %>%
          conf_int_high=prop.test(mention_count, sum)$conf.int[2]) 
 
 
-mention_type_plot$label <- factor(mention_type_plot$label, 
+mention_type_plot_by_strata$label <- factor(mention_type_plot$label, 
                                   levels=c("Cite to software",
                                            "Cite to domain publication",
                                            "Cite to software publication",
@@ -230,22 +192,32 @@ mention_type_plot$label <- factor(mention_type_plot$label,
                                            "URL in text",
                                            "Name only"))
 
-mention_type_plot %>% 
+mention_type_plot_by_strata %>% 
+  filter(stratum %in% c("[1,10]", "[11,100]", "[101,1000]")) %>% 
+  group_by(label) %>% 
+  summarise(mention_count=sum(mention_count)) %>%
+  ungroup() %>% 
+  mutate(sum=sum(mention_count)) %>% 
+  mutate(prop=mention_count/sum) %>% View
+  
+mention_type_plot_by_strata %>% 
   ggplot(aes(x=label, y=proportion)) +
   geom_bar(stat='identity', fill='darkgray') +
   geom_errorbar(aes(ymin=conf_int_low, ymax=conf_int_high), width=.2,
                 position=position_dodge(.9)) +
   scale_x_discrete(name="") +
   scale_y_continuous(name="Proportion") +
+  facet_wrap(vars(stratum), ncol=1) +
   theme(panel.grid.major.x = element_blank(),
         panel.grid.minor.y = element_blank(),
         panel.border = element_blank(),
         text = element_text(size=10),
         axis.title.y = element_text(vjust=0.3),
         axis.text.x = element_text(angle=30, hjust=1))
-ggsave(filename="output/mention_types.png", width=6, height=4)
+# ggsave(filename="output/mention_types.png", width=6, height=4)
 
-condensed_categories <- categories %>% 
+
+condensed_categories_by_strata <- categories %>% 
   filter(category == "like instrument") %>% 
   bind_rows(categories %>% filter(category == "cite to domain publication")) %>% 
   bind_rows(categories %>% filter(category == "cite to software publication")) %>% 
@@ -261,154 +233,275 @@ condensed_categories <- categories %>%
     `in-text name` == 1 ~ "Informal",
     TRUE ~ as.character(sample_id),
   )) %>% 
-  group_by(label) %>% 
+  group_by(stratum) %>% 
+  mutate(mention_count_stratum = n_distinct(sample_id)) %>% 
+  ungroup() %>% 
+  group_by(label, stratum, mention_count_stratum) %>% 
   summarise(mention_count=n_distinct(sample_id)) %>% 
-  mutate(sum=sum(mention_count)) %>% 
-  mutate(proportion = mention_count/sum) %>% 
+  ungroup() %>% 
+  mutate(proportion = mention_count/mention_count_stratum) %>% 
   rowwise() %>% 
-  mutate(conf_int_low=prop.test(mention_count, sum)$conf.int[1],
-         conf_int_high=prop.test(mention_count, sum)$conf.int[2])
+  mutate(conf_int_low=prop.test(mention_count, mention_count_stratum)$conf.int[1],
+         conf_int_high=prop.test(mention_count, mention_count_stratum)$conf.int[2])
 
-condensed_categories$label <- factor(condensed_categories$label,
+condensed_categories_by_strata$label <- factor(condensed_categories_by_strata$label,
                                      levels=c("Cite to software",
                                               "Cite to publication",
                                               "Like instrument",
                                               "Informal"))
-condensed_categories %>% 
+condensed_categories_by_strata %>% 
   ggplot(aes(x=label, y=proportion)) +
   geom_bar(stat="identity", fill="darkgray") +
   geom_errorbar(aes(ymin=conf_int_low, ymax=conf_int_high), width=.2,
                 position=position_dodge(.9)) +
   scale_x_discrete(name="") +
   scale_y_continuous(name="Proportion") +
+  facet_wrap(vars(stratum), nrow=1) +
   theme(panel.grid.major.x = element_blank(),
         panel.grid.minor.y = element_blank(),
         panel.border = element_blank(),
         text = element_text(size=10),
         axis.title.y = element_text(vjust=0.3),
-        axis.text.x = element_text(angle=30, hjust=1))
-ggsave(filename="output/mention_types_condensed.png", width=6, height=4)
+        axis.text.x = element_text(angle=40, hjust=1))
+ggsave(filename="output/new-figures-revision/1_mention_types_by_strata_condensed.png", 
+       width=6.4, height=3.4)
 
-accessibility <- categories %>% 
-  filter(category %in% c("no access", "proprietary",
-                         "free access", "source code accessible", "modifiable")) %>% 
+
+condensed_categories_by_density <- categories %>% 
+  filter(category == "like instrument") %>% 
+  bind_rows(categories %>% filter(category == "cite to domain publication")) %>% 
+  bind_rows(categories %>% filter(category == "cite to software publication")) %>% 
+  bind_rows(categories %>% filter(category == "cite to software")) %>% 
+  bind_rows(categories %>% filter(category == "in-text name")) %>% 
   select(-coding_id, -coding_scheme) %>% 
   pivot_wider(names_from="category", values_from="coding_result") %>% 
-  mutate(accessible=if_else(`no access`==0, 1, 0)) %>% 
-  select(-`no access`) %>% 
-  mutate(proprietary=as.numeric(proprietary),
-         `free access`=as.numeric(`free access`),
-         `source code accessible`=as.numeric(`source code accessible`),
-         modifiable=as.numeric(modifiable)) %>%
-  pivot_longer(!sample_id, names_to='label', values_to='value') %>% 
-  mutate(label=case_when(
-    label=="proprietary" ~ "accessible",
-    label=="free access" ~ "free",
-    TRUE ~ as.character(label)
+  mutate(label = case_when(
+    `cite to software` == 1 ~ "Cite to software",
+    `like instrument` == 1 ~ "Like instrument",
+    `cite to domain publication` == 1 ~ "Cite to publication",
+    `cite to software publication` == 1 ~ "Cite to publication",
+    `in-text name` == 1 ~ "Informal",
+    TRUE ~ as.character(sample_id),
   )) %>% 
-  distinct() %>% 
-  group_by(label, value) %>%
-  summarise(mention_count = n_distinct(sample_id)) %>% 
-  filter(value==1) %>% 
-  mutate(sum=210) %>% 
-  mutate(proportion = round(mention_count/sum,3)) %>% 
+  group_by(mention_density_group) %>% 
+  mutate(mention_count_density_group=n_distinct(sample_id)) %>% 
+  ungroup() %>% 
+  group_by(label, mention_density_group, mention_count_density_group) %>% 
+  summarise(mention_count=n_distinct(sample_id)) %>% 
+  ungroup() %>% 
+  mutate(proportion = mention_count/mention_count_density_group) %>% 
   rowwise() %>% 
-  mutate(conf_int_low=prop.test(mention_count,sum)$conf.int[1],
-         conf_int_high=prop.test(mention_count,sum)$conf.int[2]) 
+  mutate(conf_int_low=prop.test(mention_count, mention_count_density_group)$conf.int[1],
+         conf_int_high=prop.test(mention_count, mention_count_density_group)$conf.int[2])
 
-# now plotting citation functions
-# access <- categories %>% 
-#   filter(category %in% c("no access", "proprietary", "free access")) %>% 
-#   select(-coding_id, -coding_scheme) %>% 
-#   pivot_wider(names_from="category", values_from="coding_result") %>% 
-#   mutate(category = case_when(
-#     `no access` == 0 ~ "accessible",
-#     `proprietary` == 1 ~ "accessible",
-#     `free access` == 1 ~ "accessible",
-#     TRUE ~ as.character("not accessible")
-#   )) %>% 
-#   select(-`no access`, -proprietary, -`free access`) %>% 
-#   mutate(coding_result = if_else(category=="accessible", "1", "0")) %>% 
-#   mutate(category ="accessible") %>% 
-#   select(sample_id, coding_result, category) 
-# 
-# mention_functions <- categories %>% 
-#   filter(category %in% c("identifiable", "findable", "source code accessible", 
-#                          "modifiable")) %>% 
-#   select(-coding_id, -coding_scheme) %>% 
-#   bind_rows(access) %>% 
-#   arrange(sample_id) %>% 
-#   group_by(category, coding_result) %>% 
-#   summarise(mention_count = n_distinct(sample_id)) %>% 
-#   filter(coding_result == "1") %>% 
-#   mutate(sum = 210) %>% 
-#   mutate(proportion = mention_count/sum) %>% 
-#   select(-coding_result) %>% 
-#   rowwise() %>% 
-#   mutate(conf_int_low=prop.test(mention_count,sum)$conf.int[1],
-#          conf_int_high=prop.test(mention_count,sum)$conf.int[2])
-
-accessibility$label <- factor(accessibility$label, 
-                                     levels=c("accessible", "free", 
-                                              "source code accessible",
-                                              "modifiable"))
-
-accessibility %>% 
+condensed_categories_by_density$label <- factor(condensed_categories_by_density$label,
+                                               levels=c("Cite to software",
+                                                        "Cite to publication",
+                                                        "Like instrument",
+                                                        "Informal"))
+condensed_categories_by_density %>% 
   ggplot(aes(x=label, y=proportion)) +
-  geom_bar(stat='identity', fill='darkgray') +
+  geom_bar(stat="identity", fill="darkgray") +
   geom_errorbar(aes(ymin=conf_int_low, ymax=conf_int_high), width=.2,
                 position=position_dodge(.9)) +
   scale_x_discrete(name="") +
   scale_y_continuous(name="Proportion") +
+  facet_wrap(vars(mention_density_group), nrow=1) +
   theme(panel.grid.major.x = element_blank(),
         panel.grid.minor.y = element_blank(),
         panel.border = element_blank(),
         text = element_text(size=10),
         axis.title.y = element_text(vjust=0.3),
         axis.text.x = element_text(angle=30, hjust=1))
-ggsave(filename="output/accessibility.png", width=6, height=4)
+ggsave(filename="output/new-figures-revision/mention_types_by_density_condensed.png", 
+       width=6.4, height=3.4)
 
-mentioned_access <- categories %>% 
+
+# Property rights 
+mentioned_access_by_strata <- categories %>% 
   filter(category %in% c("no access", "proprietary", "free access",
                          "source code accessible", "modifiable",
                          "open source licensed")) %>% 
   select(-coding_id, -coding_scheme) %>% 
   pivot_wider(names_from=category, values_from=coding_result) %>% 
-  rename(c(`not accessible`="no access",
-           `open source`="open source licensed")) %>% 
+  rename(c(`not accessible`=`no access`, `open source`=`open source licensed`)) %>% 
   mutate(`non commercial`=if_else(`not accessible`=="0" & 
                                     `open source`=="0" & `proprietary`=="0", 
                                   "1", "0")) %>% 
   select(-`free access`, -`source code accessible`, -modifiable) %>% 
-  pivot_longer(!sample_id, names_to="category", values_to="coding_result") %>% 
+  pivot_longer(cols=`not accessible`:`non commercial`, names_to="category", values_to="coding_result") %>% 
   filter(coding_result==1) %>% 
   select(-coding_result) %>% 
-  group_by(category) %>% 
+  group_by(stratum) %>% 
+  mutate(mention_count_stratum=n_distinct(sample_id)) %>% 
+  ungroup() %>% 
+  group_by(category, stratum, mention_count_stratum) %>% 
   summarise(mention_count=n_distinct(sample_id)) %>% 
-  mutate(sum = sum(mention_count)) %>% 
-  mutate(proportion=mention_count/sum) %>% 
+  mutate(proportion=mention_count/mention_count_stratum) %>% 
   rowwise() %>% 
-  mutate(conf_int_low=prop.test(mention_count,sum)$conf.int[1],
-         conf_int_high=prop.test(mention_count,sum)$conf.int[2])
+  mutate(conf_int_low=prop.test(mention_count,mention_count_stratum)$conf.int[1],
+         conf_int_high=prop.test(mention_count,mention_count_stratum)$conf.int[2])
 
-mentioned_access$category <- factor(mentioned_access$category,
+mentioned_access_by_strata$category <- factor(mentioned_access_by_strata$category,
                                     levels=c("not accessible", "proprietary",
-                                            "non commercial", "open source"))
+                                             "non commercial", "open source"))
 
-mentioned_access %>% 
+mentioned_access_by_strata %>% 
   ggplot(aes(x=category, y=proportion)) +
   geom_bar(stat='identity', fill='darkgray') +
   geom_errorbar(aes(ymin=conf_int_low, ymax=conf_int_high), width=.2,
                 position=position_dodge(.9)) +
   scale_x_discrete(name="") +
   scale_y_continuous(name="Proportion") +
+  facet_wrap(vars(stratum), nrow=1) +
   theme(panel.grid.major.x = element_blank(),
         panel.grid.minor.y = element_blank(),
         panel.border = element_blank(),
         text = element_text(size=10),
         axis.title.y = element_text(vjust=0.3),
         axis.text.x = element_text(angle=30, hjust=1))
-ggsave(filename="output/mentioned_software_types.png", width=6, height=4)
+ggsave(filename="output/new-figures-revision/mentioned_software_types_by_strata.png", width=6.4, height=3.4)
+
+
+mentioned_access_by_density <- categories %>% 
+  filter(category %in% c("no access", "proprietary", "free access",
+                         "source code accessible", "modifiable",
+                         "open source licensed")) %>% 
+  select(-coding_id, -coding_scheme) %>% 
+  pivot_wider(names_from=category, values_from=coding_result) %>% 
+  rename(c(`not accessible`=`no access`, `open source`=`open source licensed`)) %>% 
+  mutate(`non commercial`=if_else(`not accessible`=="0" & 
+                                    `open source`=="0" & `proprietary`=="0", 
+                                  "1", "0")) %>% 
+  select(-`free access`, -`source code accessible`, -modifiable) %>% 
+  pivot_longer(cols=`not accessible`:`non commercial`, names_to="category", values_to="coding_result") %>% 
+  filter(coding_result==1) %>% 
+  select(-coding_result) %>% 
+  group_by(mention_density_group) %>% 
+  mutate(mention_count_density_group=n_distinct(sample_id)) %>% 
+  ungroup() %>% 
+  group_by(category, mention_density_group, mention_count_density_group) %>% 
+  summarise(mention_count=n_distinct(sample_id)) %>% 
+  mutate(proportion=mention_count/mention_count_density_group) %>% 
+  rowwise() %>% 
+  mutate(conf_int_low=prop.test(mention_count,mention_count_density_group)$conf.int[1],
+         conf_int_high=prop.test(mention_count,mention_count_density_group)$conf.int[2])
+
+mentioned_access_by_density$category <- factor(mentioned_access_by_density$category,
+                                              levels=c("not accessible", "proprietary",
+                                                       "non commercial", "open source"))
+
+mentioned_access_by_density %>% 
+  ggplot(aes(x=category, y=proportion)) +
+  geom_bar(stat='identity', fill='darkgray') +
+  geom_errorbar(aes(ymin=conf_int_low, ymax=conf_int_high), width=.2,
+                position=position_dodge(.9)) +
+  scale_x_discrete(name="") +
+  scale_y_continuous(name="Proportion") +
+  facet_wrap(vars(mention_density_group), nrow=1) +
+  theme(panel.grid.major.x = element_blank(),
+        panel.grid.minor.y = element_blank(),
+        panel.border = element_blank(),
+        text = element_text(size=10),
+        axis.title.y = element_text(vjust=0.3),
+        axis.text.x = element_text(angle=30, hjust=1))
+ggsave(filename="output/new-figures-revision/mentioned_software_types_by_density.png", width=6.4, height=3.4)
+
+
+# software accessibility
+accessibility_by_strata <- categories %>% 
+  filter(category %in% c("no access", "proprietary",
+                         "free access", "source code accessible", "modifiable")) %>% 
+  select(-coding_id, -coding_scheme) %>% 
+  pivot_wider(names_from="category", values_from="coding_result") %>% 
+  mutate(accessible=if_else(`no access`==0, 1, 0)) %>% 
+  group_by(stratum) %>% 
+  mutate(mention_count_stratum = n_distinct(sample_id)) %>%
+  ungroup() %>%
+  select(-`no access`, -proprietary) %>% 
+  mutate(`free access`=as.numeric(`free access`),
+         `source code accessible`=as.numeric(`source code accessible`),
+         modifiable=as.numeric(modifiable)) %>% 
+  rename(`source code modifiable`=modifiable) %>% 
+  pivot_longer(cols=`free access`:`accessible`, names_to='label', values_to='value') %>% 
+  filter(value == 1) %>% 
+  distinct() %>% 
+  group_by(label, stratum, mention_count_stratum) %>% 
+  summarise(mention_count = n_distinct(sample_id)) %>% 
+  ungroup() %>% 
+  mutate(proportion = round(mention_count/mention_count_stratum,3)) %>% 
+  rowwise() %>% 
+  mutate(conf_int_low=prop.test(mention_count,mention_count_stratum)$conf.int[1],
+         conf_int_high=prop.test(mention_count,mention_count_stratum)$conf.int[2]) 
+
+accessibility_by_strata$label <- factor(accessibility_by_strata$label, 
+                                     levels=c("accessible", "free access", 
+                                              "source code accessible",
+                                              "source code modifiable"))
+
+accessibility_by_strata %>% 
+  ggplot(aes(x=label, y=proportion)) +
+  geom_bar(stat='identity', fill='darkgray') +
+  geom_errorbar(aes(ymin=conf_int_low, ymax=conf_int_high), width=.2,
+                position=position_dodge(.9)) +
+  scale_x_discrete(name="") +
+  scale_y_continuous(name="Proportion") +
+  facet_wrap(vars(stratum), nrow=1) +
+  theme(panel.grid.major.x = element_blank(),
+        panel.grid.minor.y = element_blank(),
+        panel.border = element_blank(),
+        text = element_text(size=10),
+        axis.title.y = element_text(vjust=0.3),
+        axis.text.x = element_text(angle=30, hjust=1))
+ggsave(filename="output/new-figures-revision/accessibility_by_strata.png", width=6.4, height=3.4)
+
+
+accessibility_by_density <- categories %>% 
+  filter(category %in% c("no access", "proprietary",
+                         "free access", "source code accessible", "modifiable")) %>% 
+  select(-coding_id, -coding_scheme) %>% 
+  pivot_wider(names_from="category", values_from="coding_result") %>% 
+  mutate(accessible=if_else(`no access`==0, 1, 0)) %>% 
+  group_by(mention_density_group) %>% 
+  mutate(mention_count_density_group = n_distinct(sample_id)) %>%
+  ungroup() %>%
+  select(-`no access`, -proprietary) %>% 
+  mutate(`free access`=as.numeric(`free access`),
+         `source code accessible`=as.numeric(`source code accessible`),
+         modifiable=as.numeric(modifiable)) %>% 
+  rename(`source code modifiable`=modifiable) %>% 
+  pivot_longer(cols=`free access`:`accessible`, names_to='label', values_to='value') %>% 
+  filter(value == 1) %>% 
+  distinct() %>% 
+  group_by(label, mention_density_group, mention_count_density_group) %>% 
+  summarise(mention_count = n_distinct(sample_id)) %>% 
+  ungroup() %>% 
+  mutate(proportion = round(mention_count/mention_count_density_group,3)) %>% 
+  rowwise() %>% 
+  mutate(conf_int_low=prop.test(mention_count,mention_count_density_group)$conf.int[1],
+         conf_int_high=prop.test(mention_count,mention_count_density_group)$conf.int[2]) 
+
+accessibility_by_density$label <- factor(accessibility_by_density$label, 
+                                        levels=c("accessible", "free access", 
+                                                 "source code accessible",
+                                                 "source code modifiable"))
+
+accessibility_by_density %>% 
+  ggplot(aes(x=label, y=proportion)) +
+  geom_bar(stat='identity', fill='darkgray') +
+  geom_errorbar(aes(ymin=conf_int_low, ymax=conf_int_high), width=.2,
+                position=position_dodge(.9)) +
+  scale_x_discrete(name="") +
+  scale_y_continuous(name="Proportion") +
+  facet_wrap(vars(mention_density_group), nrow=1) +
+  theme(panel.grid.major.x = element_blank(),
+        panel.grid.minor.y = element_blank(),
+        panel.border = element_blank(),
+        text = element_text(size=10),
+        axis.title.y = element_text(vjust=0.3),
+        axis.text.x = element_text(angle=30, hjust=1))
+ggsave(filename="output/new-figures-revision/accessibility_by_density.png", width=6.4, height=3.4)
+
 
 # software access X mention type
 a <- categories %>% 
@@ -420,11 +513,12 @@ a <- categories %>%
   rename(c(`Not accessible`="no access",
            Proprietary="proprietary",
            `Open source`="open source licensed")) %>% 
-  mutate(`on commercial`=if_else(`not accessible`=="0" & 
-                                    `open source`=="0" & `proprietary`=="0", 
+  mutate(`Non commercial`=if_else(`Not accessible`=="0" & 
+                                    `Open source`=="0" & `Proprietary`=="0", 
                                   "1", "0")) %>% 
   select(-`free access`, -`source code accessible`, -modifiable) %>% 
-  pivot_longer(!sample_id, names_to="category", values_to="coding_result") %>% 
+  pivot_longer(cols=`Not accessible`:`Non commercial`, names_to="category", 
+               values_to="coding_result") %>% 
   filter(coding_result==1) %>% 
   select(-coding_result) 
 
@@ -447,7 +541,7 @@ b <- categories %>%
   select(sample_id, label)
 
 c<- a %>% 
-  left_join(b, by="sample_id") %>%
+  left_join(b, by="sample_id") %>% 
   rename(c(software_type="category", mention_type="label")) %>% 
   group_by(software_type, mention_type) %>% 
   summarise(mention_count=n_distinct(sample_id)) %>% 
@@ -466,31 +560,33 @@ type_cite <- a %>%
   ungroup() %>% 
   group_by(software_type) %>% 
   mutate(mention_type_count=sum(mention_count)) %>% 
+  ungroup() %>% 
   mutate(proportion=mention_count/mention_type_count) %>% 
   rowwise() %>% 
   mutate(conf_int_low=prop.test(mention_count, mention_type_count)$conf.int[1],
          conf_int_high=prop.test(mention_count, mention_type_count)$conf.int[2]) 
 
 type_cite$software_type <- factor(type_cite$software_type,
-                          levels=c("not accessible", "proprietary",
-                                   "non commercial", "open source"))
+                          levels=c("Not accessible", "Proprietary",
+                                   "Non commercial", "Open source"))
 type_cite$mention_type <- factor(type_cite$mention_type,
                          levels=c("cite to software", "cite to publication",
                                   "like instrument", "informal"))
 
-c %>% 
+type_cite %>% 
+  filter(software_type != "Not accessible") %>% 
   ggplot(aes(x=mention_type, y=proportion)) +
   geom_bar(stat='identity', fill='darkgray') +
-  facet_wrap(vars(software_type), nrow=1) +
   geom_errorbar(aes(ymin=conf_int_low, ymax=conf_int_high),width=.2,
                 position=position_dodge(.9)) + 
   scale_x_discrete(name="") +
   scale_y_continuous(name="Proportion") +
+  facet_grid(rows=vars(software_type)) +
   theme(panel.grid.major.x = element_blank(),
         panel.grid.minor.y = element_blank(),
         panel.border = element_blank(),
         text = element_text(size=10),
         axis.title.y = element_text(vjust=0.3),
         axis.text.x = element_text(angle=30, hjust=1))
-ggsave(filename="output/software_x_mention_type.png", width=6.4, height=4)
+ggsave(filename="output/new-figures-revision/software_x_mention_type.png", width=6.4, height=3.4)
 

@@ -4,7 +4,7 @@
 library(tidyverse)
 # library(GGally)
 
-frame <- read_csv("data/sample_frame.csv") %>% 
+frame <- read_csv("draft/data/sample_frame.csv") %>% 
   mutate(issue_dates=str_sub(issue_dates, 3, -3)) %>% 
   mutate(issue_year=as.numeric(str_sub(issue_dates, 1, 4))) %>% 
   filter(issue_year>2015) %>% 
@@ -18,7 +18,7 @@ frame$stratum <- factor(frame$stratum, levels=c("[1,10]", "[11,100]",
                                                 "[101,1000]","[1001,12982]",
                                                 "No Impact Factor")) 
 
-all <- read_csv("data/full_coding_results.csv")
+all <- read_csv("draft/data/full_coding_results.csv")
 
 # james_a_assign <- read_csv("cord19-sw-analysis/docs/past_assignment/james_coding_assignment.csv") %>% 
 #   select(sample_id, tei)
@@ -179,10 +179,10 @@ mention_content %>%
   theme(panel.grid.major.x = element_blank(),
         panel.grid.minor.y = element_blank(),
         panel.border = element_blank(),
-        text = element_text(size=10),
+        text = element_text(size=14),
         axis.title.y = element_text(vjust=0.3),
         axis.text.x = element_text(angle=30, hjust=1))
-ggsave(filename="output/mention_composition.png", width=6, height=4)
+ggsave(filename="draft/output/mention_composition.png", width=6, height=4)
 
 # citation request
 cite_request <- categories %>% 
@@ -209,21 +209,21 @@ cite_request <- categories %>%
                                   `CodeMeta`,
                                   `domain-specific citation request`)) %>% 
   mutate(`citation request available`=if_else(has_citation_request>0, 1, 0)) %>% 
-  select(-has_citation_request) %>% 
-  mutate(`No citation request` = case_when(
-    `citation request available`==1 ~ 0,
-    `citation request available`==0 ~ 1
-  )) %>% 
-  select(-`matched to citation request`, -`citation request available`) %>% 
-  pivot_longer(!sample_id, names_to="label", values_to="value") %>% 
-  filter(value==1) %>% 
-  group_by(label) %>% 
-  summarise(count=n_distinct(sample_id)) %>% 
-  mutate(sum=210) %>% 
-  mutate(proportion=count/sum) %>% 
-  rowwise() %>% 
-  mutate(conf_int_low=prop.test(count,sum)$conf.int[1],
-         conf_int_high=prop.test(count,sum)$conf.int[2]) 
+  select(-has_citation_request) 
+  # mutate(`No citation request` = case_when(
+  #   `citation request available`==1 ~ 0,
+  #   `citation request available`==0 ~ 1
+  # )) %>% 
+  # select(-`matched to citation request`, -`citation request available`) %>% 
+  # pivot_longer(!sample_id, names_to="label", values_to="value") %>% 
+  # filter(value==1) 
+  # group_by(label) %>% 
+  # summarise(count=n_distinct(sample_id)) %>% 
+  # mutate(sum=210) %>% 
+  # mutate(proportion=count/sum) %>% 
+  # rowwise() %>% 
+  # mutate(conf_int_low=prop.test(count,sum)$conf.int[1],
+  #        conf_int_high=prop.test(count,sum)$conf.int[2]) 
 
 name_list <- frame %>% 
   distinct(sample_id, software_name)
@@ -233,11 +233,91 @@ tibble(all_valid_id) %>%
   distinct(software_name) %>% View
 # 155 distinct software name
 
+sw_req <- cite_request %>% 
+  select(sample_id, `citation request available`) %>% 
+  left_join(name_list, by="sample_id") %>% 
+  group_by(software_name) %>% 
+  filter(`citation request available` == 1) %>% 
+  distinct(software_name) %>% pull()
+
+req_match_rights <- cite_request %>% 
+  select(sample_id, `matched to citation request`) %>% 
+  left_join(d, by="sample_id") %>% 
+  group_by(category, `matched to citation request`) %>% 
+  mutate(n_mention = n_distinct(sample_id)) %>% 
+  ungroup() %>% 
+  group_by(category) %>% 
+  mutate(n_mention_x_right = n_distinct(sample_id)) %>% 
+  select(-sample_id) %>% distinct() %>% 
+  mutate(prop=n_mention/n_mention_x_right) %>% 
+  rowwise() %>% 
+  mutate(conf_int_low=prop.test(n_mention, n_mention_x_right)$conf.int[1],
+         conf_int_high=prop.test(n_mention, n_mention_x_right)$conf.int[2]) %>% 
+  filter(`matched to citation request` == 1 &
+           category != "Not accessible") 
+
+req_match_rights$category <- factor(req_match_rights$category, 
+                                    levels=c("Proprietary", "Non commercial", 
+                                             "Open source"))
+
+req_match_rights %>% 
+  ggplot(aes(x=category, y=prop)) +
+  geom_bar(stat='identity', fill='darkgray') +
+  geom_errorbar(aes(ymin=conf_int_low, ymax=conf_int_high),width=.2,
+                position=position_dodge(.9)) + 
+  scale_x_discrete(name="") +
+  scale_y_continuous(limits=c(0,0.9), name="Proportion") +
+  theme(panel.grid.major.x = element_blank(),
+        panel.grid.minor.y = element_blank(),
+        panel.border = element_blank(),
+        text = element_text(size=14),
+        axis.title.y = element_text(vjust=0.3),
+        axis.text.x = element_text(angle=30, hjust=1))
+ggsave(filename="draft/output/match_cite_req.png", width=6, height=4)
+
+req_rights <- cite_request %>% 
+  select(sample_id, `citation request available`) %>% 
+  left_join(d, by="sample_id") %>% 
+  left_join(name_list, by="sample_id") %>% 
+  distinct(software_name, category, `citation request available`) %>% 
+  group_by(category, `citation request available`) %>% 
+  mutate(n_sw = n_distinct(software_name)) %>% 
+  ungroup() %>% 
+  group_by(category) %>% 
+  mutate(n_sw_cat = n_distinct(software_name)) %>% 
+  select(-software_name) %>% distinct() %>% 
+  filter(category != "Not accessible") %>% 
+  mutate(prop=n_sw/n_sw_cat) %>% 
+  rowwise() %>% 
+  mutate(conf_int_low=prop.test(n_sw, n_sw_cat)$conf.int[1],
+         conf_int_high=prop.test(n_sw, n_sw_cat)$conf.int[2]) 
+
+req_rights$category <- factor(req_rights$category, 
+                              levels=c("Proprietary", "Non commercial", 
+                                             "Open source"))
+
+req_rights %>% 
+  filter(`citation request available`==1) %>% 
+  ggplot(aes(x=category, y=prop)) +
+  geom_bar(stat='identity', fill='darkgray') +
+  geom_errorbar(aes(ymin=conf_int_low, ymax=conf_int_high),width=.2,
+                position=position_dodge(.9)) + 
+  scale_x_discrete(name="") +
+  scale_y_continuous(limits=c(0, 0.9), name="Proportion") +
+  theme(panel.grid.major.x = element_blank(),
+        panel.grid.minor.y = element_blank(),
+        panel.border = element_blank(),
+        text = element_text(size=14),
+        axis.title.y = element_text(vjust=0.3),
+        axis.text.x = element_text(angle=30, hjust=1))
+ggsave(filename="draft/output/cite_req_rights.png", width=6, height=4)
+
+
 a <- cite_request %>% 
   select(sample_id, `citation request available`,
          `citation request in repo README`, `citation request on webpage`,
          `CITATION file`, `CITATION.cff`, `CodeMeta`, `domain-specific citation request`) %>% 
-  pivot_longer(!sample_id, names_to='category', values_to='value') %>% View
+  pivot_longer(!sample_id, names_to='category', values_to='value') %>% 
   mutate(label=case_when(
     category=="citation request available" ~ "Citation request available",
     category=="citation request on webpage" ~ "Citation request on webpage",
@@ -278,10 +358,10 @@ a %>%
   theme(panel.grid.major.x = element_blank(),
         panel.grid.minor.y = element_blank(),
         panel.border = element_blank(),
-        text = element_text(size=10),
+        text = element_text(size=14),
         axis.title.y = element_text(vjust=0.3),
-        axis.text.x = element_text(angle=30, hjust=1))
-ggsave(filename="output/cite_request.png", width=6, height=4) 
+        axis.text.x = element_text(angle=35, hjust=1))
+ggsave(filename="draft/output/cite_request.png", width=6.5, height=4) 
 
 # citation request format
 library(waterfalls)
@@ -325,7 +405,7 @@ b <- categories %>%
   summarise(software_count=n_distinct(software_name)) %>% 
   mutate(label=case_when(
     label=="plain text citation request" ~ "Plain text",
-    label=="BibTex citation request" ~ "BibTex",
+    label=="BibTex citation request" ~ "BibTeX",
     label=="domain-specific citation request" ~ "Domain-specific",
     TRUE ~ as.character(label)
   )) %>% 
@@ -337,7 +417,7 @@ b <- categories %>%
 
 b$label <- factor(b$label, levels=c("No citation request",
                                     "Plain text", 
-                                    "BibTex",
+                                    "BibTeX",
                                     "CITATION file",
                                     "Domain-specific"))
 
@@ -355,10 +435,10 @@ b %>%
   theme(panel.grid.major.x = element_blank(),
         panel.grid.minor.y = element_blank(),
         panel.border = element_blank(),
-        text = element_text(size=10),
+        text = element_text(size=14),
         axis.title.y = element_text(vjust=0.3),
         axis.text.x = element_text(angle=30, hjust=1))
-ggsave(filename="output/request_type.png", width=6, height=4) 
+ggsave(filename="draft/output/request_type.png", width=6, height=4) 
 
  # what is requested for citation
 c <- categories %>% 
@@ -380,18 +460,32 @@ c <- categories %>%
     TRUE ~ as.character(label)
   )) %>% 
   filter(value == 1) %>% 
-  left_join(d, by="sample_id") %>% 
+  left_join(d, by="sample_id") %>%
   left_join(name_list, by="sample_id") %>% 
+  # distinct(software_name, label) %>% 
+  # group_by(label) %>% 
+  # summarise(software_n = n_distinct(software_name)) %>% 
+  # ungroup() %>% 
+  # mutate(sw_sum=155) %>% 
+  # mutate(prop=software_n/sw_sum) %>% 
+  # rowwise() %>% 
+  # mutate(conf_int_low=prop.test(software_n, sw_sum)$conf.int[1],
+  #        conf_int_high=prop.test(software_n, sw_sum)$conf.int[2])
   distinct(software_name, label, category) %>% 
-  group_by(label, category) %>% 
-  summarise(software_count=n_distinct(software_name)) %>% 
+  group_by(label, category) %>%
+  summarise(software_count=n_distinct(software_name)) %>%
   ungroup() %>% 
-  group_by(category) %>% 
-  mutate(software_sum=sum(software_count)) %>%  
-  mutate(proportion=software_count/software_sum) %>% 
-  rowwise() %>% 
+  # group_by(category) %>%
+  mutate(software_sum=case_when(
+    category == "Non commercial" ~ 48,
+    category == "Open source" ~ 65,
+    category == "Proprietary" ~ 37,
+    TRUE ~ 0)) %>% 
+  mutate(proportion=software_count/software_sum) %>%
+  rowwise() %>%
   mutate(conf_int_low=prop.test(software_count,software_sum)$conf.int[1],
-         conf_int_high=prop.test(software_count,software_sum)$conf.int[2])
+         conf_int_high=prop.test(software_count,software_sum)$conf.int[2]) %>% 
+  arrange(category)
 
 c$label <- factor(c$label, levels=c("Software", 
                                     "Software publication",
@@ -410,12 +504,14 @@ d <- categories %>%
            `Open source`="open source licensed")) %>% 
   mutate(`Non commercial`=if_else(`Not accessible`=="0" & 
                                     `Open source`=="0" & `Proprietary`=="0", 
-                                  "1", "0")) %>% 
+                                  1, 0)) %>% 
   select(-`free access`, -`source code accessible`, -modifiable) %>% 
   pivot_longer(!sample_id, names_to="category", values_to="coding_result") %>% 
   filter(coding_result==1) %>% 
   select(-coding_result) 
 
+c$category <- factor(c$category, levels=c("Proprietary", "Non commercial",
+                                          "Open source"))
 
 c %>% 
   ggplot(aes(x=label, y=proportion)) +
@@ -424,14 +520,14 @@ c %>%
                 position=position_dodge(.9)) +
   facet_grid(vars(category)) +
   scale_x_discrete(name="") +
-  scale_y_continuous(name="Proportion", limits=c(0,1)) +
+  scale_y_continuous(name="Proportion", limits=c(0,1), breaks=c(0,0.5,1)) +
   theme(panel.grid.major.x = element_blank(),
         panel.grid.minor.y = element_blank(),
         panel.border = element_blank(),
-        text = element_text(size=10),
+        text = element_text(size=14),
         axis.title.y = element_text(vjust=0.3),
         axis.text.x = element_text(angle=30, hjust=1))
-ggsave(filename="output/request_to_cite.png", width=6, height=4)
+ggsave(filename="draft/output/request_to_cite.png", width=4, height=5)
 
 # software metadata
 metadata <- categories %>% 
@@ -472,7 +568,7 @@ e <- metadata %>%
     label=="No metadata" ~ "Metadata available",
     TRUE ~ as.character(label)
   )) %>% 
-  mutate(label=case_when(
+  mutate(value=case_when(
     label=="Archived" ~ "TRUE",
     label=="Not archived" ~ "FALSE",
     label=="Unique and persistent identifier" ~ "TRUE",
@@ -484,28 +580,32 @@ e <- metadata %>%
   rowwise() %>% 
   mutate(conf_int_low=prop.test(software_count,sum)$conf.int[1],
          conf_int_high=prop.test(software_count,sum)$conf.int[2]) %>% 
-  mutate(conf_int_low=if_else(label=="FALSE", 0, conf_int_low)) %>% 
-  mutate(conf_int_high=if_else(label=="FALSE",0, conf_int_high)) 
+  mutate(conf_int_low=if_else(value=="FALSE", 0, conf_int_low)) %>% 
+  mutate(conf_int_high=if_else(value=="FALSE",0, conf_int_high)) 
 
-# e$label <- factor(metadata$label, levels=c("archived", 
-#                                     "unique and persistent identifier",
-#                                     "metadata available"))
+e$value <- factor(e$value, levels=c("FALSE", "TRUE"))
+
+e$category <- factor(e$category, levels=c("Unique and persistent identifier", 
+                                    "Metadata available", 
+                                    "Archived"))
 
 e %>% 
-  ggplot(aes(x=category, y=proportion, fill=label)) +
+  ggplot(aes(y=category, x=proportion, fill=value)) +
   geom_bar(stat='identity', position='fill') +
-  geom_errorbar(aes(ymin=conf_int_low, ymax=conf_int_high), width=.2,
+  geom_errorbar(aes(xmin=conf_int_low, xmax=conf_int_high), width=.2,
                 position=position_dodge(.9)) +
-  scale_fill_manual(values=c("darkgray", "lightgray"))+
-  scale_x_discrete(name="") +
-  scale_y_continuous(name="Proportion") +
+  scale_fill_manual(values=c("lightgray", "darkgray"), labels=c("FALSE", "TRUE"))+
+  scale_y_discrete(name="") +
+  scale_x_continuous(name="Proportion") +
+  guides(fill=guide_legend(reverse=T)) +
   theme(panel.grid.major.x = element_blank(),
         panel.grid.minor.y = element_blank(),
         panel.border = element_blank(),
-        text = element_text(size=10),
+        text = element_text(size=14),
+        legend.position = "bottom",
         axis.title.y = element_text(vjust=0.3),
         axis.text.x = element_text(angle=30, hjust=1)) 
-ggsave(filename="output/standard_compliant.png", width=6, height=4)
+ggsave(filename="draft/output/standard_compliant.png", width=6, height=4)
 
 # now upset chart
 # library(UpSetR)

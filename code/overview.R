@@ -2,6 +2,8 @@
 # Overview
 
 library(tidyverse)
+library(janitor)
+library(kableExtra)
 
 sample <- read_csv("data/sample.csv")
 
@@ -82,7 +84,7 @@ sample %>%
 # now look at the whole set
 
 # full <- read_csv("data/softcite-kb-cord19-v0.2.1.csv")
-sf <- read_csv("data/sample_frame.csv")
+sf <- read_csv("draft/data/sample_frame.csv")
 full <- sf %>% 
   select(-references, -ref_id_list, -refs, -ref_id, -ref_key, -tei, -refKey, 
          -ref_doc_key, -context) %>% 
@@ -97,6 +99,75 @@ full$stratum <- factor(full$stratum, levels=c("[1,10]", "[11,100]",
                                               "[101,1000]", "[1001,12982]",
                                               "No Impact Factor"))
 
+full %>% 
+  mutate(issue_year=as.integer(issue_year)) %>% 
+  drop_na(issue_year) %>% 
+  filter(issue_year>2015) %>%
+  distinct(doc_key, mention_density, issue_year) %>% 
+  mutate(avg_mention_density=mean(mention_density),
+         sd_mention_density=sd(mention_density)) %>% 
+  View
+
+full %>% 
+  mutate(issue_year=as.integer(issue_year)) %>% 
+  drop_na(issue_year) %>% 
+  filter(issue_year>2015) %>%
+  distinct(doc_key, mention_density, issue_year) %>% 
+  group_by(mention_density) %>%
+  mutate(n_doc=n_distinct(doc_key)) %>% 
+  distinct(mention_density, n_doc) %>% 
+  ungroup() %>% 
+  mutate(all_doc=sum(n_doc)) %>% 
+  filter(mention_density > 8) %>% 
+  mutate(num_doc=sum(n_doc)) %>% View
+  
+full %>% 
+  mutate(issue_year=as.integer(issue_year)) %>% 
+  drop_na(issue_year) %>% 
+  filter(issue_year>2015) %>%
+  distinct(doc_key, mention_density, issue_year) %>% 
+  group_by(mention_density) %>%
+  mutate(n_doc=n_distinct(doc_key)) %>% 
+  distinct(mention_density, n_doc) %>% 
+  ungroup() %>% 
+  arrange(desc(mention_density)) %>%
+  ggplot(aes(x=mention_density, y=n_doc)) +
+  geom_line() +
+  # geom_line(aes(x=issue_year, y=avg_mention_density)) +
+  scale_x_log10(limits=c(0.9,350), breaks=c(1, 10, 100, 350),
+                name="Mention density per article") +
+  scale_y_log10(limits=c(0.4,50000), breaks=c(1, 10, 100, 1000, 10000, 50000),
+                name="Number of articles mentioning software") 
+ggsave(filename="paper_by_density.png", width=6, height=4)
+
+full %>% 
+  mutate(issue_year=as.integer(issue_year)) %>% 
+  drop_na(issue_year) %>% 
+  filter(issue_year>2015) %>%
+  distinct(doc_key, mention_density) %>% 
+  arrange(mention_density) %>% View
+  ggplot(aes(x=mention_density)) +
+  geom_histogram() +
+  # geom_line(aes(x=issue_year, y=avg_mention_density)) +
+  scale_x_log10(limits=c(0.9,350), breaks=c(1, 10, 100, 350),
+                name="Mention density per article") +
+  scale_y_log10(limits=c(0.4,50000), breaks=c(1, 10, 100, 1000, 10000, 50000),
+                name="Number of articles mentioning software") 
+  
+full %>%
+  mutate(issue_year=as.integer(issue_year)) %>% 
+  drop_na(issue_year) %>% 
+  filter(issue_year>2015) %>%
+  distinct(doc_key, stratum, mention_density_group) %>% 
+  rename("Impact strata"=stratum, "Mention density"=mention_density_group) %>%
+  tabyl(`Impact strata`, `Mention density`) %>% 
+  adorn_totals(c("row", "col")) %>% 
+  adorn_percentages("all") %>% 
+  adorn_pct_formatting(rounding="half up", digits=2) %>% 
+  adorn_ns() %>% 
+  adorn_title("combined") %>% 
+  knitr::kable(booktabs=T, format="latex", align="c") 
+  
 papers_by_year <- full %>% 
   distinct(doc_key, issue_year) %>% 
   mutate(issue_year = as.numeric(issue_year)) %>% 
